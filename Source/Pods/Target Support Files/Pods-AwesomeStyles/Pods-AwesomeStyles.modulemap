@@ -1,0 +1,6 @@
+framework module Pods_AwesomeStyles {
+  umbrella header "Pods-AwesomeStyles-umbrella.h"
+
+  export *
+  module * { export * }
+}

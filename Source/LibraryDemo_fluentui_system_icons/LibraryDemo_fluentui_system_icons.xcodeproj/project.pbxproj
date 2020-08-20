@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27F3CAAB95C5B2C56A1A77A /* Pods_LibraryDemo_fluentui_system_icons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE89408CA9C98B8D6A5E60 /* Pods_LibraryDemo_fluentui_system_icons.framework */; };
+		C249F4E124EADEF200898ADD /* LibraryDemo_fluentui_system_icons.h in Headers */ = {isa = PBXBuildFile; fileRef = C249F4DF24EADEF200898ADD /* LibraryDemo_fluentui_system_icons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C249F4EA24EADF6E00898ADD /* LibraryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249F4E824EADF6E00898ADD /* LibraryDemoViewController.swift */; };
+		C249F4EB24EADF6E00898ADD /* LibraryDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C249F4E924EADF6E00898ADD /* LibraryDemoViewController.xib */; };
+		C249F4ED24EAE0B100898ADD /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249F4EC24EAE0B100898ADD /* Icon.swift */; };
+		C249F4EF24EAE0EC00898ADD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249F4EE24EAE0EC00898ADD /* Data.swift */; };
+		C249F4F124EB146600898ADD /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249F4F024EB146600898ADD /* Bundle.swift */; };
+		C249F4F424EB14AC00898ADD /* IconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249F4F224EB14AC00898ADD /* IconTableViewCell.swift */; };
+		C249F4F524EB14AC00898ADD /* IconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C249F4F324EB14AC00898ADD /* IconTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2D349E877C79DA506C784A /* Pods-LibraryDemo_fluentui_system_icons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_fluentui_system_icons.debug.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_fluentui_system_icons/Pods-LibraryDemo_fluentui_system_icons.debug.xcconfig"; sourceTree = "<group>"; };
+		5561D052A4A6518952FC96DB /* Pods-LibraryDemo_fluentui_system_icons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_fluentui_system_icons.release.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_fluentui_system_icons/Pods-LibraryDemo_fluentui_system_icons.release.xcconfig"; sourceTree = "<group>"; };
+		C249F4DC24EADEF200898ADD /* LibraryDemo_fluentui_system_icons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryDemo_fluentui_system_icons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C249F4DF24EADEF200898ADD /* LibraryDemo_fluentui_system_icons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDemo_fluentui_system_icons.h; sourceTree = "<group>"; };
+		C249F4E024EADEF200898ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C249F4E824EADF6E00898ADD /* LibraryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDemoViewController.swift; sourceTree = "<group>"; };
+		C249F4E924EADF6E00898ADD /* LibraryDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryDemoViewController.xib; sourceTree = "<group>"; };
+		C249F4EC24EAE0B100898ADD /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		C249F4EE24EAE0EC00898ADD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C249F4F024EB146600898ADD /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		C249F4F224EB14AC00898ADD /* IconTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTableViewCell.swift; sourceTree = "<group>"; };
+		C249F4F324EB14AC00898ADD /* IconTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconTableViewCell.xib; sourceTree = "<group>"; };
+		EFAE89408CA9C98B8D6A5E60 /* Pods_LibraryDemo_fluentui_system_icons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryDemo_fluentui_system_icons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C249F4D924EADEF200898ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27F3CAAB95C5B2C56A1A77A /* Pods_LibraryDemo_fluentui_system_icons.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1157CD844063D9040FBC8392 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D349E877C79DA506C784A /* Pods-LibraryDemo_fluentui_system_icons.debug.xcconfig */,
+				5561D052A4A6518952FC96DB /* Pods-LibraryDemo_fluentui_system_icons.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		C249F4D224EADEF200898ADD = {
+			isa = PBXGroup;
+			children = (
+				C249F4DE24EADEF200898ADD /* LibraryDemo_fluentui_system_icons */,
+				C249F4DD24EADEF200898ADD /* Products */,
+				1157CD844063D9040FBC8392 /* Pods */,
+				E08710F11100DEF22BEE8035 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C249F4DD24EADEF200898ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C249F4DC24EADEF200898ADD /* LibraryDemo_fluentui_system_icons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C249F4DE24EADEF200898ADD /* LibraryDemo_fluentui_system_icons */ = {
+			isa = PBXGroup;
+			children = (
+				C249F4E724EADF5800898ADD /* Source */,
+				C249F4DF24EADEF200898ADD /* LibraryDemo_fluentui_system_icons.h */,
+				C249F4E024EADEF200898ADD /* Info.plist */,
+			);
+			path = LibraryDemo_fluentui_system_icons;
+			sourceTree = "<group>";
+		};
+		C249F4E724EADF5800898ADD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C249F4F024EB146600898ADD /* Bundle.swift */,
+				C249F4E824EADF6E00898ADD /* LibraryDemoViewController.swift */,
+				C249F4E924EADF6E00898ADD /* LibraryDemoViewController.xib */,
+				C249F4F224EB14AC00898ADD /* IconTableViewCell.swift */,
+				C249F4F324EB14AC00898ADD /* IconTableViewCell.xib */,
+				C249F4EC24EAE0B100898ADD /* Icon.swift */,
+				C249F4EE24EAE0EC00898ADD /* Data.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E08710F11100DEF22BEE8035 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE89408CA9C98B8D6A5E60 /* Pods_LibraryDemo_fluentui_system_icons.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C249F4D724EADEF200898ADD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C249F4E124EADEF200898ADD /* LibraryDemo_fluentui_system_icons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C249F4DB24EADEF200898ADD /* LibraryDemo_fluentui_system_icons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C249F4E424EADEF200898ADD /* Build configuration list for PBXNativeTarget "LibraryDemo_fluentui_system_icons" */;
+			buildPhases = (
+				7501EA41ADF482DC508ADCD5 /* [CP] Check Pods Manifest.lock */,
+				C249F4D724EADEF200898ADD /* Headers */,
+				C249F4D824EADEF200898ADD /* Sources */,
+				C249F4D924EADEF200898ADD /* Frameworks */,
+				C249F4DA24EADEF200898ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryDemo_fluentui_system_icons;
+			productName = LibraryDemo_fluentui_system_icons;
+			productReference = C249F4DC24EADEF200898ADD /* LibraryDemo_fluentui_system_icons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C249F4D324EADEF200898ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				TargetAttributes = {
+					C249F4DB24EADEF200898ADD = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = C249F4D624EADEF200898ADD /* Build configuration list for PBXProject "LibraryDemo_fluentui_system_icons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C249F4D224EADEF200898ADD;
+			productRefGroup = C249F4DD24EADEF200898ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C249F4DB24EADEF200898ADD /* LibraryDemo_fluentui_system_icons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C249F4DA24EADEF200898ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C249F4F524EB14AC00898ADD /* IconTableViewCell.xib in Resources */,
+				C249F4EB24EADF6E00898ADD /* LibraryDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7501EA41ADF482DC508ADCD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryDemo_fluentui_system_icons-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C249F4D824EADEF200898ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C249F4F424EB14AC00898ADD /* IconTableViewCell.swift in Sources */,
+				C249F4ED24EAE0B100898ADD /* Icon.swift in Sources */,
+				C249F4F124EB146600898ADD /* Bundle.swift in Sources */,
+				C249F4EF24EAE0EC00898ADD /* Data.swift in Sources */,
+				C249F4EA24EADF6E00898ADD /* LibraryDemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C249F4E224EADEF200898ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C249F4E324EADEF200898ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C249F4E524EADEF200898ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2D349E877C79DA506C784A /* Pods-LibraryDemo_fluentui_system_icons.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_fluentui_system_icons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-fluentui-system-icons";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C249F4E624EADEF200898ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5561D052A4A6518952FC96DB /* Pods-LibraryDemo_fluentui_system_icons.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_fluentui_system_icons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-fluentui-system-icons";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C249F4D624EADEF200898ADD /* Build configuration list for PBXProject "LibraryDemo_fluentui_system_icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C249F4E224EADEF200898ADD /* Debug */,
+				C249F4E324EADEF200898ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C249F4E424EADEF200898ADD /* Build configuration list for PBXNativeTarget "LibraryDemo_fluentui_system_icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C249F4E524EADEF200898ADD /* Debug */,
+				C249F4E624EADEF200898ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C249F4D324EADEF200898ADD /* Project object */;
+}

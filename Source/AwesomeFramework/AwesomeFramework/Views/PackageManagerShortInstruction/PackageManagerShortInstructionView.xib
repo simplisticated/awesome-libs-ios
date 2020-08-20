@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PackageManagerShortInstructionView" customModule="Awesome_Libs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gOp-dl-i1p">
+                    <rect key="frame" x="10" y="10" width="33" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="33" id="McP-Rb-c34"/>
+                        <constraint firstAttribute="height" constant="33" id="nv1-4r-s4L"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Package Manager Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBa-mf-00g">
+                    <rect key="frame" x="53" y="9" width="257" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="CyO-Mc-3ny"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instruction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ked-Pm-JhR">
+                    <rect key="frame" x="53" y="29" width="257" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="F1x-eM-r78"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.87450980392156863" green="0.87450980392156863" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="sBa-mf-00g" firstAttribute="leading" secondItem="gOp-dl-i1p" secondAttribute="trailing" constant="10" id="5KS-aN-oNP"/>
+                <constraint firstItem="ked-Pm-JhR" firstAttribute="trailing" secondItem="sBa-mf-00g" secondAttribute="trailing" id="E9H-Z1-iSB"/>
+                <constraint firstItem="ked-Pm-JhR" firstAttribute="top" secondItem="sBa-mf-00g" secondAttribute="bottom" constant="1" id="aI8-Wc-cGo"/>
+                <constraint firstItem="gOp-dl-i1p" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="bn2-ud-lHc"/>
+                <constraint firstItem="gOp-dl-i1p" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="cr0-jY-ehg"/>
+                <constraint firstItem="sBa-mf-00g" firstAttribute="top" secondItem="gOp-dl-i1p" secondAttribute="top" constant="-1" id="fT8-RK-jQ5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sBa-mf-00g" secondAttribute="trailing" constant="10" id="jzA-Pi-gGq"/>
+                <constraint firstItem="ked-Pm-JhR" firstAttribute="leading" secondItem="sBa-mf-00g" secondAttribute="leading" id="rAg-Lm-KXw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="instructionLabel" destination="ked-Pm-JhR" id="MRN-jp-p8g"/>
+                <outlet property="logoImageView" destination="gOp-dl-i1p" id="HhK-ZG-rEs"/>
+                <outlet property="packageManagerNameLabel" destination="sBa-mf-00g" id="6Qo-cX-EjU"/>
+            </connections>
+            <point key="canvasLocation" x="11" y="67"/>
+        </view>
+    </objects>
+</document>

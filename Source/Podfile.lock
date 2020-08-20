@@ -1,0 +1,66 @@
+PODS:
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - Degree (1.1)
+  - FluentIcons (1.1.46):
+    - FluentIcons/Assets (= 1.1.46)
+    - FluentIcons/Code (= 1.1.46)
+    - FluentIcons/RemovalScript (= 1.1.46)
+  - FluentIcons/Assets (1.1.46)
+  - FluentIcons/Code (1.1.46)
+  - FluentIcons/RemovalScript (1.1.46)
+  - Hammer (1.3)
+  - Hero (1.5.0)
+  - lottie-ios (3.1.8)
+  - Pixels (1.4)
+  - Realm (5.3.4):
+    - Realm/Headers (= 5.3.4)
+  - Realm/Headers (5.3.4)
+  - RealmSwift (5.3.4):
+    - Realm (= 5.3.4)
+  - SnapKit (5.0.1)
+  - Visuality (5.5)
+
+DEPENDENCIES:
+  - Charts
+  - Degree
+  - FluentIcons
+  - Hammer
+  - Hero
+  - lottie-ios
+  - Pixels
+  - RealmSwift
+  - SnapKit
+  - Visuality
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - Degree
+    - FluentIcons
+    - Hammer
+    - Hero
+    - lottie-ios
+    - Pixels
+    - Realm
+    - RealmSwift
+    - SnapKit
+    - Visuality
+
+SPEC CHECKSUMS:
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  Degree: e38167a05c287eb1167ce197ee78936567478aff
+  FluentIcons: 96ddb1addbc1aafcfbb139cf3751378e6b00933a
+  Hammer: fb70830747fcde048efd112ca00ca63d2dfe9d1d
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  Pixels: 283f9341b02b7b5534320b940a92609b6d63d0a1
+  Realm: 4dd457b6ed025041cf7efe05dae78c027ba842e0
+  RealmSwift: 233af88fffe05ed7f9305eecef100d477c0c2c42
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Visuality: 1cddc060e81beb8cabaf73f125e1f4a245c446a0
+
+PODFILE CHECKSUM: bade4da2b24fb59d78583920062d1bdaa7a3229b
+
+COCOAPODS: 1.9.3

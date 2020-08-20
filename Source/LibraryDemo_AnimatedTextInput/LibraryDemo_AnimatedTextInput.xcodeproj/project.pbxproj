@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B98A5EC74B926780F4C043EC /* Pods_LibraryDemo_AnimatedTextInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF92AE731147D35B2CA9E716 /* Pods_LibraryDemo_AnimatedTextInput.framework */; };
+		C230B64324E4406D005FA044 /* LibraryDemo_AnimatedTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = C230B64124E4406D005FA044 /* LibraryDemo_AnimatedTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C230B65724E4443C005FA044 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B65624E4443C005FA044 /* Bundle.swift */; };
+		C230B66A24E444F9005FA044 /* AnimatedTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B65924E444F9005FA044 /* AnimatedTextInput.swift */; };
+		C230B66B24E444F9005FA044 /* AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B65A24E444F9005FA044 /* AnimatedTextView.swift */; };
+		C230B66C24E444F9005FA044 /* AnimatedTextInputFieldConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B65B24E444F9005FA044 /* AnimatedTextInputFieldConfigurator.swift */; };
+		C230B66E24E444F9005FA044 /* AnimatedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B65D24E444F9005FA044 /* AnimatedLine.swift */; };
+		C230B66F24E444F9005FA044 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B65E24E444F9005FA044 /* UIViewExtensions.swift */; };
+		C230B67024E444F9005FA044 /* AnimatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B65F24E444F9005FA044 /* AnimatedTextField.swift */; };
+		C230B67124E444F9005FA044 /* AnimatedTextInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B66024E444F9005FA044 /* AnimatedTextInputStyle.swift */; };
+		C230B67224E444F9005FA044 /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = C230B66224E444F9005FA044 /* disclosure.png */; };
+		C230B67324E444F9005FA044 /* cm_icon_input_eye_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C230B66324E444F9005FA044 /* cm_icon_input_eye_selected@3x.png */; };
+		C230B67524E444F9005FA044 /* cm_icon_input_eye_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C230B66524E444F9005FA044 /* cm_icon_input_eye_selected@2x.png */; };
+		C230B67624E444F9005FA044 /* cm_icon_input_eye_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C230B66624E444F9005FA044 /* cm_icon_input_eye_normal@2x.png */; };
+		C230B67724E444F9005FA044 /* disclosure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C230B66724E444F9005FA044 /* disclosure@3x.png */; };
+		C230B67824E444F9005FA044 /* disclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C230B66824E444F9005FA044 /* disclosure@2x.png */; };
+		C230B67924E444F9005FA044 /* cm_icon_input_eye_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C230B66924E444F9005FA044 /* cm_icon_input_eye_normal@3x.png */; };
+		C230B67C24E45111005FA044 /* LibraryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C230B67A24E45111005FA044 /* LibraryDemoViewController.swift */; };
+		C230B67D24E45111005FA044 /* LibraryDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C230B67B24E45111005FA044 /* LibraryDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		481000304B4F81C2D59836C2 /* Pods-LibraryDemo_AnimatedTextInput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_AnimatedTextInput.debug.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_AnimatedTextInput/Pods-LibraryDemo_AnimatedTextInput.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D2892C616A0D2A3891ED79 /* Pods-LibraryDemo_AnimatedTextInput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_AnimatedTextInput.release.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_AnimatedTextInput/Pods-LibraryDemo_AnimatedTextInput.release.xcconfig"; sourceTree = "<group>"; };
+		C230B63E24E4406D005FA044 /* LibraryDemo_AnimatedTextInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryDemo_AnimatedTextInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C230B64124E4406D005FA044 /* LibraryDemo_AnimatedTextInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDemo_AnimatedTextInput.h; sourceTree = "<group>"; };
+		C230B64224E4406D005FA044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C230B65624E4443C005FA044 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		C230B65924E444F9005FA044 /* AnimatedTextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTextInput.swift; sourceTree = "<group>"; };
+		C230B65A24E444F9005FA044 /* AnimatedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTextView.swift; sourceTree = "<group>"; };
+		C230B65B24E444F9005FA044 /* AnimatedTextInputFieldConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTextInputFieldConfigurator.swift; sourceTree = "<group>"; };
+		C230B65D24E444F9005FA044 /* AnimatedLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedLine.swift; sourceTree = "<group>"; };
+		C230B65E24E444F9005FA044 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		C230B65F24E444F9005FA044 /* AnimatedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTextField.swift; sourceTree = "<group>"; };
+		C230B66024E444F9005FA044 /* AnimatedTextInputStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTextInputStyle.swift; sourceTree = "<group>"; };
+		C230B66224E444F9005FA044 /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
+		C230B66324E444F9005FA044 /* cm_icon_input_eye_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm_icon_input_eye_selected@3x.png"; sourceTree = "<group>"; };
+		C230B66524E444F9005FA044 /* cm_icon_input_eye_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm_icon_input_eye_selected@2x.png"; sourceTree = "<group>"; };
+		C230B66624E444F9005FA044 /* cm_icon_input_eye_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm_icon_input_eye_normal@2x.png"; sourceTree = "<group>"; };
+		C230B66724E444F9005FA044 /* disclosure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclosure@3x.png"; sourceTree = "<group>"; };
+		C230B66824E444F9005FA044 /* disclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclosure@2x.png"; sourceTree = "<group>"; };
+		C230B66924E444F9005FA044 /* cm_icon_input_eye_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cm_icon_input_eye_normal@3x.png"; sourceTree = "<group>"; };
+		C230B67A24E45111005FA044 /* LibraryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDemoViewController.swift; sourceTree = "<group>"; };
+		C230B67B24E45111005FA044 /* LibraryDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryDemoViewController.xib; sourceTree = "<group>"; };
+		FF92AE731147D35B2CA9E716 /* Pods_LibraryDemo_AnimatedTextInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryDemo_AnimatedTextInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C230B63B24E4406D005FA044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98A5EC74B926780F4C043EC /* Pods_LibraryDemo_AnimatedTextInput.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346B3C3186107C4A87C983B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				481000304B4F81C2D59836C2 /* Pods-LibraryDemo_AnimatedTextInput.debug.xcconfig */,
+				B6D2892C616A0D2A3891ED79 /* Pods-LibraryDemo_AnimatedTextInput.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		65EDD185F56DC7A36314B078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF92AE731147D35B2CA9E716 /* Pods_LibraryDemo_AnimatedTextInput.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C230B63424E4406D005FA044 = {
+			isa = PBXGroup;
+			children = (
+				C230B64024E4406D005FA044 /* LibraryDemo_AnimatedTextInput */,
+				C230B63F24E4406D005FA044 /* Products */,
+				346B3C3186107C4A87C983B7 /* Pods */,
+				65EDD185F56DC7A36314B078 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C230B63F24E4406D005FA044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C230B63E24E4406D005FA044 /* LibraryDemo_AnimatedTextInput.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C230B64024E4406D005FA044 /* LibraryDemo_AnimatedTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				C230B65024E44370005FA044 /* Source */,
+				C230B64124E4406D005FA044 /* LibraryDemo_AnimatedTextInput.h */,
+				C230B64224E4406D005FA044 /* Info.plist */,
+			);
+			path = LibraryDemo_AnimatedTextInput;
+			sourceTree = "<group>";
+		};
+		C230B65024E44370005FA044 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C230B65624E4443C005FA044 /* Bundle.swift */,
+				C230B66124E444F9005FA044 /* Assets */,
+				C230B65824E444F9005FA044 /* Classes */,
+				C230B65124E44370005FA044 /* AnimatedTextInput */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C230B65124E44370005FA044 /* AnimatedTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				C230B67A24E45111005FA044 /* LibraryDemoViewController.swift */,
+				C230B67B24E45111005FA044 /* LibraryDemoViewController.xib */,
+			);
+			path = AnimatedTextInput;
+			sourceTree = "<group>";
+		};
+		C230B65824E444F9005FA044 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C230B65924E444F9005FA044 /* AnimatedTextInput.swift */,
+				C230B65A24E444F9005FA044 /* AnimatedTextView.swift */,
+				C230B65B24E444F9005FA044 /* AnimatedTextInputFieldConfigurator.swift */,
+				C230B65D24E444F9005FA044 /* AnimatedLine.swift */,
+				C230B65E24E444F9005FA044 /* UIViewExtensions.swift */,
+				C230B65F24E444F9005FA044 /* AnimatedTextField.swift */,
+				C230B66024E444F9005FA044 /* AnimatedTextInputStyle.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C230B66124E444F9005FA044 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C230B66224E444F9005FA044 /* disclosure.png */,
+				C230B66324E444F9005FA044 /* cm_icon_input_eye_selected@3x.png */,
+				C230B66524E444F9005FA044 /* cm_icon_input_eye_selected@2x.png */,
+				C230B66624E444F9005FA044 /* cm_icon_input_eye_normal@2x.png */,
+				C230B66724E444F9005FA044 /* disclosure@3x.png */,
+				C230B66824E444F9005FA044 /* disclosure@2x.png */,
+				C230B66924E444F9005FA044 /* cm_icon_input_eye_normal@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C230B63924E4406D005FA044 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C230B64324E4406D005FA044 /* LibraryDemo_AnimatedTextInput.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C230B63D24E4406D005FA044 /* LibraryDemo_AnimatedTextInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C230B64624E4406D005FA044 /* Build configuration list for PBXNativeTarget "LibraryDemo_AnimatedTextInput" */;
+			buildPhases = (
+				7405D6A3FE6239D3842DC516 /* [CP] Check Pods Manifest.lock */,
+				C230B63924E4406D005FA044 /* Headers */,
+				C230B63A24E4406D005FA044 /* Sources */,
+				C230B63B24E4406D005FA044 /* Frameworks */,
+				C230B63C24E4406D005FA044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryDemo_AnimatedTextInput;
+			productName = LibraryDemo_AnimatedTextInput;
+			productReference = C230B63E24E4406D005FA044 /* LibraryDemo_AnimatedTextInput.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C230B63524E4406D005FA044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				TargetAttributes = {
+					C230B63D24E4406D005FA044 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = C230B63824E4406D005FA044 /* Build configuration list for PBXProject "LibraryDemo_AnimatedTextInput" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C230B63424E4406D005FA044;
+			productRefGroup = C230B63F24E4406D005FA044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C230B63D24E4406D005FA044 /* LibraryDemo_AnimatedTextInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C230B63C24E4406D005FA044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C230B67924E444F9005FA044 /* cm_icon_input_eye_normal@3x.png in Resources */,
+				C230B67624E444F9005FA044 /* cm_icon_input_eye_normal@2x.png in Resources */,
+				C230B67324E444F9005FA044 /* cm_icon_input_eye_selected@3x.png in Resources */,
+				C230B67224E444F9005FA044 /* disclosure.png in Resources */,
+				C230B67724E444F9005FA044 /* disclosure@3x.png in Resources */,
+				C230B67524E444F9005FA044 /* cm_icon_input_eye_selected@2x.png in Resources */,
+				C230B67824E444F9005FA044 /* disclosure@2x.png in Resources */,
+				C230B67D24E45111005FA044 /* LibraryDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7405D6A3FE6239D3842DC516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryDemo_AnimatedTextInput-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C230B63A24E4406D005FA044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C230B66B24E444F9005FA044 /* AnimatedTextView.swift in Sources */,
+				C230B66F24E444F9005FA044 /* UIViewExtensions.swift in Sources */,
+				C230B67124E444F9005FA044 /* AnimatedTextInputStyle.swift in Sources */,
+				C230B66C24E444F9005FA044 /* AnimatedTextInputFieldConfigurator.swift in Sources */,
+				C230B66E24E444F9005FA044 /* AnimatedLine.swift in Sources */,
+				C230B66A24E444F9005FA044 /* AnimatedTextInput.swift in Sources */,
+				C230B67024E444F9005FA044 /* AnimatedTextField.swift in Sources */,
+				C230B65724E4443C005FA044 /* Bundle.swift in Sources */,
+				C230B67C24E45111005FA044 /* LibraryDemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C230B64424E4406D005FA044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C230B64524E4406D005FA044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C230B64724E4406D005FA044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481000304B4F81C2D59836C2 /* Pods-LibraryDemo_AnimatedTextInput.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_AnimatedTextInput/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-AnimatedTextInput";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C230B64824E4406D005FA044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D2892C616A0D2A3891ED79 /* Pods-LibraryDemo_AnimatedTextInput.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_AnimatedTextInput/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-AnimatedTextInput";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C230B63824E4406D005FA044 /* Build configuration list for PBXProject "LibraryDemo_AnimatedTextInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C230B64424E4406D005FA044 /* Debug */,
+				C230B64524E4406D005FA044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C230B64624E4406D005FA044 /* Build configuration list for PBXNativeTarget "LibraryDemo_AnimatedTextInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C230B64724E4406D005FA044 /* Debug */,
+				C230B64824E4406D005FA044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C230B63524E4406D005FA044 /* Project object */;
+}

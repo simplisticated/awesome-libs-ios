@@ -1,0 +1,6 @@
+framework module Pods_LibraryDemo_LiquidLoader {
+  umbrella header "Pods-LibraryDemo_LiquidLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

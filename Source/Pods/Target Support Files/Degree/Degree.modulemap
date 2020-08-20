@@ -1,0 +1,6 @@
+framework module Degree {
+  umbrella header "Degree-umbrella.h"
+
+  export *
+  module * { export * }
+}

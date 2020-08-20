@@ -1,0 +1,6 @@
+framework module Pods_LibraryDemo_GaugeSlider {
+  umbrella header "Pods-LibraryDemo_GaugeSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

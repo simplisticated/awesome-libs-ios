@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C217D6F224DDD71800EE3081 /* LibraryDemo_Lottie.h in Headers */ = {isa = PBXBuildFile; fileRef = C217D6F024DDD71800EE3081 /* LibraryDemo_Lottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C217D73524DDD76F00EE3081 /* Switch.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D6FB24DDD76F00EE3081 /* Switch.json */; };
+		C217D73624DDD76F00EE3081 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D6FC24DDD76F00EE3081 /* TwitterHeart.json */; };
+		C217D73724DDD76F00EE3081 /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D6FD24DDD76F00EE3081 /* 9squares-AlBoardman.json */; };
+		C217D73824DDD76F00EE3081 /* MotionCorpse-Jrcanest.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D6FE24DDD76F00EE3081 /* MotionCorpse-Jrcanest.json */; };
+		C217D73924DDD76F00EE3081 /* TwitterHeartButton.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D6FF24DDD76F00EE3081 /* TwitterHeartButton.json */; };
+		C217D73A24DDD76F00EE3081 /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70124DDD76F00EE3081 /* T.json */; };
+		C217D73B24DDD76F00EE3081 /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70224DDD76F00EE3081 /* A.json */; };
+		C217D73C24DDD76F00EE3081 /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70324DDD76F00EE3081 /* X.json */; };
+		C217D73D24DDD76F00EE3081 /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70424DDD76F00EE3081 /* BlinkingCursor.json */; };
+		C217D73E24DDD76F00EE3081 /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70524DDD76F00EE3081 /* M.json */; };
+		C217D73F24DDD76F00EE3081 /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70624DDD76F00EE3081 /* L.json */; };
+		C217D74024DDD76F00EE3081 /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70724DDD76F00EE3081 /* Y.json */; };
+		C217D74124DDD76F00EE3081 /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70824DDD76F00EE3081 /* U.json */; };
+		C217D74224DDD76F00EE3081 /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70924DDD76F00EE3081 /* K.json */; };
+		C217D74324DDD76F00EE3081 /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70A24DDD76F00EE3081 /* R.json */; };
+		C217D74424DDD76F00EE3081 /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70B24DDD76F00EE3081 /* G.json */; };
+		C217D74524DDD76F00EE3081 /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70C24DDD76F00EE3081 /* F.json */; };
+		C217D74624DDD76F00EE3081 /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70D24DDD76F00EE3081 /* S.json */; };
+		C217D74724DDD76F00EE3081 /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70E24DDD76F00EE3081 /* J.json */; };
+		C217D74824DDD76F00EE3081 /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D70F24DDD76F00EE3081 /* I.json */; };
+		C217D74924DDD76F00EE3081 /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71024DDD76F00EE3081 /* E.json */; };
+		C217D74A24DDD76F00EE3081 /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71124DDD76F00EE3081 /* Apostrophe.json */; };
+		C217D74B24DDD76F00EE3081 /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71224DDD76F00EE3081 /* P.json */; };
+		C217D74C24DDD76F00EE3081 /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71324DDD76F00EE3081 /* Q.json */; };
+		C217D74D24DDD76F00EE3081 /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71424DDD76F00EE3081 /* D.json */; };
+		C217D74E24DDD76F00EE3081 /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71524DDD76F00EE3081 /* Colon.json */; };
+		C217D74F24DDD76F00EE3081 /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71624DDD76F00EE3081 /* H.json */; };
+		C217D75024DDD76F00EE3081 /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71724DDD76F00EE3081 /* C.json */; };
+		C217D75124DDD76F00EE3081 /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71824DDD76F00EE3081 /* V.json */; };
+		C217D75224DDD76F00EE3081 /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71924DDD76F00EE3081 /* Comma.json */; };
+		C217D75324DDD76F00EE3081 /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71A24DDD76F00EE3081 /* O.json */; };
+		C217D75424DDD76F00EE3081 /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71B24DDD76F00EE3081 /* Z.json */; };
+		C217D75524DDD76F00EE3081 /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71C24DDD76F00EE3081 /* N.json */; };
+		C217D75624DDD76F00EE3081 /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71D24DDD76F00EE3081 /* W.json */; };
+		C217D75724DDD76F00EE3081 /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71E24DDD76F00EE3081 /* B.json */; };
+		C217D75824DDD76F00EE3081 /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D71F24DDD76F00EE3081 /* HamburgerArrow.json */; };
+		C217D75924DDD76F00EE3081 /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72024DDD76F00EE3081 /* vcTransition1.json */; };
+		C217D75A24DDD76F00EE3081 /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72124DDD76F00EE3081 /* LottieLogo2.json */; };
+		C217D75B24DDD76F00EE3081 /* Boat_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72224DDD76F00EE3081 /* Boat_Loader.json */; };
+		C217D75C24DDD76F00EE3081 /* GeometryTransformTest.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72324DDD76F00EE3081 /* GeometryTransformTest.json */; };
+		C217D75D24DDD76F00EE3081 /* verifyLineHeight.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72424DDD76F00EE3081 /* verifyLineHeight.json */; };
+		C217D75E24DDD76F00EE3081 /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72524DDD76F00EE3081 /* Watermelon.json */; };
+		C217D75F24DDD76F00EE3081 /* Keypath.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72624DDD76F00EE3081 /* Keypath.json */; };
+		C217D76024DDD76F00EE3081 /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72724DDD76F00EE3081 /* IconTransitions.json */; };
+		C217D76124DDD76F00EE3081 /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72824DDD76F00EE3081 /* vcTransition2.json */; };
+		C217D76224DDD76F00EE3081 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72924DDD76F00EE3081 /* LottieLogo1.json */; };
+		C217D76324DDD76F00EE3081 /* base64Test.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72A24DDD76F00EE3081 /* base64Test.json */; };
+		C217D76424DDD76F00EE3081 /* Switch_States.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72B24DDD76F00EE3081 /* Switch_States.json */; };
+		C217D76524DDD76F00EE3081 /* FirstText.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72C24DDD76F00EE3081 /* FirstText.json */; };
+		C217D76624DDD76F00EE3081 /* setValueTest.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72D24DDD76F00EE3081 /* setValueTest.json */; };
+		C217D76724DDD76F00EE3081 /* Zoom.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72E24DDD76F00EE3081 /* Zoom.json */; };
+		C217D76824DDD76F00EE3081 /* keypathTest.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D72F24DDD76F00EE3081 /* keypathTest.json */; };
+		C217D76924DDD76F00EE3081 /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D73024DDD76F00EE3081 /* PinJump.json */; };
+		C217D76A24DDD76F00EE3081 /* DisableNodesTest.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D73124DDD76F00EE3081 /* DisableNodesTest.json */; };
+		C217D76B24DDD76F00EE3081 /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D73224DDD76F00EE3081 /* LottieLogo1_masked.json */; };
+		C217D76C24DDD76F00EE3081 /* timeremap.json in Resources */ = {isa = PBXBuildFile; fileRef = C217D73324DDD76F00EE3081 /* timeremap.json */; };
+		C217D76F24DDD78B00EE3081 /* LibraryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C217D76D24DDD78B00EE3081 /* LibraryDemoViewController.swift */; };
+		C217D77024DDD78B00EE3081 /* LibraryDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C217D76E24DDD78B00EE3081 /* LibraryDemoViewController.xib */; };
+		C217D77524DDE10300EE3081 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C217D77424DDE10300EE3081 /* Bundle.swift */; };
+		F26D5D50C82031913CEDFFFC /* Pods_LibraryDemo_Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C04E21895404BFBC344D956 /* Pods_LibraryDemo_Lottie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		720E9B3A211308C42D3E82D9 /* Pods-LibraryDemo_Lottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_Lottie.debug.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_Lottie/Pods-LibraryDemo_Lottie.debug.xcconfig"; sourceTree = "<group>"; };
+		8C04E21895404BFBC344D956 /* Pods_LibraryDemo_Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryDemo_Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C13455B595433FC4104BFF /* Pods-LibraryDemo_Lottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_Lottie.release.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_Lottie/Pods-LibraryDemo_Lottie.release.xcconfig"; sourceTree = "<group>"; };
+		C217D6ED24DDD71800EE3081 /* LibraryDemo_Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryDemo_Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C217D6F024DDD71800EE3081 /* LibraryDemo_Lottie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDemo_Lottie.h; sourceTree = "<group>"; };
+		C217D6F124DDD71800EE3081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C217D6FB24DDD76F00EE3081 /* Switch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch.json; sourceTree = "<group>"; };
+		C217D6FC24DDD76F00EE3081 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		C217D6FD24DDD76F00EE3081 /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		C217D6FE24DDD76F00EE3081 /* MotionCorpse-Jrcanest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MotionCorpse-Jrcanest.json"; sourceTree = "<group>"; };
+		C217D6FF24DDD76F00EE3081 /* TwitterHeartButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeartButton.json; sourceTree = "<group>"; };
+		C217D70124DDD76F00EE3081 /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		C217D70224DDD76F00EE3081 /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		C217D70324DDD76F00EE3081 /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		C217D70424DDD76F00EE3081 /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		C217D70524DDD76F00EE3081 /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		C217D70624DDD76F00EE3081 /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		C217D70724DDD76F00EE3081 /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		C217D70824DDD76F00EE3081 /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		C217D70924DDD76F00EE3081 /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		C217D70A24DDD76F00EE3081 /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		C217D70B24DDD76F00EE3081 /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		C217D70C24DDD76F00EE3081 /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		C217D70D24DDD76F00EE3081 /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		C217D70E24DDD76F00EE3081 /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		C217D70F24DDD76F00EE3081 /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		C217D71024DDD76F00EE3081 /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		C217D71124DDD76F00EE3081 /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		C217D71224DDD76F00EE3081 /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		C217D71324DDD76F00EE3081 /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		C217D71424DDD76F00EE3081 /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		C217D71524DDD76F00EE3081 /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		C217D71624DDD76F00EE3081 /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		C217D71724DDD76F00EE3081 /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		C217D71824DDD76F00EE3081 /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		C217D71924DDD76F00EE3081 /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		C217D71A24DDD76F00EE3081 /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		C217D71B24DDD76F00EE3081 /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		C217D71C24DDD76F00EE3081 /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		C217D71D24DDD76F00EE3081 /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		C217D71E24DDD76F00EE3081 /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		C217D71F24DDD76F00EE3081 /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		C217D72024DDD76F00EE3081 /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
+		C217D72124DDD76F00EE3081 /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		C217D72224DDD76F00EE3081 /* Boat_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boat_Loader.json; sourceTree = "<group>"; };
+		C217D72324DDD76F00EE3081 /* GeometryTransformTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GeometryTransformTest.json; sourceTree = "<group>"; };
+		C217D72424DDD76F00EE3081 /* verifyLineHeight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = verifyLineHeight.json; sourceTree = "<group>"; };
+		C217D72524DDD76F00EE3081 /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		C217D72624DDD76F00EE3081 /* Keypath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Keypath.json; sourceTree = "<group>"; };
+		C217D72724DDD76F00EE3081 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		C217D72824DDD76F00EE3081 /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
+		C217D72924DDD76F00EE3081 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		C217D72A24DDD76F00EE3081 /* base64Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = base64Test.json; sourceTree = "<group>"; };
+		C217D72B24DDD76F00EE3081 /* Switch_States.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch_States.json; sourceTree = "<group>"; };
+		C217D72C24DDD76F00EE3081 /* FirstText.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirstText.json; sourceTree = "<group>"; };
+		C217D72D24DDD76F00EE3081 /* setValueTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = setValueTest.json; sourceTree = "<group>"; };
+		C217D72E24DDD76F00EE3081 /* Zoom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Zoom.json; sourceTree = "<group>"; };
+		C217D72F24DDD76F00EE3081 /* keypathTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = keypathTest.json; sourceTree = "<group>"; };
+		C217D73024DDD76F00EE3081 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		C217D73124DDD76F00EE3081 /* DisableNodesTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DisableNodesTest.json; sourceTree = "<group>"; };
+		C217D73224DDD76F00EE3081 /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		C217D73324DDD76F00EE3081 /* timeremap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeremap.json; sourceTree = "<group>"; };
+		C217D76D24DDD78B00EE3081 /* LibraryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDemoViewController.swift; sourceTree = "<group>"; };
+		C217D76E24DDD78B00EE3081 /* LibraryDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryDemoViewController.xib; sourceTree = "<group>"; };
+		C217D77424DDE10300EE3081 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C217D6EA24DDD71800EE3081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26D5D50C82031913CEDFFFC /* Pods_LibraryDemo_Lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A516A74581CD41DA90B64F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C04E21895404BFBC344D956 /* Pods_LibraryDemo_Lottie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C217D6E324DDD71800EE3081 = {
+			isa = PBXGroup;
+			children = (
+				C217D6EF24DDD71800EE3081 /* LibraryDemo_Lottie */,
+				C217D6EE24DDD71800EE3081 /* Products */,
+				C83CBC1E1CFD53409B8016E2 /* Pods */,
+				9A516A74581CD41DA90B64F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C217D6EE24DDD71800EE3081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C217D6ED24DDD71800EE3081 /* LibraryDemo_Lottie.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C217D6EF24DDD71800EE3081 /* LibraryDemo_Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				C217D6F824DDD76F00EE3081 /* Source */,
+				C217D6F024DDD71800EE3081 /* LibraryDemo_Lottie.h */,
+				C217D6F124DDD71800EE3081 /* Info.plist */,
+			);
+			path = LibraryDemo_Lottie;
+			sourceTree = "<group>";
+		};
+		C217D6F824DDD76F00EE3081 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C217D77424DDE10300EE3081 /* Bundle.swift */,
+				C217D6FA24DDD76F00EE3081 /* TestAnimations */,
+				C217D76D24DDD78B00EE3081 /* LibraryDemoViewController.swift */,
+				C217D76E24DDD78B00EE3081 /* LibraryDemoViewController.xib */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C217D6FA24DDD76F00EE3081 /* TestAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C217D6FB24DDD76F00EE3081 /* Switch.json */,
+				C217D6FC24DDD76F00EE3081 /* TwitterHeart.json */,
+				C217D6FD24DDD76F00EE3081 /* 9squares-AlBoardman.json */,
+				C217D6FE24DDD76F00EE3081 /* MotionCorpse-Jrcanest.json */,
+				C217D6FF24DDD76F00EE3081 /* TwitterHeartButton.json */,
+				C217D70024DDD76F00EE3081 /* TypeFace */,
+				C217D71F24DDD76F00EE3081 /* HamburgerArrow.json */,
+				C217D72024DDD76F00EE3081 /* vcTransition1.json */,
+				C217D72124DDD76F00EE3081 /* LottieLogo2.json */,
+				C217D72224DDD76F00EE3081 /* Boat_Loader.json */,
+				C217D72324DDD76F00EE3081 /* GeometryTransformTest.json */,
+				C217D72424DDD76F00EE3081 /* verifyLineHeight.json */,
+				C217D72524DDD76F00EE3081 /* Watermelon.json */,
+				C217D72624DDD76F00EE3081 /* Keypath.json */,
+				C217D72724DDD76F00EE3081 /* IconTransitions.json */,
+				C217D72824DDD76F00EE3081 /* vcTransition2.json */,
+				C217D72924DDD76F00EE3081 /* LottieLogo1.json */,
+				C217D72A24DDD76F00EE3081 /* base64Test.json */,
+				C217D72B24DDD76F00EE3081 /* Switch_States.json */,
+				C217D72C24DDD76F00EE3081 /* FirstText.json */,
+				C217D72D24DDD76F00EE3081 /* setValueTest.json */,
+				C217D72E24DDD76F00EE3081 /* Zoom.json */,
+				C217D72F24DDD76F00EE3081 /* keypathTest.json */,
+				C217D73024DDD76F00EE3081 /* PinJump.json */,
+				C217D73124DDD76F00EE3081 /* DisableNodesTest.json */,
+				C217D73224DDD76F00EE3081 /* LottieLogo1_masked.json */,
+				C217D73324DDD76F00EE3081 /* timeremap.json */,
+			);
+			path = TestAnimations;
+			sourceTree = "<group>";
+		};
+		C217D70024DDD76F00EE3081 /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				C217D70124DDD76F00EE3081 /* T.json */,
+				C217D70224DDD76F00EE3081 /* A.json */,
+				C217D70324DDD76F00EE3081 /* X.json */,
+				C217D70424DDD76F00EE3081 /* BlinkingCursor.json */,
+				C217D70524DDD76F00EE3081 /* M.json */,
+				C217D70624DDD76F00EE3081 /* L.json */,
+				C217D70724DDD76F00EE3081 /* Y.json */,
+				C217D70824DDD76F00EE3081 /* U.json */,
+				C217D70924DDD76F00EE3081 /* K.json */,
+				C217D70A24DDD76F00EE3081 /* R.json */,
+				C217D70B24DDD76F00EE3081 /* G.json */,
+				C217D70C24DDD76F00EE3081 /* F.json */,
+				C217D70D24DDD76F00EE3081 /* S.json */,
+				C217D70E24DDD76F00EE3081 /* J.json */,
+				C217D70F24DDD76F00EE3081 /* I.json */,
+				C217D71024DDD76F00EE3081 /* E.json */,
+				C217D71124DDD76F00EE3081 /* Apostrophe.json */,
+				C217D71224DDD76F00EE3081 /* P.json */,
+				C217D71324DDD76F00EE3081 /* Q.json */,
+				C217D71424DDD76F00EE3081 /* D.json */,
+				C217D71524DDD76F00EE3081 /* Colon.json */,
+				C217D71624DDD76F00EE3081 /* H.json */,
+				C217D71724DDD76F00EE3081 /* C.json */,
+				C217D71824DDD76F00EE3081 /* V.json */,
+				C217D71924DDD76F00EE3081 /* Comma.json */,
+				C217D71A24DDD76F00EE3081 /* O.json */,
+				C217D71B24DDD76F00EE3081 /* Z.json */,
+				C217D71C24DDD76F00EE3081 /* N.json */,
+				C217D71D24DDD76F00EE3081 /* W.json */,
+				C217D71E24DDD76F00EE3081 /* B.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		C83CBC1E1CFD53409B8016E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				720E9B3A211308C42D3E82D9 /* Pods-LibraryDemo_Lottie.debug.xcconfig */,
+				99C13455B595433FC4104BFF /* Pods-LibraryDemo_Lottie.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C217D6E824DDD71800EE3081 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C217D6F224DDD71800EE3081 /* LibraryDemo_Lottie.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C217D6EC24DDD71800EE3081 /* LibraryDemo_Lottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C217D6F524DDD71800EE3081 /* Build configuration list for PBXNativeTarget "LibraryDemo_Lottie" */;
+			buildPhases = (
+				5A813B0301E649523379C379 /* [CP] Check Pods Manifest.lock */,
+				C217D6E824DDD71800EE3081 /* Headers */,
+				C217D6E924DDD71800EE3081 /* Sources */,
+				C217D6EA24DDD71800EE3081 /* Frameworks */,
+				C217D6EB24DDD71800EE3081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryDemo_Lottie;
+			productName = LibraryDemo_Lottie;
+			productReference = C217D6ED24DDD71800EE3081 /* LibraryDemo_Lottie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C217D6E424DDD71800EE3081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				TargetAttributes = {
+					C217D6EC24DDD71800EE3081 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = C217D6E724DDD71800EE3081 /* Build configuration list for PBXProject "LibraryDemo_Lottie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C217D6E324DDD71800EE3081;
+			productRefGroup = C217D6EE24DDD71800EE3081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C217D6EC24DDD71800EE3081 /* LibraryDemo_Lottie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C217D6EB24DDD71800EE3081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C217D74F24DDD76F00EE3081 /* H.json in Resources */,
+				C217D75124DDD76F00EE3081 /* V.json in Resources */,
+				C217D76C24DDD76F00EE3081 /* timeremap.json in Resources */,
+				C217D75024DDD76F00EE3081 /* C.json in Resources */,
+				C217D76B24DDD76F00EE3081 /* LottieLogo1_masked.json in Resources */,
+				C217D75824DDD76F00EE3081 /* HamburgerArrow.json in Resources */,
+				C217D75924DDD76F00EE3081 /* vcTransition1.json in Resources */,
+				C217D74124DDD76F00EE3081 /* U.json in Resources */,
+				C217D74724DDD76F00EE3081 /* J.json in Resources */,
+				C217D73A24DDD76F00EE3081 /* T.json in Resources */,
+				C217D74B24DDD76F00EE3081 /* P.json in Resources */,
+				C217D77024DDD78B00EE3081 /* LibraryDemoViewController.xib in Resources */,
+				C217D73624DDD76F00EE3081 /* TwitterHeart.json in Resources */,
+				C217D76824DDD76F00EE3081 /* keypathTest.json in Resources */,
+				C217D75424DDD76F00EE3081 /* Z.json in Resources */,
+				C217D76224DDD76F00EE3081 /* LottieLogo1.json in Resources */,
+				C217D74D24DDD76F00EE3081 /* D.json in Resources */,
+				C217D73924DDD76F00EE3081 /* TwitterHeartButton.json in Resources */,
+				C217D76924DDD76F00EE3081 /* PinJump.json in Resources */,
+				C217D73B24DDD76F00EE3081 /* A.json in Resources */,
+				C217D74924DDD76F00EE3081 /* E.json in Resources */,
+				C217D74424DDD76F00EE3081 /* G.json in Resources */,
+				C217D76124DDD76F00EE3081 /* vcTransition2.json in Resources */,
+				C217D75224DDD76F00EE3081 /* Comma.json in Resources */,
+				C217D76324DDD76F00EE3081 /* base64Test.json in Resources */,
+				C217D76524DDD76F00EE3081 /* FirstText.json in Resources */,
+				C217D75624DDD76F00EE3081 /* W.json in Resources */,
+				C217D75C24DDD76F00EE3081 /* GeometryTransformTest.json in Resources */,
+				C217D75F24DDD76F00EE3081 /* Keypath.json in Resources */,
+				C217D73524DDD76F00EE3081 /* Switch.json in Resources */,
+				C217D74E24DDD76F00EE3081 /* Colon.json in Resources */,
+				C217D73E24DDD76F00EE3081 /* M.json in Resources */,
+				C217D74224DDD76F00EE3081 /* K.json in Resources */,
+				C217D75324DDD76F00EE3081 /* O.json in Resources */,
+				C217D73D24DDD76F00EE3081 /* BlinkingCursor.json in Resources */,
+				C217D76624DDD76F00EE3081 /* setValueTest.json in Resources */,
+				C217D73724DDD76F00EE3081 /* 9squares-AlBoardman.json in Resources */,
+				C217D75D24DDD76F00EE3081 /* verifyLineHeight.json in Resources */,
+				C217D76424DDD76F00EE3081 /* Switch_States.json in Resources */,
+				C217D76A24DDD76F00EE3081 /* DisableNodesTest.json in Resources */,
+				C217D74324DDD76F00EE3081 /* R.json in Resources */,
+				C217D74C24DDD76F00EE3081 /* Q.json in Resources */,
+				C217D73C24DDD76F00EE3081 /* X.json in Resources */,
+				C217D76024DDD76F00EE3081 /* IconTransitions.json in Resources */,
+				C217D73824DDD76F00EE3081 /* MotionCorpse-Jrcanest.json in Resources */,
+				C217D74824DDD76F00EE3081 /* I.json in Resources */,
+				C217D73F24DDD76F00EE3081 /* L.json in Resources */,
+				C217D74A24DDD76F00EE3081 /* Apostrophe.json in Resources */,
+				C217D75A24DDD76F00EE3081 /* LottieLogo2.json in Resources */,
+				C217D75B24DDD76F00EE3081 /* Boat_Loader.json in Resources */,
+				C217D75724DDD76F00EE3081 /* B.json in Resources */,
+				C217D75E24DDD76F00EE3081 /* Watermelon.json in Resources */,
+				C217D74524DDD76F00EE3081 /* F.json in Resources */,
+				C217D75524DDD76F00EE3081 /* N.json in Resources */,
+				C217D74024DDD76F00EE3081 /* Y.json in Resources */,
+				C217D74624DDD76F00EE3081 /* S.json in Resources */,
+				C217D76724DDD76F00EE3081 /* Zoom.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A813B0301E649523379C379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryDemo_Lottie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C217D6E924DDD71800EE3081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C217D76F24DDD78B00EE3081 /* LibraryDemoViewController.swift in Sources */,
+				C217D77524DDE10300EE3081 /* Bundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C217D6F324DDD71800EE3081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C217D6F424DDD71800EE3081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C217D6F624DDD71800EE3081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720E9B3A211308C42D3E82D9 /* Pods-LibraryDemo_Lottie.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_Lottie/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-Lottie";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C217D6F724DDD71800EE3081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C13455B595433FC4104BFF /* Pods-LibraryDemo_Lottie.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_Lottie/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-Lottie";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C217D6E724DDD71800EE3081 /* Build configuration list for PBXProject "LibraryDemo_Lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C217D6F324DDD71800EE3081 /* Debug */,
+				C217D6F424DDD71800EE3081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C217D6F524DDD71800EE3081 /* Build configuration list for PBXNativeTarget "LibraryDemo_Lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C217D6F624DDD71800EE3081 /* Debug */,
+				C217D6F724DDD71800EE3081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C217D6E424DDD71800EE3081 /* Project object */;
+}

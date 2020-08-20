@@ -1,0 +1,6 @@
+framework module Hammer {
+  umbrella header "Hammer-umbrella.h"
+
+  export *
+  module * { export * }
+}

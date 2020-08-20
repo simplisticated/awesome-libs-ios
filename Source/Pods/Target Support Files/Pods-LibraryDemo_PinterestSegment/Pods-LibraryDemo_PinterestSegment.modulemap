@@ -1,0 +1,6 @@
+framework module Pods_LibraryDemo_PinterestSegment {
+  umbrella header "Pods-LibraryDemo_PinterestSegment-umbrella.h"
+
+  export *
+  module * { export * }
+}

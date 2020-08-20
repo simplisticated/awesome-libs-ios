@@ -1,0 +1,6 @@
+framework module Pods_LibraryDemo_GlitchLabel {
+  umbrella header "Pods-LibraryDemo_GlitchLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

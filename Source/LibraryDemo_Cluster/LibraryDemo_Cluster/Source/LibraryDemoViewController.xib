@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LibraryDemoViewController" customModule="LibraryDemo_Cluster" customModuleProvider="target">
+            <connections>
+                <outlet property="mapView" destination="4If-fB-0hr" id="9TS-p0-Gww"/>
+                <outlet property="segmentedControl" destination="QXD-3m-E0O" id="88S-RZ-03z"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QXD-3m-E0O">
+                    <rect key="frame" x="0.0" y="831" width="414" height="32"/>
+                    <segments>
+                        <segment title="Count"/>
+                        <segment title="Image + Count"/>
+                        <segment title="Image"/>
+                    </segments>
+                    <connections>
+                        <action selector="valueChanged:" destination="-1" eventType="valueChanged" id="mnI-dw-A0Z"/>
+                    </connections>
+                </segmentedControl>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4If-fB-0hr">
+                    <rect key="frame" x="0.0" y="44" width="414" height="787"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="zct-DO-yb7"/>
+                    </connections>
+                </mapView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="4If-fB-0hr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GnN-Jv-W5c"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4If-fB-0hr" secondAttribute="trailing" id="Khx-Ex-vgw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QXD-3m-E0O" secondAttribute="bottom" id="UaH-Xw-k6m"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QXD-3m-E0O" secondAttribute="trailing" id="WnM-RC-s9k"/>
+                <constraint firstItem="QXD-3m-E0O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="a4Q-Qz-itC"/>
+                <constraint firstItem="4If-fB-0hr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="eZh-cg-hb2"/>
+                <constraint firstItem="QXD-3m-E0O" firstAttribute="top" secondItem="4If-fB-0hr" secondAttribute="bottom" id="kso-sP-yZt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="141" y="112"/>
+        </view>
+    </objects>
+</document>

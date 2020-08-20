@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15DFAA2E496A6F5523687984 /* Pods_LibraryDemo_Pastel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752A23E8E453A75612CCCBBF /* Pods_LibraryDemo_Pastel.framework */; };
+		C251582A24E5A3E800656F9B /* LibraryDemo_Pastel.h in Headers */ = {isa = PBXBuildFile; fileRef = C251582824E5A3E800656F9B /* LibraryDemo_Pastel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C251583624E5AC2300656F9B /* PastelPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C251583224E5AC2300656F9B /* PastelPoint.swift */; };
+		C251583724E5AC2300656F9B /* PastelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C251583324E5AC2300656F9B /* PastelView.swift */; };
+		C251583824E5AC2300656F9B /* PastelGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C251583424E5AC2300656F9B /* PastelGradient.swift */; };
+		C251583924E5AC2300656F9B /* PastelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C251583524E5AC2300656F9B /* PastelLabel.swift */; };
+		C251583C24E5AC3D00656F9B /* LibraryDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C251583A24E5AC3D00656F9B /* LibraryDemoViewController.swift */; };
+		C251583D24E5AC3D00656F9B /* LibraryDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C251583B24E5AC3D00656F9B /* LibraryDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E30ADF47426F69601577308 /* Pods-LibraryDemo_Pastel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_Pastel.debug.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_Pastel/Pods-LibraryDemo_Pastel.debug.xcconfig"; sourceTree = "<group>"; };
+		4499DC5454D6FDDA973AE7B3 /* Pods-LibraryDemo_Pastel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_Pastel.release.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_Pastel/Pods-LibraryDemo_Pastel.release.xcconfig"; sourceTree = "<group>"; };
+		752A23E8E453A75612CCCBBF /* Pods_LibraryDemo_Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryDemo_Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C251582524E5A3E800656F9B /* LibraryDemo_Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryDemo_Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C251582824E5A3E800656F9B /* LibraryDemo_Pastel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDemo_Pastel.h; sourceTree = "<group>"; };
+		C251582924E5A3E800656F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C251583224E5AC2300656F9B /* PastelPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastelPoint.swift; sourceTree = "<group>"; };
+		C251583324E5AC2300656F9B /* PastelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastelView.swift; sourceTree = "<group>"; };
+		C251583424E5AC2300656F9B /* PastelGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastelGradient.swift; sourceTree = "<group>"; };
+		C251583524E5AC2300656F9B /* PastelLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastelLabel.swift; sourceTree = "<group>"; };
+		C251583A24E5AC3D00656F9B /* LibraryDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDemoViewController.swift; sourceTree = "<group>"; };
+		C251583B24E5AC3D00656F9B /* LibraryDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C251582224E5A3E800656F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DFAA2E496A6F5523687984 /* Pods_LibraryDemo_Pastel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2835BA3ED073E2CF134782 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E30ADF47426F69601577308 /* Pods-LibraryDemo_Pastel.debug.xcconfig */,
+				4499DC5454D6FDDA973AE7B3 /* Pods-LibraryDemo_Pastel.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		78E5C42900BDD494591AC075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752A23E8E453A75612CCCBBF /* Pods_LibraryDemo_Pastel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C251581B24E5A3E800656F9B = {
+			isa = PBXGroup;
+			children = (
+				C251582724E5A3E800656F9B /* LibraryDemo_Pastel */,
+				C251582624E5A3E800656F9B /* Products */,
+				5F2835BA3ED073E2CF134782 /* Pods */,
+				78E5C42900BDD494591AC075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C251582624E5A3E800656F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C251582524E5A3E800656F9B /* LibraryDemo_Pastel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C251582724E5A3E800656F9B /* LibraryDemo_Pastel */ = {
+			isa = PBXGroup;
+			children = (
+				C251583024E5AC2300656F9B /* Source */,
+				C251582824E5A3E800656F9B /* LibraryDemo_Pastel.h */,
+				C251582924E5A3E800656F9B /* Info.plist */,
+			);
+			path = LibraryDemo_Pastel;
+			sourceTree = "<group>";
+		};
+		C251583024E5AC2300656F9B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C251583A24E5AC3D00656F9B /* LibraryDemoViewController.swift */,
+				C251583B24E5AC3D00656F9B /* LibraryDemoViewController.xib */,
+				C251583124E5AC2300656F9B /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C251583124E5AC2300656F9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C251583224E5AC2300656F9B /* PastelPoint.swift */,
+				C251583324E5AC2300656F9B /* PastelView.swift */,
+				C251583424E5AC2300656F9B /* PastelGradient.swift */,
+				C251583524E5AC2300656F9B /* PastelLabel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C251582024E5A3E800656F9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C251582A24E5A3E800656F9B /* LibraryDemo_Pastel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C251582424E5A3E800656F9B /* LibraryDemo_Pastel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C251582D24E5A3E800656F9B /* Build configuration list for PBXNativeTarget "LibraryDemo_Pastel" */;
+			buildPhases = (
+				976F3F179D538C333F191157 /* [CP] Check Pods Manifest.lock */,
+				C251582024E5A3E800656F9B /* Headers */,
+				C251582124E5A3E800656F9B /* Sources */,
+				C251582224E5A3E800656F9B /* Frameworks */,
+				C251582324E5A3E800656F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryDemo_Pastel;
+			productName = LibraryDemo_Pastel;
+			productReference = C251582524E5A3E800656F9B /* LibraryDemo_Pastel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C251581C24E5A3E800656F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				TargetAttributes = {
+					C251582424E5A3E800656F9B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = C251581F24E5A3E800656F9B /* Build configuration list for PBXProject "LibraryDemo_Pastel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C251581B24E5A3E800656F9B;
+			productRefGroup = C251582624E5A3E800656F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C251582424E5A3E800656F9B /* LibraryDemo_Pastel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C251582324E5A3E800656F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C251583D24E5AC3D00656F9B /* LibraryDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		976F3F179D538C333F191157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryDemo_Pastel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C251582124E5A3E800656F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C251583624E5AC2300656F9B /* PastelPoint.swift in Sources */,
+				C251583924E5AC2300656F9B /* PastelLabel.swift in Sources */,
+				C251583724E5AC2300656F9B /* PastelView.swift in Sources */,
+				C251583824E5AC2300656F9B /* PastelGradient.swift in Sources */,
+				C251583C24E5AC3D00656F9B /* LibraryDemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C251582B24E5A3E800656F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C251582C24E5A3E800656F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C251582E24E5A3E800656F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E30ADF47426F69601577308 /* Pods-LibraryDemo_Pastel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_Pastel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-Pastel";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C251582F24E5A3E800656F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4499DC5454D6FDDA973AE7B3 /* Pods-LibraryDemo_Pastel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryDemo_Pastel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.LibraryDemo-Pastel";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C251581F24E5A3E800656F9B /* Build configuration list for PBXProject "LibraryDemo_Pastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C251582B24E5A3E800656F9B /* Debug */,
+				C251582C24E5A3E800656F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C251582D24E5A3E800656F9B /* Build configuration list for PBXNativeTarget "LibraryDemo_Pastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C251582E24E5A3E800656F9B /* Debug */,
+				C251582F24E5A3E800656F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C251581C24E5A3E800656F9B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_AwesomeApp_Premium {
+  umbrella header "Pods-AwesomeApp_Premium-umbrella.h"
+
+  export *
+  module * { export * }
+}

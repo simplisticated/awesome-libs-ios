@@ -1,0 +1,6 @@
+framework module Pixels {
+  umbrella header "Pixels-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57D60D3266CC11CF1A58574A /* Pods_AwesomeApp_OpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3B53377CED27C09A87B6E2 /* Pods_AwesomeApp_OpenSource.framework */; };
+		C2BA857524EDDE5400DE0296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BA857424EDDE5400DE0296 /* Assets.xcassets */; };
+		C2BA858024EDDF3800DE0296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA857F24EDDF3800DE0296 /* AppDelegate.swift */; };
+		C2BA858324EDDF5400DE0296 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BA858124EDDF5400DE0296 /* LaunchScreen.xib */; };
+		C2BA858424EDDF5400DE0296 /* awesome-app-open-source-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BA858224EDDF5400DE0296 /* awesome-app-open-source-logo.png */; };
+		C2BA85A024EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858624EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework */; };
+		C2BA85A124EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858624EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85A224EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858724EDE06500DE0296 /* LibraryDemo_BadgeHub.framework */; };
+		C2BA85A324EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858724EDE06500DE0296 /* LibraryDemo_BadgeHub.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85A424EDE06500DE0296 /* LibraryDemo_Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858824EDE06500DE0296 /* LibraryDemo_Charts.framework */; };
+		C2BA85A524EDE06500DE0296 /* LibraryDemo_Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858824EDE06500DE0296 /* LibraryDemo_Charts.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85A624EDE06500DE0296 /* LibraryDemo_Cluster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858924EDE06500DE0296 /* LibraryDemo_Cluster.framework */; };
+		C2BA85A724EDE06500DE0296 /* LibraryDemo_Cluster.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858924EDE06500DE0296 /* LibraryDemo_Cluster.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85A824EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858A24EDE06500DE0296 /* LibraryDemo_CocoaButton.framework */; };
+		C2BA85A924EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858A24EDE06500DE0296 /* LibraryDemo_CocoaButton.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85AA24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858B24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework */; };
+		C2BA85AB24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858B24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85AC24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858C24EDE06500DE0296 /* LibraryDemo_Dodo.framework */; };
+		C2BA85AD24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858C24EDE06500DE0296 /* LibraryDemo_Dodo.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85AE24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858D24EDE06500DE0296 /* LibraryDemo_FlagKit.framework */; };
+		C2BA85AF24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858D24EDE06500DE0296 /* LibraryDemo_FlagKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85B024EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858E24EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework */; };
+		C2BA85B124EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858E24EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85B224EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858F24EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework */; };
+		C2BA85B324EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858F24EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85B424EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859024EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework */; };
+		C2BA85B524EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859024EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85B624EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859124EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework */; };
+		C2BA85B724EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859124EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85B824EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859224EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework */; };
+		C2BA85B924EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859224EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85BA24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859324EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework */; };
+		C2BA85BB24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859324EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85BC24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859424EDE06500DE0296 /* LibraryDemo_Lottie.framework */; };
+		C2BA85BD24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859424EDE06500DE0296 /* LibraryDemo_Lottie.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85BE24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859524EDE06500DE0296 /* LibraryDemo_NumPad.framework */; };
+		C2BA85BF24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859524EDE06500DE0296 /* LibraryDemo_NumPad.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85C024EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859624EDE06500DE0296 /* LibraryDemo_NVActivityIndicatorView.framework */; };
+		C2BA85C124EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859624EDE06500DE0296 /* LibraryDemo_NVActivityIndicatorView.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85C224EDE06600DE0296 /* LibraryDemo_Pastel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859724EDE06500DE0296 /* LibraryDemo_Pastel.framework */; };
+		C2BA85C324EDE06600DE0296 /* LibraryDemo_Pastel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859724EDE06500DE0296 /* LibraryDemo_Pastel.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85C424EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859824EDE06500DE0296 /* LibraryDemo_PinterestSegment.framework */; };
+		C2BA85C524EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859824EDE06500DE0296 /* LibraryDemo_PinterestSegment.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85C624EDE06600DE0296 /* LibraryDemo_PNChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859924EDE06500DE0296 /* LibraryDemo_PNChart.framework */; };
+		C2BA85C724EDE06600DE0296 /* LibraryDemo_PNChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859924EDE06500DE0296 /* LibraryDemo_PNChart.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85C824EDE06600DE0296 /* LibraryDemo_Printer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859A24EDE06500DE0296 /* LibraryDemo_Printer.framework */; };
+		C2BA85C924EDE06600DE0296 /* LibraryDemo_Printer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859A24EDE06500DE0296 /* LibraryDemo_Printer.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85CA24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859B24EDE06500DE0296 /* LibraryDemo_StarWars.framework */; };
+		C2BA85CB24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859B24EDE06500DE0296 /* LibraryDemo_StarWars.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85CC24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859C24EDE06500DE0296 /* LibraryDemo_SwiftChart.framework */; };
+		C2BA85CD24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859C24EDE06500DE0296 /* LibraryDemo_SwiftChart.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85CE24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859D24EDE06500DE0296 /* LibraryDemo_SwiftGif.framework */; };
+		C2BA85CF24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859D24EDE06500DE0296 /* LibraryDemo_SwiftGif.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85D024EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859E24EDE06500DE0296 /* LibraryDemo_TinyConsole.framework */; };
+		C2BA85D124EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859E24EDE06500DE0296 /* LibraryDemo_TinyConsole.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85D224EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859F24EDE06500DE0296 /* LibraryDemo_UIGradient.framework */; };
+		C2BA85D324EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859F24EDE06500DE0296 /* LibraryDemo_UIGradient.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85DA24EDE09500DE0296 /* AwesomeData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D524EDE09500DE0296 /* AwesomeData.framework */; };
+		C2BA85DB24EDE09500DE0296 /* AwesomeData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D524EDE09500DE0296 /* AwesomeData.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85DC24EDE09500DE0296 /* AwesomeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D624EDE09500DE0296 /* AwesomeFramework.framework */; };
+		C2BA85DD24EDE09500DE0296 /* AwesomeFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D624EDE09500DE0296 /* AwesomeFramework.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85DE24EDE09500DE0296 /* AwesomeStyles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D724EDE09500DE0296 /* AwesomeStyles.framework */; };
+		C2BA85DF24EDE09500DE0296 /* AwesomeStyles.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D724EDE09500DE0296 /* AwesomeStyles.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85E024EDE09500DE0296 /* AwesomeViewControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D824EDE09500DE0296 /* AwesomeViewControllers.framework */; };
+		C2BA85E124EDE09500DE0296 /* AwesomeViewControllers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D824EDE09500DE0296 /* AwesomeViewControllers.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2BA85E224EDE09500DE0296 /* AwesomeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D924EDE09500DE0296 /* AwesomeViews.framework */; };
+		C2BA85E324EDE09500DE0296 /* AwesomeViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D924EDE09500DE0296 /* AwesomeViews.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2BA85D424EDE06600DE0296 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C2BA85A724EDE06500DE0296 /* LibraryDemo_Cluster.framework in Embed Frameworks */,
+				C2BA85A924EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Embed Frameworks */,
+				C2BA85B924EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Embed Frameworks */,
+				C2BA85B124EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Embed Frameworks */,
+				C2BA85AD24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Embed Frameworks */,
+				C2BA85B324EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Embed Frameworks */,
+				C2BA85BF24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Embed Frameworks */,
+				C2BA85BB24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Embed Frameworks */,
+				C2BA85C324EDE06600DE0296 /* LibraryDemo_Pastel.framework in Embed Frameworks */,
+				C2BA85BD24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Embed Frameworks */,
+				C2BA85A124EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Embed Frameworks */,
+				C2BA85AF24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Embed Frameworks */,
+				C2BA85CD24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Embed Frameworks */,
+				C2BA85DD24EDE09500DE0296 /* AwesomeFramework.framework in Embed Frameworks */,
+				C2BA85CB24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Embed Frameworks */,
+				C2BA85DB24EDE09500DE0296 /* AwesomeData.framework in Embed Frameworks */,
+				C2BA85E324EDE09500DE0296 /* AwesomeViews.framework in Embed Frameworks */,
+				C2BA85D324EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Embed Frameworks */,
+				C2BA85CF24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Embed Frameworks */,
+				C2BA85B524EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Embed Frameworks */,
+				C2BA85D124EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Embed Frameworks */,
+				C2BA85E124EDE09500DE0296 /* AwesomeViewControllers.framework in Embed Frameworks */,
+				C2BA85A324EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Embed Frameworks */,
+				C2BA85C724EDE06600DE0296 /* LibraryDemo_PNChart.framework in Embed Frameworks */,
+				C2BA85DF24EDE09500DE0296 /* AwesomeStyles.framework in Embed Frameworks */,
+				C2BA85A524EDE06500DE0296 /* LibraryDemo_Charts.framework in Embed Frameworks */,
+				C2BA85C524EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Embed Frameworks */,
+				C2BA85AB24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Embed Frameworks */,
+				C2BA85C124EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Embed Frameworks */,
+				C2BA85C924EDE06600DE0296 /* LibraryDemo_Printer.framework in Embed Frameworks */,
+				C2BA85B724EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2FFD6A29659670882367D67F /* Pods-AwesomeApp_OpenSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp_OpenSource.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeApp_OpenSource/Pods-AwesomeApp_OpenSource.debug.xcconfig"; sourceTree = "<group>"; };
+		6097332707760EFBCB8BB584 /* Pods-AwesomeApp_OpenSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp_OpenSource.release.xcconfig"; path = "Target Support Files/Pods-AwesomeApp_OpenSource/Pods-AwesomeApp_OpenSource.release.xcconfig"; sourceTree = "<group>"; };
+		C2BA856824EDDE4000DE0296 /* Awesome OSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome OSS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA857424EDDE5400DE0296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2BA857924EDDE5400DE0296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BA857F24EDDF3800DE0296 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2BA858124EDDF5400DE0296 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C2BA858224EDDF5400DE0296 /* awesome-app-open-source-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "awesome-app-open-source-logo.png"; sourceTree = "<group>"; };
+		C2BA858624EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_AnimatedTextInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858724EDE06500DE0296 /* LibraryDemo_BadgeHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_BadgeHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858824EDE06500DE0296 /* LibraryDemo_Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858924EDE06500DE0296 /* LibraryDemo_Cluster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_Cluster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858A24EDE06500DE0296 /* LibraryDemo_CocoaButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_CocoaButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858B24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_CocoaTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858C24EDE06500DE0296 /* LibraryDemo_Dodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_Dodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858D24EDE06500DE0296 /* LibraryDemo_FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858E24EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_fluentui_system_icons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA858F24EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_GaugeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859024EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_GlitchLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859124EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_HDNotificationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859224EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_LinearProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859324EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_LiquidLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859424EDE06500DE0296 /* LibraryDemo_Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859524EDE06500DE0296 /* LibraryDemo_NumPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_NumPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859624EDE06500DE0296 /* LibraryDemo_NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859724EDE06500DE0296 /* LibraryDemo_Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859824EDE06500DE0296 /* LibraryDemo_PinterestSegment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_PinterestSegment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859924EDE06500DE0296 /* LibraryDemo_PNChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_PNChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859A24EDE06500DE0296 /* LibraryDemo_Printer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_Printer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859B24EDE06500DE0296 /* LibraryDemo_StarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_StarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859C24EDE06500DE0296 /* LibraryDemo_SwiftChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_SwiftChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859D24EDE06500DE0296 /* LibraryDemo_SwiftGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_SwiftGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859E24EDE06500DE0296 /* LibraryDemo_TinyConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_TinyConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA859F24EDE06500DE0296 /* LibraryDemo_UIGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_UIGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA85D524EDE09500DE0296 /* AwesomeData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA85D624EDE09500DE0296 /* AwesomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA85D724EDE09500DE0296 /* AwesomeStyles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeStyles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA85D824EDE09500DE0296 /* AwesomeViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BA85D924EDE09500DE0296 /* AwesomeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3B53377CED27C09A87B6E2 /* Pods_AwesomeApp_OpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeApp_OpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BA856524EDDE4000DE0296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BA85A624EDE06500DE0296 /* LibraryDemo_Cluster.framework in Frameworks */,
+				C2BA85A824EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Frameworks */,
+				C2BA85B824EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Frameworks */,
+				C2BA85B024EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Frameworks */,
+				C2BA85AC24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Frameworks */,
+				C2BA85B224EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Frameworks */,
+				C2BA85BE24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Frameworks */,
+				C2BA85BA24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Frameworks */,
+				C2BA85C224EDE06600DE0296 /* LibraryDemo_Pastel.framework in Frameworks */,
+				C2BA85BC24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Frameworks */,
+				C2BA85A024EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Frameworks */,
+				C2BA85AE24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Frameworks */,
+				C2BA85CC24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Frameworks */,
+				C2BA85DC24EDE09500DE0296 /* AwesomeFramework.framework in Frameworks */,
+				C2BA85CA24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Frameworks */,
+				C2BA85DA24EDE09500DE0296 /* AwesomeData.framework in Frameworks */,
+				C2BA85E224EDE09500DE0296 /* AwesomeViews.framework in Frameworks */,
+				C2BA85D224EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Frameworks */,
+				C2BA85CE24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Frameworks */,
+				C2BA85B424EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Frameworks */,
+				C2BA85D024EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Frameworks */,
+				C2BA85E024EDE09500DE0296 /* AwesomeViewControllers.framework in Frameworks */,
+				C2BA85A224EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Frameworks */,
+				C2BA85C624EDE06600DE0296 /* LibraryDemo_PNChart.framework in Frameworks */,
+				C2BA85DE24EDE09500DE0296 /* AwesomeStyles.framework in Frameworks */,
+				C2BA85A424EDE06500DE0296 /* LibraryDemo_Charts.framework in Frameworks */,
+				C2BA85C424EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Frameworks */,
+				C2BA85AA24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Frameworks */,
+				C2BA85C024EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */,
+				C2BA85C824EDE06600DE0296 /* LibraryDemo_Printer.framework in Frameworks */,
+				C2BA85B624EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Frameworks */,
+				57D60D3266CC11CF1A58574A /* Pods_AwesomeApp_OpenSource.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B37ECBA888AA705B8AB9C9E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FFD6A29659670882367D67F /* Pods-AwesomeApp_OpenSource.debug.xcconfig */,
+				6097332707760EFBCB8BB584 /* Pods-AwesomeApp_OpenSource.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		C2BA855F24EDDE4000DE0296 = {
+			isa = PBXGroup;
+			children = (
+				C2BA856A24EDDE4000DE0296 /* AwesomeApp_OpenSource */,
+				C2BA856924EDDE4000DE0296 /* Products */,
+				C2BA858524EDE06500DE0296 /* Frameworks */,
+				B37ECBA888AA705B8AB9C9E7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BA856924EDDE4000DE0296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BA856824EDDE4000DE0296 /* Awesome OSS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BA856A24EDDE4000DE0296 /* AwesomeApp_OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				C2BA857F24EDDF3800DE0296 /* AppDelegate.swift */,
+				C2BA857424EDDE5400DE0296 /* Assets.xcassets */,
+				C2BA858124EDDF5400DE0296 /* LaunchScreen.xib */,
+				C2BA858224EDDF5400DE0296 /* awesome-app-open-source-logo.png */,
+				C2BA857924EDDE5400DE0296 /* Info.plist */,
+			);
+			path = AwesomeApp_OpenSource;
+			sourceTree = "<group>";
+		};
+		C2BA858524EDE06500DE0296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2BA85D524EDE09500DE0296 /* AwesomeData.framework */,
+				C2BA85D624EDE09500DE0296 /* AwesomeFramework.framework */,
+				C2BA85D724EDE09500DE0296 /* AwesomeStyles.framework */,
+				C2BA85D824EDE09500DE0296 /* AwesomeViewControllers.framework */,
+				C2BA85D924EDE09500DE0296 /* AwesomeViews.framework */,
+				C2BA858624EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework */,
+				C2BA858724EDE06500DE0296 /* LibraryDemo_BadgeHub.framework */,
+				C2BA858824EDE06500DE0296 /* LibraryDemo_Charts.framework */,
+				C2BA858924EDE06500DE0296 /* LibraryDemo_Cluster.framework */,
+				C2BA858A24EDE06500DE0296 /* LibraryDemo_CocoaButton.framework */,
+				C2BA858B24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework */,
+				C2BA858C24EDE06500DE0296 /* LibraryDemo_Dodo.framework */,
+				C2BA858D24EDE06500DE0296 /* LibraryDemo_FlagKit.framework */,
+				C2BA858E24EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework */,
+				C2BA858F24EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework */,
+				C2BA859024EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework */,
+				C2BA859124EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework */,
+				C2BA859224EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework */,
+				C2BA859324EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework */,
+				C2BA859424EDE06500DE0296 /* LibraryDemo_Lottie.framework */,
+				C2BA859524EDE06500DE0296 /* LibraryDemo_NumPad.framework */,
+				C2BA859624EDE06500DE0296 /* LibraryDemo_NVActivityIndicatorView.framework */,
+				C2BA859724EDE06500DE0296 /* LibraryDemo_Pastel.framework */,
+				C2BA859824EDE06500DE0296 /* LibraryDemo_PinterestSegment.framework */,
+				C2BA859924EDE06500DE0296 /* LibraryDemo_PNChart.framework */,
+				C2BA859A24EDE06500DE0296 /* LibraryDemo_Printer.framework */,
+				C2BA859B24EDE06500DE0296 /* LibraryDemo_StarWars.framework */,
+				C2BA859C24EDE06500DE0296 /* LibraryDemo_SwiftChart.framework */,
+				C2BA859D24EDE06500DE0296 /* LibraryDemo_SwiftGif.framework */,
+				C2BA859E24EDE06500DE0296 /* LibraryDemo_TinyConsole.framework */,
+				C2BA859F24EDE06500DE0296 /* LibraryDemo_UIGradient.framework */,
+				DB3B53377CED27C09A87B6E2 /* Pods_AwesomeApp_OpenSource.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2BA856724EDDE4000DE0296 /* AwesomeApp_OpenSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BA857C24EDDE5400DE0296 /* Build configuration list for PBXNativeTarget "AwesomeApp_OpenSource" */;
+			buildPhases = (
+				4B328F4537048E4A36817943 /* [CP] Check Pods Manifest.lock */,
+				C2BA856424EDDE4000DE0296 /* Sources */,
+				C2BA856524EDDE4000DE0296 /* Frameworks */,
+				C2BA856624EDDE4000DE0296 /* Resources */,
+				C2BA85D424EDE06600DE0296 /* Embed Frameworks */,
+				0C43A08557C18525243EC669 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeApp_OpenSource;
+			productName = AwesomeApp_OpenSource;
+			productReference = C2BA856824EDDE4000DE0296 /* Awesome OSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BA856024EDDE4000DE0296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				TargetAttributes = {
+					C2BA856724EDDE4000DE0296 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = C2BA856324EDDE4000DE0296 /* Build configuration list for PBXProject "AwesomeApp_OpenSource" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2BA855F24EDDE4000DE0296;
+			productRefGroup = C2BA856924EDDE4000DE0296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BA856724EDDE4000DE0296 /* AwesomeApp_OpenSource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2BA856624EDDE4000DE0296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BA858324EDDF5400DE0296 /* LaunchScreen.xib in Resources */,
+				C2BA858424EDDF5400DE0296 /* awesome-app-open-source-logo.png in Resources */,
+				C2BA857524EDDE5400DE0296 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C43A08557C18525243EC669 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp_OpenSource/Pods-AwesomeApp_OpenSource-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp_OpenSource/Pods-AwesomeApp_OpenSource-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp_OpenSource/Pods-AwesomeApp_OpenSource-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B328F4537048E4A36817943 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp_OpenSource-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BA856424EDDE4000DE0296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BA858024EDDF3800DE0296 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2BA857A24EDDE5400DE0296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2BA857B24EDDE5400DE0296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2BA857D24EDDE5400DE0296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFD6A29659670882367D67F /* Pods-AwesomeApp_OpenSource.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AwesomeApp_OpenSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.awesome-app-open-source";
+				PRODUCT_NAME = "Awesome OSS";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C2BA857E24EDDE5400DE0296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6097332707760EFBCB8BB584 /* Pods-AwesomeApp_OpenSource.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AwesomeApp_OpenSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wizman.awesome-libraries.awesome-app-open-source";
+				PRODUCT_NAME = "Awesome OSS";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BA856324EDDE4000DE0296 /* Build configuration list for PBXProject "AwesomeApp_OpenSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BA857A24EDDE5400DE0296 /* Debug */,
+				C2BA857B24EDDE5400DE0296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BA857C24EDDE5400DE0296 /* Build configuration list for PBXNativeTarget "AwesomeApp_OpenSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BA857D24EDDE5400DE0296 /* Debug */,
+				C2BA857E24EDDE5400DE0296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BA856024EDDE4000DE0296 /* Project object */;
+}

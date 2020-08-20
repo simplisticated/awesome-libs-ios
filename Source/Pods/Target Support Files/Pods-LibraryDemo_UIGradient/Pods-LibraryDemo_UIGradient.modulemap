@@ -1,0 +1,6 @@
+framework module Pods_LibraryDemo_UIGradient {
+  umbrella header "Pods-LibraryDemo_UIGradient-umbrella.h"
+
+  export *
+  module * { export * }
+}

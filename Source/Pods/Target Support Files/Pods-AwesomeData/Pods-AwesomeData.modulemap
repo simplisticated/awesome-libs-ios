@@ -1,0 +1,6 @@
+framework module Pods_AwesomeData {
+  umbrella header "Pods-AwesomeData-umbrella.h"
+
+  export *
+  module * { export * }
+}

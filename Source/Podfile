@@ -1,0 +1,240 @@
+workspace 'Workspace.xcworkspace'
+
+target 'AwesomeApp_OpenSource' do
+  project 'AwesomeApp_OpenSource/AwesomeApp_OpenSource.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Visuality'
+  pod 'Pixels'
+  pod 'Degree'
+  pod 'Hammer'
+  pod 'RealmSwift'
+  pod 'Hero'
+  
+  # Libraries
+  pod 'Charts'
+  pod 'lottie-ios'
+  pod 'SnapKit'
+  pod 'FluentIcons'
+end
+
+target 'AwesomeApp_Premium' do
+  project 'AwesomeApp_Premium/AwesomeApp_Premium.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Visuality'
+  pod 'Pixels'
+  pod 'Degree'
+  pod 'Hammer'
+  pod 'RealmSwift'
+  pod 'Hero'
+  
+  # Libraries
+  pod 'Charts'
+  pod 'lottie-ios'
+  pod 'SnapKit'
+  pod 'FluentIcons'
+end
+
+target 'AwesomeData' do
+  project 'AwesomeData/AwesomeData.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'AwesomeStyles' do
+  project 'AwesomeStyles/AwesomeStyles.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Pixels'
+end
+
+target 'AwesomeViewControllers' do
+  project 'AwesomeViewControllers/AwesomeViewControllers.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'AwesomeViews' do
+  project 'AwesomeViews/AwesomeViews.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'AwesomeFramework' do
+  project 'AwesomeFramework/AwesomeFramework.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Visuality'
+  pod 'Pixels'
+  pod 'Hammer'
+  pod 'Hero'
+end
+
+target 'LibraryDemo_Charts' do
+  project 'LibraryDemo_Charts/LibraryDemo_Charts.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Visuality'
+  pod 'Hammer'
+  pod 'Charts'
+end
+
+target 'LibraryDemo_SwiftChart' do
+  project 'LibraryDemo_SwiftChart/LibraryDemo_SwiftChart.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Visuality'
+  pod 'Hammer'
+end
+
+target 'LibraryDemo_PNChart' do
+  project 'LibraryDemo_PNChart/LibraryDemo_PNChart.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_NVActivityIndicatorView' do
+  project 'LibraryDemo_NVActivityIndicatorView/LibraryDemo_NVActivityIndicatorView.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_LiquidLoader' do
+  project 'LibraryDemo_LiquidLoader/LibraryDemo_LiquidLoader.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Visuality'
+  pod 'Hammer'
+end
+
+target 'LibraryDemo_LinearProgressBar' do
+  project 'LibraryDemo_LinearProgressBar/LibraryDemo_LinearProgressBar.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_Lottie' do
+  project 'LibraryDemo_Lottie/LibraryDemo_Lottie.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'Visuality'
+  pod 'Hammer'
+  pod 'lottie-ios'
+end
+
+target 'LibraryDemo_HDNotificationView' do
+  project 'LibraryDemo_HDNotificationView/LibraryDemo_HDNotificationView.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'SnapKit'
+end
+
+target 'LibraryDemo_Dodo' do
+  project 'LibraryDemo_Dodo/LibraryDemo_Dodo.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_StarWars' do
+  project 'LibraryDemo_StarWars/LibraryDemo_StarWars.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_FlagKit' do
+  project 'LibraryDemo_FlagKit/LibraryDemo_FlagKit.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_CocoaButton' do
+  project 'LibraryDemo_CocoaButton/LibraryDemo_CocoaButton.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_CocoaTextField' do
+  project 'LibraryDemo_CocoaTextField/LibraryDemo_CocoaTextField.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_GaugeSlider' do
+  project 'LibraryDemo_GaugeSlider/LibraryDemo_GaugeSlider.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_PinterestSegment' do
+  project 'LibraryDemo_PinterestSegment/LibraryDemo_PinterestSegment.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_AnimatedTextInput' do
+  project 'LibraryDemo_AnimatedTextInput/LibraryDemo_AnimatedTextInput.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_GlitchLabel' do
+  project 'LibraryDemo_GlitchLabel/LibraryDemo_GlitchLabel.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_SwiftGif' do
+  project 'LibraryDemo_SwiftGif/LibraryDemo_SwiftGif.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_Pastel' do
+  project 'LibraryDemo_Pastel/LibraryDemo_Pastel.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_Cluster' do
+  project 'LibraryDemo_Cluster/LibraryDemo_Cluster.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_NumPad' do
+  project 'LibraryDemo_NumPad/LibraryDemo_NumPad.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_BadgeHub' do
+  project 'LibraryDemo_BadgeHub/LibraryDemo_BadgeHub.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_UIGradient' do
+  project 'LibraryDemo_UIGradient/LibraryDemo_UIGradient.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_Printer' do
+  project 'LibraryDemo_Printer/LibraryDemo_Printer.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_TinyConsole' do
+  project 'LibraryDemo_TinyConsole/LibraryDemo_TinyConsole.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_fluentui_system_icons' do
+  project 'LibraryDemo_fluentui_system_icons/LibraryDemo_fluentui_system_icons.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+  pod 'FluentIcons'
+end

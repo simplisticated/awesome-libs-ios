@@ -1,0 +1,6 @@
+framework module Visuality {
+  umbrella header "Visuality-umbrella.h"
+
+  export *
+  module * { export * }
+}

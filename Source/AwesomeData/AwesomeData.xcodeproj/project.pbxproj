@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		06317D44ED6C800885E422E3 /* Pods_AwesomeData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42DCC624C1E667FCB91541C /* Pods_AwesomeData.framework */; };
+		C25020B724EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25020B624EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework */; };
+		C25020BB24EF12A6002A5298 /* Library_PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25020BA24EF12A6002A5298 /* Library_PhoneNumberKit.swift */; };
 		C2C9046824ECBD440015F84A /* AwesomeData.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C9046624ECBD440015F84A /* AwesomeData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2C904BC24ECDD4C0015F84A /* LibraryDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904AF24ECDD4C0015F84A /* LibraryDescription.swift */; };
 		C2C904BD24ECDD4C0015F84A /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B024ECDD4C0015F84A /* Library.swift */; };
@@ -86,6 +88,8 @@
 /* Begin PBXFileReference section */
 		462922115BF79162FE2563CA /* Pods-AwesomeData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeData.release.xcconfig"; path = "Target Support Files/Pods-AwesomeData/Pods-AwesomeData.release.xcconfig"; sourceTree = "<group>"; };
 		558CC336FBF5D761232E3FC9 /* Pods-AwesomeData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeData.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeData/Pods-AwesomeData.debug.xcconfig"; sourceTree = "<group>"; };
+		C25020B624EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25020BA24EF12A6002A5298 /* Library_PhoneNumberKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_PhoneNumberKit.swift; sourceTree = "<group>"; };
 		C2C9046324ECBD430015F84A /* AwesomeData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C9046624ECBD440015F84A /* AwesomeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeData.h; sourceTree = "<group>"; };
 		C2C9046724ECBD440015F84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				C2C9053B24ECDFB90015F84A /* LibraryDemo_LiquidLoader.framework in Frameworks */,
 				C2C9054924ECDFB90015F84A /* LibraryDemo_Printer.framework in Frameworks */,
 				C2C9054324ECDFB90015F84A /* LibraryDemo_Pastel.framework in Frameworks */,
+				C25020B724EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework in Frameworks */,
 				C2C9053524ECDFB90015F84A /* LibraryDemo_GlitchLabel.framework in Frameworks */,
 				06317D44ED6C800885E422E3 /* Pods_AwesomeData.framework in Frameworks */,
 				C2C9053724ECDFB90015F84A /* LibraryDemo_HDNotificationView.framework in Frameworks */,
@@ -215,6 +220,7 @@
 		90332CCA65A1DC35A37A5317 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C25020B624EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework */,
 				C2C9050724ECDFB80015F84A /* LibraryDemo_AnimatedTextInput.framework */,
 				C2C9050824ECDFB80015F84A /* LibraryDemo_BadgeHub.framework */,
 				C2C9050924ECDFB80015F84A /* LibraryDemo_Charts.framework */,
@@ -331,6 +337,7 @@
 				C2C904DB24ECDF100015F84A /* Library_Printer.swift */,
 				C2C904D424ECDF100015F84A /* Library_TinyConsole.swift */,
 				C2C904E024ECDF100015F84A /* Library_fluentui_system_icons.swift */,
+				C25020BA24EF12A6002A5298 /* Library_PhoneNumberKit.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -468,6 +475,7 @@
 				C2C904FA24ECDF100015F84A /* Library_LiquidLoader.swift in Sources */,
 				C2C904F024ECDF100015F84A /* Library_Pastel.swift in Sources */,
 				C2C9050624ECDF5E0015F84A /* Libraries.swift in Sources */,
+				C25020BB24EF12A6002A5298 /* Library_PhoneNumberKit.swift in Sources */,
 				C2C904FC24ECDF100015F84A /* Library_PNChart.swift in Sources */,
 				C2C9058C24ECFF2C0015F84A /* LibraryStore.swift in Sources */,
 				C2C904F624ECDF100015F84A /* Library_Cluster.swift in Sources */,

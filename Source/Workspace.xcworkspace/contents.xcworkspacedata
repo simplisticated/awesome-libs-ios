@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LibraryDemo_PhoneNumberKit/LibraryDemo_PhoneNumberKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LibraryDemo_fluentui_system_icons/LibraryDemo_fluentui_system_icons.xcodeproj">
    </FileRef>
    <FileRef

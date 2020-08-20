@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		57D60D3266CC11CF1A58574A /* Pods_AwesomeApp_OpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3B53377CED27C09A87B6E2 /* Pods_AwesomeApp_OpenSource.framework */; };
+		C25020C224EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25020C124EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework */; };
+		C25020C324EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C25020C124EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2BA857524EDDE5400DE0296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BA857424EDDE5400DE0296 /* Assets.xcassets */; };
 		C2BA858024EDDF3800DE0296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA857F24EDDF3800DE0296 /* AppDelegate.swift */; };
 		C2BA858324EDDF5400DE0296 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BA858124EDDF5400DE0296 /* LaunchScreen.xib */; };
@@ -87,6 +89,7 @@
 				C2BA85A924EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Embed Frameworks */,
 				C2BA85B924EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Embed Frameworks */,
 				C2BA85B124EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Embed Frameworks */,
+				C25020C324EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Embed Frameworks */,
 				C2BA85AD24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Embed Frameworks */,
 				C2BA85B324EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Embed Frameworks */,
 				C2BA85BF24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Embed Frameworks */,
@@ -123,6 +126,7 @@
 /* Begin PBXFileReference section */
 		2FFD6A29659670882367D67F /* Pods-AwesomeApp_OpenSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp_OpenSource.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeApp_OpenSource/Pods-AwesomeApp_OpenSource.debug.xcconfig"; sourceTree = "<group>"; };
 		6097332707760EFBCB8BB584 /* Pods-AwesomeApp_OpenSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp_OpenSource.release.xcconfig"; path = "Target Support Files/Pods-AwesomeApp_OpenSource/Pods-AwesomeApp_OpenSource.release.xcconfig"; sourceTree = "<group>"; };
+		C25020C124EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA856824EDDE4000DE0296 /* Awesome OSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome OSS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA857424EDDE5400DE0296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2BA857924EDDE5400DE0296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 				C2BA85E024EDE09500DE0296 /* AwesomeViewControllers.framework in Frameworks */,
 				C2BA85A224EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Frameworks */,
 				C2BA85C624EDE06600DE0296 /* LibraryDemo_PNChart.framework in Frameworks */,
+				C25020C224EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Frameworks */,
 				C2BA85DE24EDE09500DE0296 /* AwesomeStyles.framework in Frameworks */,
 				C2BA85A424EDE06500DE0296 /* LibraryDemo_Charts.framework in Frameworks */,
 				C2BA85C424EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Frameworks */,
@@ -249,6 +254,7 @@
 		C2BA858524EDE06500DE0296 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C25020C124EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework */,
 				C2BA85D524EDE09500DE0296 /* AwesomeData.framework */,
 				C2BA85D624EDE09500DE0296 /* AwesomeFramework.framework */,
 				C2BA85D724EDE09500DE0296 /* AwesomeStyles.framework */,

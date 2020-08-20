@@ -1,6 +1,6 @@
 ![Alamofire: Elegant Networking in Swift](https://repository-images.githubusercontent.com/289075500/23fdea80-e330-11ea-8f3d-ee845919c37e)
 
-Awesome Libs is an app for iPhone that allows to test drive open source libraries on your iPhone without using Xcode.
+Awesome Libs is an app for iOS that allows to test drive open source libraries on your iPhone without using Xcode.
 
 <p>
 <a href="https://apps.apple.com/app/id1525970272">
@@ -10,6 +10,7 @@ Awesome Libs is an app for iPhone that allows to test drive open source librarie
 
 - [Requirements](#requirements-)
 - [Communication](#communication-)
+- [Contributions](#contributions-)
 - [FAQ](#faq-)
 - [Support Developers](#support-developers-)
 - [License](#license-)

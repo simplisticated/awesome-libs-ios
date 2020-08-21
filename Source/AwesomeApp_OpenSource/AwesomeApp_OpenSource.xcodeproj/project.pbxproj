@@ -8,64 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		57D60D3266CC11CF1A58574A /* Pods_AwesomeApp_OpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3B53377CED27C09A87B6E2 /* Pods_AwesomeApp_OpenSource.framework */; };
-		C25020C224EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25020C124EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework */; };
-		C25020C324EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C25020C124EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2BA857524EDDE5400DE0296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BA857424EDDE5400DE0296 /* Assets.xcassets */; };
 		C2BA858024EDDF3800DE0296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA857F24EDDF3800DE0296 /* AppDelegate.swift */; };
 		C2BA858324EDDF5400DE0296 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BA858124EDDF5400DE0296 /* LaunchScreen.xib */; };
 		C2BA858424EDDF5400DE0296 /* awesome-app-open-source-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BA858224EDDF5400DE0296 /* awesome-app-open-source-logo.png */; };
-		C2BA85A024EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858624EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework */; };
-		C2BA85A124EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858624EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85A224EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858724EDE06500DE0296 /* LibraryDemo_BadgeHub.framework */; };
-		C2BA85A324EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858724EDE06500DE0296 /* LibraryDemo_BadgeHub.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85A424EDE06500DE0296 /* LibraryDemo_Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858824EDE06500DE0296 /* LibraryDemo_Charts.framework */; };
-		C2BA85A524EDE06500DE0296 /* LibraryDemo_Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858824EDE06500DE0296 /* LibraryDemo_Charts.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85A624EDE06500DE0296 /* LibraryDemo_Cluster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858924EDE06500DE0296 /* LibraryDemo_Cluster.framework */; };
-		C2BA85A724EDE06500DE0296 /* LibraryDemo_Cluster.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858924EDE06500DE0296 /* LibraryDemo_Cluster.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85A824EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858A24EDE06500DE0296 /* LibraryDemo_CocoaButton.framework */; };
-		C2BA85A924EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858A24EDE06500DE0296 /* LibraryDemo_CocoaButton.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85AA24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858B24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework */; };
-		C2BA85AB24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858B24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85AC24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858C24EDE06500DE0296 /* LibraryDemo_Dodo.framework */; };
-		C2BA85AD24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858C24EDE06500DE0296 /* LibraryDemo_Dodo.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85AE24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858D24EDE06500DE0296 /* LibraryDemo_FlagKit.framework */; };
-		C2BA85AF24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858D24EDE06500DE0296 /* LibraryDemo_FlagKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85B024EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858E24EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework */; };
-		C2BA85B124EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858E24EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85B224EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858F24EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework */; };
-		C2BA85B324EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA858F24EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85B424EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859024EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework */; };
-		C2BA85B524EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859024EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85B624EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859124EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework */; };
-		C2BA85B724EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859124EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85B824EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859224EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework */; };
-		C2BA85B924EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859224EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85BA24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859324EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework */; };
-		C2BA85BB24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859324EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85BC24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859424EDE06500DE0296 /* LibraryDemo_Lottie.framework */; };
-		C2BA85BD24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859424EDE06500DE0296 /* LibraryDemo_Lottie.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85BE24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859524EDE06500DE0296 /* LibraryDemo_NumPad.framework */; };
-		C2BA85BF24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859524EDE06500DE0296 /* LibraryDemo_NumPad.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85C024EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859624EDE06500DE0296 /* LibraryDemo_NVActivityIndicatorView.framework */; };
-		C2BA85C124EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859624EDE06500DE0296 /* LibraryDemo_NVActivityIndicatorView.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85C224EDE06600DE0296 /* LibraryDemo_Pastel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859724EDE06500DE0296 /* LibraryDemo_Pastel.framework */; };
-		C2BA85C324EDE06600DE0296 /* LibraryDemo_Pastel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859724EDE06500DE0296 /* LibraryDemo_Pastel.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85C424EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859824EDE06500DE0296 /* LibraryDemo_PinterestSegment.framework */; };
-		C2BA85C524EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859824EDE06500DE0296 /* LibraryDemo_PinterestSegment.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85C624EDE06600DE0296 /* LibraryDemo_PNChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859924EDE06500DE0296 /* LibraryDemo_PNChart.framework */; };
-		C2BA85C724EDE06600DE0296 /* LibraryDemo_PNChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859924EDE06500DE0296 /* LibraryDemo_PNChart.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85C824EDE06600DE0296 /* LibraryDemo_Printer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859A24EDE06500DE0296 /* LibraryDemo_Printer.framework */; };
-		C2BA85C924EDE06600DE0296 /* LibraryDemo_Printer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859A24EDE06500DE0296 /* LibraryDemo_Printer.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85CA24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859B24EDE06500DE0296 /* LibraryDemo_StarWars.framework */; };
-		C2BA85CB24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859B24EDE06500DE0296 /* LibraryDemo_StarWars.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85CC24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859C24EDE06500DE0296 /* LibraryDemo_SwiftChart.framework */; };
-		C2BA85CD24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859C24EDE06500DE0296 /* LibraryDemo_SwiftChart.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85CE24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859D24EDE06500DE0296 /* LibraryDemo_SwiftGif.framework */; };
-		C2BA85CF24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859D24EDE06500DE0296 /* LibraryDemo_SwiftGif.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85D024EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859E24EDE06500DE0296 /* LibraryDemo_TinyConsole.framework */; };
-		C2BA85D124EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859E24EDE06500DE0296 /* LibraryDemo_TinyConsole.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2BA85D224EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859F24EDE06500DE0296 /* LibraryDemo_UIGradient.framework */; };
-		C2BA85D324EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA859F24EDE06500DE0296 /* LibraryDemo_UIGradient.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2BA85DA24EDE09500DE0296 /* AwesomeData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D524EDE09500DE0296 /* AwesomeData.framework */; };
 		C2BA85DB24EDE09500DE0296 /* AwesomeData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D524EDE09500DE0296 /* AwesomeData.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2BA85DC24EDE09500DE0296 /* AwesomeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA85D624EDE09500DE0296 /* AwesomeFramework.framework */; };
@@ -85,38 +31,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C2BA85A724EDE06500DE0296 /* LibraryDemo_Cluster.framework in Embed Frameworks */,
-				C2BA85A924EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Embed Frameworks */,
-				C2BA85B924EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Embed Frameworks */,
-				C2BA85B124EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Embed Frameworks */,
-				C25020C324EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Embed Frameworks */,
-				C2BA85AD24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Embed Frameworks */,
-				C2BA85B324EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Embed Frameworks */,
-				C2BA85BF24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Embed Frameworks */,
-				C2BA85BB24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Embed Frameworks */,
-				C2BA85C324EDE06600DE0296 /* LibraryDemo_Pastel.framework in Embed Frameworks */,
-				C2BA85BD24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Embed Frameworks */,
-				C2BA85A124EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Embed Frameworks */,
-				C2BA85AF24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Embed Frameworks */,
-				C2BA85CD24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Embed Frameworks */,
 				C2BA85DD24EDE09500DE0296 /* AwesomeFramework.framework in Embed Frameworks */,
-				C2BA85CB24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Embed Frameworks */,
 				C2BA85DB24EDE09500DE0296 /* AwesomeData.framework in Embed Frameworks */,
 				C2BA85E324EDE09500DE0296 /* AwesomeViews.framework in Embed Frameworks */,
-				C2BA85D324EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Embed Frameworks */,
-				C2BA85CF24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Embed Frameworks */,
-				C2BA85B524EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Embed Frameworks */,
-				C2BA85D124EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Embed Frameworks */,
 				C2BA85E124EDE09500DE0296 /* AwesomeViewControllers.framework in Embed Frameworks */,
-				C2BA85A324EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Embed Frameworks */,
-				C2BA85C724EDE06600DE0296 /* LibraryDemo_PNChart.framework in Embed Frameworks */,
 				C2BA85DF24EDE09500DE0296 /* AwesomeStyles.framework in Embed Frameworks */,
-				C2BA85A524EDE06500DE0296 /* LibraryDemo_Charts.framework in Embed Frameworks */,
-				C2BA85C524EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Embed Frameworks */,
-				C2BA85AB24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Embed Frameworks */,
-				C2BA85C124EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Embed Frameworks */,
-				C2BA85C924EDE06600DE0296 /* LibraryDemo_Printer.framework in Embed Frameworks */,
-				C2BA85B724EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,38 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2BA85A624EDE06500DE0296 /* LibraryDemo_Cluster.framework in Frameworks */,
-				C2BA85A824EDE06500DE0296 /* LibraryDemo_CocoaButton.framework in Frameworks */,
-				C2BA85B824EDE06500DE0296 /* LibraryDemo_LinearProgressBar.framework in Frameworks */,
-				C2BA85B024EDE06500DE0296 /* LibraryDemo_fluentui_system_icons.framework in Frameworks */,
-				C2BA85AC24EDE06500DE0296 /* LibraryDemo_Dodo.framework in Frameworks */,
-				C2BA85B224EDE06500DE0296 /* LibraryDemo_GaugeSlider.framework in Frameworks */,
-				C2BA85BE24EDE06600DE0296 /* LibraryDemo_NumPad.framework in Frameworks */,
-				C2BA85BA24EDE06500DE0296 /* LibraryDemo_LiquidLoader.framework in Frameworks */,
-				C2BA85C224EDE06600DE0296 /* LibraryDemo_Pastel.framework in Frameworks */,
-				C2BA85BC24EDE06500DE0296 /* LibraryDemo_Lottie.framework in Frameworks */,
-				C2BA85A024EDE06500DE0296 /* LibraryDemo_AnimatedTextInput.framework in Frameworks */,
-				C2BA85AE24EDE06500DE0296 /* LibraryDemo_FlagKit.framework in Frameworks */,
-				C2BA85CC24EDE06600DE0296 /* LibraryDemo_SwiftChart.framework in Frameworks */,
 				C2BA85DC24EDE09500DE0296 /* AwesomeFramework.framework in Frameworks */,
-				C2BA85CA24EDE06600DE0296 /* LibraryDemo_StarWars.framework in Frameworks */,
 				C2BA85DA24EDE09500DE0296 /* AwesomeData.framework in Frameworks */,
 				C2BA85E224EDE09500DE0296 /* AwesomeViews.framework in Frameworks */,
-				C2BA85D224EDE06600DE0296 /* LibraryDemo_UIGradient.framework in Frameworks */,
-				C2BA85CE24EDE06600DE0296 /* LibraryDemo_SwiftGif.framework in Frameworks */,
-				C2BA85B424EDE06500DE0296 /* LibraryDemo_GlitchLabel.framework in Frameworks */,
-				C2BA85D024EDE06600DE0296 /* LibraryDemo_TinyConsole.framework in Frameworks */,
 				C2BA85E024EDE09500DE0296 /* AwesomeViewControllers.framework in Frameworks */,
-				C2BA85A224EDE06500DE0296 /* LibraryDemo_BadgeHub.framework in Frameworks */,
-				C2BA85C624EDE06600DE0296 /* LibraryDemo_PNChart.framework in Frameworks */,
-				C25020C224EF151F002A5298 /* LibraryDemo_PhoneNumberKit.framework in Frameworks */,
 				C2BA85DE24EDE09500DE0296 /* AwesomeStyles.framework in Frameworks */,
-				C2BA85A424EDE06500DE0296 /* LibraryDemo_Charts.framework in Frameworks */,
-				C2BA85C424EDE06600DE0296 /* LibraryDemo_PinterestSegment.framework in Frameworks */,
-				C2BA85AA24EDE06500DE0296 /* LibraryDemo_CocoaTextField.framework in Frameworks */,
-				C2BA85C024EDE06600DE0296 /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */,
-				C2BA85C824EDE06600DE0296 /* LibraryDemo_Printer.framework in Frameworks */,
-				C2BA85B624EDE06500DE0296 /* LibraryDemo_HDNotificationView.framework in Frameworks */,
 				57D60D3266CC11CF1A58574A /* Pods_AwesomeApp_OpenSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +428,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = T84NKTE2AF;
 				INFOPLIST_FILE = AwesomeApp_OpenSource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -560,6 +453,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = T84NKTE2AF;
 				INFOPLIST_FILE = AwesomeApp_OpenSource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;

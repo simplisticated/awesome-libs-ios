@@ -17,12 +17,19 @@ public class LibraryListViewController: UIViewController {
         self.setupNavigationBar()
         self.setupSearch()
         self.setupTableView()
+        AppConfiguration.libraryListViewController.events.viewDidLoad?(self)
     }
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
         self.navigationController?.tabBarController?.tabBar.isHidden = false
+        AppConfiguration.libraryListViewController.events.viewWillAppear?(self)
+    }
+    
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        AppConfiguration.libraryListViewController.events.viewDidAppear?(self)
     }
     
     private func setupNavigationBar() {
@@ -49,8 +56,6 @@ public class LibraryListViewController: UIViewController {
     
     private func setupTableView() {
         self.tableView.separatorInset = .zero
-        
-        let cellType = AppConfiguration.libraryTableViewCell.type as UITableViewCell.Type
         
         self.tableView.register(
             UINib(

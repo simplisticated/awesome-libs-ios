@@ -14,4 +14,12 @@ public struct AppConfiguration {
             public static var viewDidLoad: ((_ controller: UINavigationController) -> Void)? = nil
         }
     }
+    
+    public struct libraryListViewController {
+        public struct events {
+            public static var viewDidLoad: ((_ controller: LibraryListViewController) -> Void)? = nil
+            public static var viewWillAppear: ((_ controller: LibraryListViewController) -> Void)? = nil
+            public static var viewDidAppear: ((_ controller: LibraryListViewController) -> Void)? = nil
+        }
+    }
 }

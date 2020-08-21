@@ -36,7 +36,8 @@ extension Libraries {
             Libraries.Printer,
             Libraries.TinyConsole,
             Libraries.fluentui_system_icons,
-            Libraries.PhoneNumberKit
+            Libraries.PhoneNumberKit,
+            Libraries.Haptico
         ]
     }
 }

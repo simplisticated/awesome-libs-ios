@@ -4,7 +4,7 @@
 ![Devices](https://img.shields.io/badge/Runs%20on-iPhone-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-Awesome Libs is an app for iOS that allows to test drive open source libraries on your iPhone without using Xcode.
+Awesome Libs is an app for iOS that allows to test drive open source libraries on your iPhone without using Xcode. [Online version](https://appetize.io/app/n67bct60a5vpbp5ccnxnrezdp8).
 
 <p>
 <a href="https://apps.apple.com/app/id1525970272">

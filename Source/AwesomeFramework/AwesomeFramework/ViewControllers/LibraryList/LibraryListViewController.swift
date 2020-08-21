@@ -26,7 +26,7 @@ public class LibraryListViewController: UIViewController {
     }
     
     private func setupNavigationBar() {
-        self.navigationItem.title = "All Libraries"
+        self.navigationItem.title = "Libraries"
         self.navigationItem.largeTitleDisplayMode = .always
         
         let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(searchButtonDidTap))
@@ -50,9 +50,14 @@ public class LibraryListViewController: UIViewController {
     private func setupTableView() {
         self.tableView.separatorInset = .zero
         
+        let cellType = AppConfiguration.libraryTableViewCell.type as UITableViewCell.Type
+        
         self.tableView.register(
-            UINib(nibName: LibraryTableViewCell.hmr.shortName, bundle: .AwesomeFramework),
-            forCellReuseIdentifier: LibraryTableViewCell.hmr.fullName
+            UINib(
+                nibName: AppConfiguration.libraryTableViewCell.nibName,
+                bundle: Bundle(identifier: AppConfiguration.libraryTableViewCell.bundleIdentifier)
+            ),
+            forCellReuseIdentifier: ReuseIdentifiers.libraryCell
         )
         
         self.tableView.dataSource = self
@@ -91,7 +96,7 @@ extension LibraryListViewController: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let library = self.libraries[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: LibraryTableViewCell.hmr.fullName) as! LibraryTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: ReuseIdentifiers.libraryCell) as! AnyLibraryTableViewCell
         cell.library = library
         return cell
     }
@@ -120,4 +125,8 @@ extension LibraryListViewController: UISearchBarDelegate {
         let searchResult = LibraryStore.shared.libraries(forSearchQuery: searchText)
         self.searchResultsController.searchResult = searchResult
     }
+}
+
+fileprivate struct ReuseIdentifiers {
+    static let libraryCell = "library"
 }

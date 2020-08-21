@@ -2,18 +2,16 @@ import Foundation
 import UIKit
 
 public struct AppConfiguration {
-    let libraryTableViewCellClass: AnyLibraryTableViewCell.Type
     
-    public init(
-        libraryTableViewCellClass: AnyLibraryTableViewCell.Type
-    ) {
-        self.libraryTableViewCellClass = libraryTableViewCellClass
+    public struct libraryTableViewCell {
+        public static var type: AnyLibraryTableViewCell.Type = LibraryTableViewCell.self
+        public static var nibName: String = "LibraryTableViewCell"
+        public static var bundleIdentifier = Bundle.AwesomeFramework_identifier
     }
-}
-
-extension AppConfiguration {
     
-    public static var `default`: AppConfiguration = AppConfiguration(
-        libraryTableViewCellClass: LibraryTableViewCell.self
-    )
+    public struct mainNavigationController {
+        public struct events {
+            public static var viewDidLoad: ((_ controller: UINavigationController) -> Void)? = nil
+        }
+    }
 }

@@ -9,6 +9,7 @@ public class MainNavigationController: UINavigationController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.setupController()
+        AppConfiguration.mainNavigationController.events.viewDidLoad?(self)
     }
     
     private func setupController() {

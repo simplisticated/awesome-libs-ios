@@ -14,11 +14,11 @@ PODS:
   - Hero (1.5.0)
   - lottie-ios (3.1.8)
   - Pixels (1.4)
-  - Realm (5.3.4):
-    - Realm/Headers (= 5.3.4)
-  - Realm/Headers (5.3.4)
-  - RealmSwift (5.3.4):
-    - Realm (= 5.3.4)
+  - Realm (5.3.5):
+    - Realm/Headers (= 5.3.5)
+  - Realm/Headers (5.3.5)
+  - RealmSwift (5.3.5):
+    - Realm (= 5.3.5)
   - SnapKit (5.0.1)
   - Visuality (5.5)
 
@@ -56,11 +56,11 @@ SPEC CHECKSUMS:
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   Pixels: 283f9341b02b7b5534320b940a92609b6d63d0a1
-  Realm: 4dd457b6ed025041cf7efe05dae78c027ba842e0
-  RealmSwift: 233af88fffe05ed7f9305eecef100d477c0c2c42
+  Realm: 2b52fcc86fc0ed3d75a56ac0eb1e73c4f1a60e16
+  RealmSwift: a6ea2ea561039fc3833c08dec81371a9a3bb5ca6
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Visuality: 1cddc060e81beb8cabaf73f125e1f4a245c446a0
 
-PODFILE CHECKSUM: bade4da2b24fb59d78583920062d1bdaa7a3229b
+PODFILE CHECKSUM: 373f3289d20cb7a46835ad4ed9720f2817eefdb0
 
 COCOAPODS: 1.9.3

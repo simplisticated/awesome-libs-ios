@@ -8,7 +8,7 @@ target 'AwesomeApp_OpenSource' do
   pod 'Pixels'
   pod 'Degree'
   pod 'Hammer'
-  pod 'RealmSwift'
+  #pod 'RealmSwift'
   pod 'Hero'
   
   # Libraries

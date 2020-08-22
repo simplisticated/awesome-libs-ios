@@ -203,11 +203,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Hammer/Hammer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hero/Hero.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Pixels/Pixels.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Visuality/Visuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Charts/Charts.framework"
@@ -216,11 +216,11 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Hammer/Hammer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hero/Hero.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Pixels/Pixels.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Visuality/Visuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

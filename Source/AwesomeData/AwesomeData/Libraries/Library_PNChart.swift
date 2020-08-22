@@ -43,6 +43,9 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: nil
+        demo: LibraryDemo(
+            screen: nil,
+            appetize: nil
+        )
     )
 }

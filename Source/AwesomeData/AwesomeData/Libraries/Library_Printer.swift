@@ -46,11 +46,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: Printer_LibraryDemoViewController.self,
-            nibName: "Printer_LibraryDemoViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Printer",
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: Printer_LibraryDemoViewController.self,
+                nibName: "Printer_LibraryDemoViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Printer",
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

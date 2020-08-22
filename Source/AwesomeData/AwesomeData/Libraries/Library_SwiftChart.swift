@@ -43,11 +43,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: TableViewController.self,
-            nibName: "TableViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-SwiftChart",
-            enabled: false
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: TableViewController.self,
+                nibName: "TableViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-SwiftChart",
+                enabled: false
+            ),
+            appetize: nil
         )
     )
 }

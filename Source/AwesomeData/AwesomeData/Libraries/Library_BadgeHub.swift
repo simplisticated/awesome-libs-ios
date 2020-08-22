@@ -43,11 +43,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: BadgeHub_LibraryDemoViewController.self,
-            nibName: "BadgeHub_LibraryDemoViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-BadgeHub",
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: BadgeHub_LibraryDemoViewController.self,
+                nibName: "BadgeHub_LibraryDemoViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-BadgeHub",
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

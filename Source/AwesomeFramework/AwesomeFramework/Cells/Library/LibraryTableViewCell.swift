@@ -84,7 +84,7 @@ public class LibraryTableViewCell: UITableViewCell, LibraryTableViewCellProtocol
     }
     
     private func updateLiveDemoBadgeView(withLibrary library: Library?) {
-        let hasLiveDemo = library?.demoScreen?.enabled ?? false
+        let hasLiveDemo = library?.demo.screen?.enabled ?? false
         self.liveDemoBadgeView.isHidden = !hasLiveDemo
     }
 }

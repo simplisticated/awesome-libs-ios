@@ -46,11 +46,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: UIGradient_LibraryDemoViewController.self,
-            nibName: "UIGradient_LibraryDemoViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-UIGradient",
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: UIGradient_LibraryDemoViewController.self,
+                nibName: "UIGradient_LibraryDemoViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-UIGradient",
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

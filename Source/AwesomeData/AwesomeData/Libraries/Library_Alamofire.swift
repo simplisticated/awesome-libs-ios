@@ -49,6 +49,9 @@ extension Libraries {
             .networking
         ],
         license: .mit(),
-        demoScreen: nil
+        demo: LibraryDemo(
+            screen: nil,
+            appetize: nil
+        )
     )
 }

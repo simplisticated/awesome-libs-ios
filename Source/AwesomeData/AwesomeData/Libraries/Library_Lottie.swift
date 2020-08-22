@@ -49,11 +49,14 @@ extension Libraries {
             .ui
         ],
         license: .apache_v2(),
-        demoScreen: .init(
-            viewControllerClass: LibraryDemoViewController.self,
-            nibName: "LibraryDemoViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Lottie",
-            enabled: false
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: LibraryDemoViewController.self,
+                nibName: "LibraryDemoViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Lottie",
+                enabled: false
+            ),
+            appetize: nil
         )
     )
 }

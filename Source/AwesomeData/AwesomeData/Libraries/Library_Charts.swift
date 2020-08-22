@@ -48,11 +48,14 @@ extension Libraries {
             .ui
         ],
         license: .apache_v2(),
-        demoScreen: .init(
-            viewControllerClass: LibraryDemoViewController_Charts.self,
-            nibName: "DemoListViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Charts",
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: LibraryDemoViewController_Charts.self,
+                nibName: "DemoListViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Charts",
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

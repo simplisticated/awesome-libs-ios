@@ -47,11 +47,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: ViewController.self,
-            nibName: nil,
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Dodo",
-            enabled: false
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: ViewController.self,
+                nibName: nil,
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Dodo",
+                enabled: false
+            ),
+            appetize: nil
         )
     )
 }

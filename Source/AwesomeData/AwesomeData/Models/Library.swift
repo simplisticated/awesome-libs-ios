@@ -10,5 +10,13 @@ public struct Library {
     public let integration: Integration
     public let tags: [LibraryTag]
     public let license: License
-    public let demoScreen: DemoScreen?
+    public let demo: LibraryDemo
+}
+
+extension Library {
+    
+    public func hasDemo() -> Bool {
+        return (self.demo.screen != nil)
+            || (self.demo.appetize != nil)
+    }
 }

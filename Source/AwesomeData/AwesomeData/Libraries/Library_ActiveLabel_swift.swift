@@ -45,11 +45,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: ActiveLabel_LibraryDemoViewController.self,
-            nibName: "ActiveLabel_LibraryDemoViewController",
-            bundleIdentifier: Bundle.LibraryDemo_ActiveLabel_swift_identifier,
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: ActiveLabel_LibraryDemoViewController.self,
+                nibName: "ActiveLabel_LibraryDemoViewController",
+                bundleIdentifier: Bundle.LibraryDemo_ActiveLabel_swift_identifier,
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

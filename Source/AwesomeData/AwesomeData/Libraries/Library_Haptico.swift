@@ -50,11 +50,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: Haptico_LibraryDemoViewController.self,
-            nibName: "",
-            bundleIdentifier: Bundle.LibraryDemo_Haptico_identifier,
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: Haptico_LibraryDemoViewController.self,
+                nibName: "",
+                bundleIdentifier: Bundle.LibraryDemo_Haptico_identifier,
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

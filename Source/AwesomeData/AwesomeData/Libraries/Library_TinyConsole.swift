@@ -46,11 +46,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: LibraryDemoViewController.self,
-            nibName: "LibraryDemoViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-TinyConsole",
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: LibraryDemoViewController.self,
+                nibName: "LibraryDemoViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-TinyConsole",
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

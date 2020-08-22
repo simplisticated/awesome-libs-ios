@@ -45,11 +45,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: LibraryDemoViewController.self,
-            nibName: "LibraryDemoViewController",
-            bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-SwiftGif",
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: LibraryDemoViewController.self,
+                nibName: "LibraryDemoViewController",
+                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-SwiftGif",
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

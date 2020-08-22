@@ -48,11 +48,14 @@ extension Libraries {
             .ui
         ],
         license: .mit(),
-        demoScreen: .init(
-            viewControllerClass: LibraryDemoViewController.self,
-            nibName: "",
-            bundleIdentifier: Bundle.PhoneNumberKit_identifier,
-            enabled: true
+        demo: LibraryDemo(
+            screen: DemoScreen(
+                viewControllerClass: LibraryDemoViewController.self,
+                nibName: "",
+                bundleIdentifier: Bundle.PhoneNumberKit_identifier,
+                enabled: true
+            ),
+            appetize: nil
         )
     )
 }

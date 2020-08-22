@@ -234,7 +234,7 @@ public class LibraryViewController: UIViewController {
     @objc
     @IBAction private func launchDemoButtonDidTap() {
         guard let library = self.library,
-            let demoScreen = library.demoScreen,
+            let demoScreen = library.demo.screen,
             self.isUserAllowedToOpenDemoScreen(library) else {
             return
         }
@@ -262,7 +262,8 @@ public class LibraryViewController: UIViewController {
     }
     
     private func isUserAllowedToOpenDemoScreen(_ library: Library) -> Bool {
-        return (library.demoScreen != nil) && (library.demoScreen?.enabled ?? false)
+        return (library.demo.screen != nil)
+            && (library.demo.screen?.enabled ?? false)
     }
     
     private func openURL(_ urlString: String) {

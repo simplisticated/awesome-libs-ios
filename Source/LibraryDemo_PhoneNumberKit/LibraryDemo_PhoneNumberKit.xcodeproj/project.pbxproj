@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2CC698B6A164CA6E55C3193 /* Pods_LibraryDemo_PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E8B202449CF90E59A0B129 /* Pods_LibraryDemo_PhoneNumberKit.framework */; };
 		C250205324EF0F9C002A5298 /* LibraryDemo_PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C250205124EF0F9C002A5298 /* LibraryDemo_PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C250207424EF102E002A5298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250205A24EF102E002A5298 /* ViewController.swift */; };
 		C250207524EF102E002A5298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C250205B24EF102E002A5298 /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0677BD83F219DC2A948C0890 /* Pods-LibraryDemo_PhoneNumberKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_PhoneNumberKit.release.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_PhoneNumberKit/Pods-LibraryDemo_PhoneNumberKit.release.xcconfig"; sourceTree = "<group>"; };
+		2A4B93C2199D656053148684 /* Pods-LibraryDemo_PhoneNumberKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_PhoneNumberKit.debug.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_PhoneNumberKit/Pods-LibraryDemo_PhoneNumberKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C250204E24EF0F9C002A5298 /* LibraryDemo_PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryDemo_PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C250205124EF0F9C002A5298 /* LibraryDemo_PhoneNumberKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDemo_PhoneNumberKit.h; sourceTree = "<group>"; };
 		C250205224EF0F9C002A5298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		C250207324EF102E002A5298 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberParser.swift; sourceTree = "<group>"; };
 		C250208A24EF103A002A5298 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		C25020BD24EF1303002A5298 /* AwesomeViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E8B202449CF90E59A0B129 /* Pods_LibraryDemo_PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryDemo_PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,18 +68,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C25020BE24EF1303002A5298 /* AwesomeViewControllers.framework in Frameworks */,
+				A2CC698B6A164CA6E55C3193 /* Pods_LibraryDemo_PhoneNumberKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3BB818DF9165CDADEB05832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B93C2199D656053148684 /* Pods-LibraryDemo_PhoneNumberKit.debug.xcconfig */,
+				0677BD83F219DC2A948C0890 /* Pods-LibraryDemo_PhoneNumberKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		C250204424EF0F9C002A5298 = {
 			isa = PBXGroup;
 			children = (
 				C250205024EF0F9C002A5298 /* LibraryDemo_PhoneNumberKit */,
 				C250204F24EF0F9C002A5298 /* Products */,
 				C25020BC24EF1303002A5298 /* Frameworks */,
+				B3BB818DF9165CDADEB05832 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				C25020BD24EF1303002A5298 /* AwesomeViewControllers.framework */,
+				F0E8B202449CF90E59A0B129 /* Pods_LibraryDemo_PhoneNumberKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C250205624EF0F9C002A5298 /* Build configuration list for PBXNativeTarget "LibraryDemo_PhoneNumberKit" */;
 			buildPhases = (
+				2F948568A138C90B4DD77F69 /* [CP] Check Pods Manifest.lock */,
 				C250204924EF0F9C002A5298 /* Headers */,
 				C250204A24EF0F9C002A5298 /* Sources */,
 				C250204B24EF0F9C002A5298 /* Frameworks */,
@@ -239,6 +257,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F948568A138C90B4DD77F69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryDemo_PhoneNumberKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C250204A24EF0F9C002A5298 /* Sources */ = {
@@ -390,6 +433,7 @@
 		};
 		C250205724EF0F9C002A5298 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4B93C2199D656053148684 /* Pods-LibraryDemo_PhoneNumberKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -415,6 +459,7 @@
 		};
 		C250205824EF0F9C002A5298 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0677BD83F219DC2A948C0890 /* Pods-LibraryDemo_PhoneNumberKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

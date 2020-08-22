@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FEA7AF19BF31A4A7F47783D /* Pods_LibraryDemo_Haptico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C383EA70A5E78347255035 /* Pods_LibraryDemo_Haptico.framework */; };
 		C21547E024EFF12400A1A1E6 /* LibraryDemo_Haptico.h in Headers */ = {isa = PBXBuildFile; fileRef = C21547DE24EFF12400A1A1E6 /* LibraryDemo_Haptico.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C21547F524EFF16800A1A1E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21547E724EFF16800A1A1E6 /* ViewController.swift */; };
 		C21547F724EFF16800A1A1E6 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21547EB24EFF16800A1A1E6 /* UIDevice+Extensions.swift */; };
@@ -38,6 +39,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18C383EA70A5E78347255035 /* Pods_LibraryDemo_Haptico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryDemo_Haptico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FF3CB6E14DB5997429308A /* Pods-LibraryDemo_Haptico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_Haptico.debug.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_Haptico/Pods-LibraryDemo_Haptico.debug.xcconfig"; sourceTree = "<group>"; };
+		99704CFF354745E817C281AA /* Pods-LibraryDemo_Haptico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryDemo_Haptico.release.xcconfig"; path = "Target Support Files/Pods-LibraryDemo_Haptico/Pods-LibraryDemo_Haptico.release.xcconfig"; sourceTree = "<group>"; };
 		C21547DB24EFF12400A1A1E6 /* LibraryDemo_Haptico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryDemo_Haptico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21547DE24EFF12400A1A1E6 /* LibraryDemo_Haptico.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDemo_Haptico.h; sourceTree = "<group>"; };
 		C21547DF24EFF12400A1A1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,18 +65,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C215480424EFF26800A1A1E6 /* AwesomeViewControllers.framework in Frameworks */,
+				4FEA7AF19BF31A4A7F47783D /* Pods_LibraryDemo_Haptico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CBBAA694802733D06CBAF81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44FF3CB6E14DB5997429308A /* Pods-LibraryDemo_Haptico.debug.xcconfig */,
+				99704CFF354745E817C281AA /* Pods-LibraryDemo_Haptico.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		C21547D124EFF12300A1A1E6 = {
 			isa = PBXGroup;
 			children = (
 				C21547DD24EFF12400A1A1E6 /* LibraryDemo_Haptico */,
 				C21547DC24EFF12400A1A1E6 /* Products */,
 				C215480224EFF26800A1A1E6 /* Frameworks */,
+				2CBBAA694802733D06CBAF81 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				C215480324EFF26800A1A1E6 /* AwesomeViewControllers.framework */,
+				18C383EA70A5E78347255035 /* Pods_LibraryDemo_Haptico.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21547E324EFF12400A1A1E6 /* Build configuration list for PBXNativeTarget "LibraryDemo_Haptico" */;
 			buildPhases = (
+				35DF7AE213C403A7B7E2032C /* [CP] Check Pods Manifest.lock */,
 				C21547D624EFF12400A1A1E6 /* Headers */,
 				C21547D724EFF12400A1A1E6 /* Sources */,
 				C21547D824EFF12400A1A1E6 /* Frameworks */,
@@ -218,6 +236,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35DF7AE213C403A7B7E2032C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryDemo_Haptico-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C21547D724EFF12400A1A1E6 /* Sources */ = {
@@ -362,6 +405,7 @@
 		};
 		C21547E424EFF12400A1A1E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FF3CB6E14DB5997429308A /* Pods-LibraryDemo_Haptico.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +431,7 @@
 		};
 		C21547E524EFF12400A1A1E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99704CFF354745E817C281AA /* Pods-LibraryDemo_Haptico.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

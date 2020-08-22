@@ -5,70 +5,43 @@
       location = "group:LibraryDemo_ActiveLabel_swift/LibraryDemo_ActiveLabel_swift.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_Haptico/LibraryDemo_Haptico.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_PhoneNumberKit/LibraryDemo_PhoneNumberKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_fluentui_system_icons/LibraryDemo_fluentui_system_icons.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_TinyConsole/LibraryDemo_TinyConsole.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_Printer/LibraryDemo_Printer.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_UIGradient/LibraryDemo_UIGradient.xcodeproj">
+      location = "group:LibraryDemo_AnimatedTextInput/LibraryDemo_AnimatedTextInput.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LibraryDemo_BadgeHub/LibraryDemo_BadgeHub.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_NumPad/LibraryDemo_NumPad.xcodeproj">
+      location = "group:LibraryDemo_Charts/LibraryDemo_Charts.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LibraryDemo_Cluster/LibraryDemo_Cluster.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_Pastel/LibraryDemo_Pastel.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_SwiftGif/LibraryDemo_SwiftGif.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_GlitchLabel/LibraryDemo_GlitchLabel.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_AnimatedTextInput/LibraryDemo_AnimatedTextInput.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_PinterestSegment/LibraryDemo_PinterestSegment.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_GaugeSlider/LibraryDemo_GaugeSlider.xcodeproj">
+      location = "group:LibraryDemo_CocoaButton/LibraryDemo_CocoaButton.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LibraryDemo_CocoaTextField/LibraryDemo_CocoaTextField.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_CocoaButton/LibraryDemo_CocoaButton.xcodeproj">
+      location = "group:LibraryDemo_Dodo/LibraryDemo_Dodo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LibraryDemo_FlagKit/LibraryDemo_FlagKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_StarWars/LibraryDemo_StarWars.xcodeproj">
+      location = "group:LibraryDemo_fluentui_system_icons/LibraryDemo_fluentui_system_icons.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_Dodo/LibraryDemo_Dodo.xcodeproj">
+      location = "group:LibraryDemo_GaugeSlider/LibraryDemo_GaugeSlider.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_GlitchLabel/LibraryDemo_GlitchLabel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_Haptico/LibraryDemo_Haptico.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LibraryDemo_HDNotificationView/LibraryDemo_HDNotificationView.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LibraryDemo_Lottie/LibraryDemo_Lottie.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LibraryDemo_LinearProgressBar/LibraryDemo_LinearProgressBar.xcodeproj">
@@ -77,16 +50,43 @@
       location = "group:LibraryDemo_LiquidLoader/LibraryDemo_LiquidLoader.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:LibraryDemo_Lottie/LibraryDemo_Lottie.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_NumPad/LibraryDemo_NumPad.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LibraryDemo_NVActivityIndicatorView/LibraryDemo_NVActivityIndicatorView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_Pastel/LibraryDemo_Pastel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_PhoneNumberKit/LibraryDemo_PhoneNumberKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_PinterestSegment/LibraryDemo_PinterestSegment.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LibraryDemo_PNChart/LibraryDemo_PNChart.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:LibraryDemo_Printer/LibraryDemo_Printer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_StarWars/LibraryDemo_StarWars.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LibraryDemo_SwiftChart/LibraryDemo_SwiftChart.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_Charts/LibraryDemo_Charts.xcodeproj">
+      location = "group:LibraryDemo_SwiftGif/LibraryDemo_SwiftGif.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_TinyConsole/LibraryDemo_TinyConsole.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryDemo_UIGradient/LibraryDemo_UIGradient.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:AwesomeData/AwesomeData.xcodeproj">

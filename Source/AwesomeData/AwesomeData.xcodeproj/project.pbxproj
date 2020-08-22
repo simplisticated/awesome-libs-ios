@@ -85,6 +85,8 @@
 		C2C9055924ECE32D0015F84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C9055824ECE32D0015F84A /* Assets.xcassets */; };
 		C2C9055B24ECE4030015F84A /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9055A24ECE4030015F84A /* Bundle.swift */; };
 		C2C9058C24ECFF2C0015F84A /* LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9058B24ECFF2C0015F84A /* LibraryStore.swift */; };
+		C2D645AF24F12B0B00478213 /* LibraryDemo_ActiveLabel_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D645AE24F12B0B00478213 /* LibraryDemo_ActiveLabel_swift.framework */; };
+		C2D645B324F12B3400478213 /* Library_ActiveLabel_swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D645B224F12B3400478213 /* Library_ActiveLabel_swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +171,8 @@
 		C2C9055824ECE32D0015F84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C9055A24ECE4030015F84A /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		C2C9058B24ECFF2C0015F84A /* LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStore.swift; sourceTree = "<group>"; };
+		C2D645AE24F12B0B00478213 /* LibraryDemo_ActiveLabel_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_ActiveLabel_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D645B224F12B3400478213 /* Library_ActiveLabel_swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_ActiveLabel_swift.swift; sourceTree = "<group>"; };
 		C42DCC624C1E667FCB91541C /* Pods_AwesomeData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -205,6 +209,7 @@
 				C2C9053124ECDFB80015F84A /* LibraryDemo_fluentui_system_icons.framework in Frameworks */,
 				C2C9053924ECDFB90015F84A /* LibraryDemo_LinearProgressBar.framework in Frameworks */,
 				C2C9054124ECDFB90015F84A /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */,
+				C2D645AF24F12B0B00478213 /* LibraryDemo_ActiveLabel_swift.framework in Frameworks */,
 				C215480824EFF34F00A1A1E6 /* LibraryDemo_Haptico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +230,7 @@
 		90332CCA65A1DC35A37A5317 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2D645AE24F12B0B00478213 /* LibraryDemo_ActiveLabel_swift.framework */,
 				C215480724EFF34F00A1A1E6 /* LibraryDemo_Haptico.framework */,
 				C25020B624EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework */,
 				C2C9050724ECDFB80015F84A /* LibraryDemo_AnimatedTextInput.framework */,
@@ -345,6 +351,7 @@
 				C2C904E024ECDF100015F84A /* Library_fluentui_system_icons.swift */,
 				C25020BA24EF12A6002A5298 /* Library_PhoneNumberKit.swift */,
 				C215480B24EFF36B00A1A1E6 /* Library_Haptico.swift */,
+				C2D645B224F12B3400478213 /* Library_ActiveLabel_swift.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -500,6 +507,7 @@
 				C2C904ED24ECDF100015F84A /* Library_LinearProgressBar.swift in Sources */,
 				C2C904EF24ECDF100015F84A /* Library_GlitchLabel.swift in Sources */,
 				C2C904F124ECDF100015F84A /* Library_TinyConsole.swift in Sources */,
+				C2D645B324F12B3400478213 /* Library_ActiveLabel_swift.swift in Sources */,
 				C2C904FF24ECDF100015F84A /* Library_Charts.swift in Sources */,
 				C2C904E924ECDF100015F84A /* Library_UIGradient.swift in Sources */,
 				C2C904F724ECDF100015F84A /* Library_BadgeHub.swift in Sources */,

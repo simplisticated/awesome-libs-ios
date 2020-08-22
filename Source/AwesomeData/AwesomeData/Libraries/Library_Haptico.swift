@@ -1,10 +1,3 @@
-//
-//  Library_Haptico.swift
-//  AwesomeData
-//
-//  Created by Visuality on 21.08.2020.
-//
-
 import Foundation
 import LibraryDemo_Haptico
 

@@ -78,6 +78,8 @@
 		C2D6458624F124F000478213 /* LibraryDemo_TinyConsole.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454F24F124EF00478213 /* LibraryDemo_TinyConsole.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2D6458724F124F000478213 /* LibraryDemo_UIGradient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6455024F124EF00478213 /* LibraryDemo_UIGradient.framework */; };
 		C2D6458824F124F000478213 /* LibraryDemo_UIGradient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6455024F124EF00478213 /* LibraryDemo_UIGradient.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2D645B724F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D645B624F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework */; };
+		C2D645B824F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D645B624F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +91,7 @@
 			files = (
 				C2D6457224F124EF00478213 /* LibraryDemo_NumPad.framework in Embed Frameworks */,
 				C2D6455224F124EF00478213 /* LibraryDemo_AnimatedTextInput.framework in Embed Frameworks */,
+				C2D645B824F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework in Embed Frameworks */,
 				C2D6457624F124F000478213 /* LibraryDemo_Pastel.framework in Embed Frameworks */,
 				C2D6455A24F124EF00478213 /* LibraryDemo_CocoaButton.framework in Embed Frameworks */,
 				C2D6458424F124F000478213 /* LibraryDemo_SwiftGif.framework in Embed Frameworks */,
@@ -195,6 +198,7 @@
 		C2D6454E24F124EF00478213 /* LibraryDemo_SwiftGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_SwiftGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D6454F24F124EF00478213 /* LibraryDemo_TinyConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_TinyConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D6455024F124EF00478213 /* LibraryDemo_UIGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_UIGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D645B624F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_ActiveLabel_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3B53377CED27C09A87B6E2 /* Pods_AwesomeApp_OpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeApp_OpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -221,6 +225,7 @@
 				C2D6458124F124F000478213 /* LibraryDemo_SwiftChart.framework in Frameworks */,
 				C2D6457324F124EF00478213 /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */,
 				C2D6455324F124EF00478213 /* LibraryDemo_BadgeHub.framework in Frameworks */,
+				C2D645B724F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework in Frameworks */,
 				C2D6457F24F124F000478213 /* LibraryDemo_StarWars.framework in Frameworks */,
 				C2D6456524F124EF00478213 /* LibraryDemo_GlitchLabel.framework in Frameworks */,
 				C2D6456D24F124EF00478213 /* LibraryDemo_LiquidLoader.framework in Frameworks */,
@@ -286,6 +291,7 @@
 		C2BA858524EDE06500DE0296 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2D645B624F12CD200478213 /* LibraryDemo_ActiveLabel_swift.framework */,
 				C2D6453524F124EF00478213 /* LibraryDemo_AnimatedTextInput.framework */,
 				C2D6453624F124EF00478213 /* LibraryDemo_BadgeHub.framework */,
 				C2D6453724F124EF00478213 /* LibraryDemo_Charts.framework */,

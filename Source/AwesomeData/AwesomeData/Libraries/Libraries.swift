@@ -37,7 +37,8 @@ extension Libraries {
             Libraries.TinyConsole,
             Libraries.fluentui_system_icons,
             Libraries.PhoneNumberKit,
-            Libraries.Haptico
+            Libraries.Haptico,
+            Libraries.ActiveLabel_swift
         ]
     }
 }

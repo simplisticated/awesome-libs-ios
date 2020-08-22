@@ -237,3 +237,21 @@ target 'LibraryDemo_fluentui_system_icons' do
   use_frameworks!
   pod 'FluentIcons'
 end
+
+target 'LibraryDemo_PhoneNumberKit' do
+  project 'LibraryDemo_PhoneNumberKit/LibraryDemo_PhoneNumberKit.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_Haptico' do
+  project 'LibraryDemo_Haptico/LibraryDemo_Haptico.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end
+
+target 'LibraryDemo_ActiveLabel_swift' do
+  project 'LibraryDemo_ActiveLabel_swift/LibraryDemo_ActiveLabel_swift.xcodeproj'
+  platform :ios, '11.0'
+  use_frameworks!
+end

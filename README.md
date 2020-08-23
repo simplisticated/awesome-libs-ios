@@ -7,7 +7,7 @@
 Awesome Libs is an app for iOS that allows to test drive open source libraries on your iPhone without using Xcode. [Online version](https://appetize.io/app/n67bct60a5vpbp5ccnxnrezdp8).
 
 <p>
-<a href="https://apps.apple.com/app/id1525970272">
+<a href="https://apps.apple.com/app/id1528271824">
   <img src="https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?kind=iossoftware" />
 </a>
 </p>
@@ -34,6 +34,13 @@ Awesome Libs is an app for iOS that allows to test drive open source libraries o
 ## Contributions ⛏
 
 We do not accept pull requests as well as any other form of contribution. But you can fork this repository and do anything that is permitted by the [license](/LICENSE)!
+
+## How to run the app 🚀
+
+There are few ways to run the app:
+
+* Checkout the repository, open `Workspace.xcworkspace`, select `AwesomeApp_OpenSource` scheme and `Product -> Run` (or press `Cmd+R`). No additional setup is required.
+* [Download on the AppStore](https://apps.apple.com/app/id1528271824). It's free.
 
 ## FAQ 🙄
 

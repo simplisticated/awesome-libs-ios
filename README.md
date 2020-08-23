@@ -15,6 +15,7 @@ Awesome Libs is an app for iOS that allows to test drive open source libraries o
 - [Requirements](#requirements-)
 - [Communication](#communication-)
 - [Contributions](#contributions-)
+- [How to run the app](#how-to-run-the-app-)
 - [FAQ](#faq-)
 - [Support Developers](#support-developers-)
 - [License](#license-)

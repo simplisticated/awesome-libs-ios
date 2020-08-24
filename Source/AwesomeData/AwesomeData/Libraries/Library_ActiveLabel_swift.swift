@@ -5,9 +5,9 @@ extension Libraries {
     
     static let ActiveLabel_swift = Library(
         id: "ActiveLabel.swift",
-        name: "ActiveLabel.swift",
+        name: "ActiveLabel\n.swift",
         description: .init(
-            short: "UILabel replacement supporting Hashtags, Mentions, URLs and custom regex patterns",
+            short: "UILabel drop-in replacement supporting Hashtags (#), Mentions (@), URLs (http://) and custom regex patterns",
             full: nil
         ),
         preview: .init(
@@ -28,7 +28,7 @@ extension Libraries {
         links: LibraryLinks(
             github: GitHubRepositoryLink(
                 user: "optonaut",
-                repository: "ActiveLabel\n.swift"
+                repository: "ActiveLabel.swift"
             ),
             other: []
         ),

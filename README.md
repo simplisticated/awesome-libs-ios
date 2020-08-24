@@ -53,6 +53,61 @@ Well, there are two main reasons why we did that:
 
 2. It's funny.
 
+### What's the difference between free and paid versions of Awesome Libs app?
+
+<table>
+  <tr>
+    <th></th>
+    <th><a href="https://apps.apple.com/app/id1528271824">Awesome OSS</a></th>
+    <th><a href="https://apps.apple.com/app/id1525970272">Awesome Premium</a></th>
+  </tr>
+  <tr>
+    <td>Price on the AppStore</td>
+    <td>0.00 USD</td>
+    <td>2.99 USD in U.S.</td>
+  </tr>
+  <tr>
+    <td>Ads</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>In-app purchases</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Full library collection</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Library demo screen</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Favorite Libraries tab <i>(currently in development)</i></td>
+    <td>☹</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Appetize integration <i>(currently in development)</i></td>
+    <td>☹</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Smart recommendations <i>(currently in development)</i></td>
+    <td>☹</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>New release</td>
+    <td>Every month</td>
+    <td>Every week</td>
+  </tr>
+</table>
+
 ## Support Developers 👨‍💻
 
 We do not accept donates. If you want to support us, buy the [paid version of the app](https://apps.apple.com/app/id1525970272) and give it five stars on the AppStore. Also, we'd appreciate if you tell your colleagues about the app.

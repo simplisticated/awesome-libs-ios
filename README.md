@@ -7,7 +7,7 @@
 Awesome Libs is an app for iOS that allows to test drive open source libraries on your iPhone without using Xcode. [Online version](https://appetize.io/app/n67bct60a5vpbp5ccnxnrezdp8).
 
 <p>
-<a href="https://apps.apple.com/app/id1525970272">
+<a href="https://apps.apple.com/app/id1528271824">
   <img src="https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?kind=iossoftware" />
 </a>
 </p>
@@ -15,6 +15,7 @@ Awesome Libs is an app for iOS that allows to test drive open source libraries o
 - [Requirements](#requirements-)
 - [Communication](#communication-)
 - [Contributions](#contributions-)
+- [How to run the app](#how-to-run-the-app-)
 - [FAQ](#faq-)
 - [Support Developers](#support-developers-)
 - [License](#license-)
@@ -35,6 +36,13 @@ Awesome Libs is an app for iOS that allows to test drive open source libraries o
 
 We do not accept pull requests as well as any other form of contribution. But you can fork this repository and do anything that is permitted by the [license](/LICENSE)!
 
+## How to run the app 🚀
+
+There are few ways to run the app:
+
+* Checkout the repository, open `Workspace.xcworkspace`, select `AwesomeApp_OpenSource` scheme and `Product -> Run` (or press `Cmd+R`). No additional setup is required.
+* [Download on the AppStore](https://apps.apple.com/app/id1528271824). It's free.
+
 ## FAQ 🙄
 
 ### What's the origin of the name Awesome Libs?
@@ -44,6 +52,61 @@ Well, there are two main reasons why we did that:
 1. There are many collections of popular open source libraries on GitHub. Usually these collections include the word `awesome` in their name. Examples: [awesome-ios](https://github.com/vsouza/awesome-ios), [awesome-swift](https://github.com/matteocrippa/awesome-swift), [awesome](https://github.com/sindresorhus/awesome).
 
 2. It's funny.
+
+### What's the difference between free and paid versions of Awesome Libs app?
+
+<table>
+  <tr>
+    <th></th>
+    <th><a href="https://apps.apple.com/app/id1528271824">Awesome OSS</a></th>
+    <th><a href="https://apps.apple.com/app/id1525970272">Awesome Premium</a></th>
+  </tr>
+  <tr>
+    <td>Price on the AppStore</td>
+    <td>0.00 USD</td>
+    <td>2.99 USD in U.S.</td>
+  </tr>
+  <tr>
+    <td>Ads</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>In-app purchases</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Full library collection</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Library demo screen</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Favorite Libraries tab <i>(currently in development)</i></td>
+    <td>☹</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Appetize integration <i>(currently in development)</i></td>
+    <td>☹</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Smart recommendations <i>(currently in development)</i></td>
+    <td>☹</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>New release</td>
+    <td>Every month</td>
+    <td>Every week</td>
+  </tr>
+</table>
 
 ## Support Developers 👨‍💻
 

@@ -5,7 +5,7 @@ extension Libraries {
     
     static let PhoneNumberKit = Library(
         id: "PhoneNumberKit",
-        name: "PhoneNumberKit",
+        name: "Phone\nNumberKit",
         description: .init(
             short: "Framework for parsing, formatting and validating international phone numbers",
             full: nil

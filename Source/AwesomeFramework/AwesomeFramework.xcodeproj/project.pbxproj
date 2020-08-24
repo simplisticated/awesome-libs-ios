@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C280AF4A24F22C4B00CD8235 /* LibraryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF4824F22C4B00CD8235 /* LibraryNameTableViewCell.swift */; };
+		C280AF4B24F22C4B00CD8235 /* LibraryNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF4924F22C4B00CD8235 /* LibraryNameTableViewCell.xib */; };
+		C280AF5124F231BF00CD8235 /* SpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF4F24F231BF00CD8235 /* SpaceTableViewCell.swift */; };
+		C280AF5224F231BF00CD8235 /* SpaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF5024F231BF00CD8235 /* SpaceTableViewCell.xib */; };
+		C280AF5C24F248A300CD8235 /* LibraryDeveloperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF5A24F248A300CD8235 /* LibraryDeveloperTableViewCell.swift */; };
+		C280AF5D24F248A300CD8235 /* LibraryDeveloperTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF5B24F248A300CD8235 /* LibraryDeveloperTableViewCell.xib */; };
+		C280AF6124F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF5F24F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.swift */; };
+		C280AF6224F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF6024F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.xib */; };
+		C280AF6624F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF6424F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.swift */; };
+		C280AF6724F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF6524F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.xib */; };
+		C280AF7624F2610900CD8235 /* LaunchDemoScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF7424F2610900CD8235 /* LaunchDemoScreenTableViewCell.swift */; };
+		C280AF7724F2610900CD8235 /* LaunchDemoScreenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF7524F2610900CD8235 /* LaunchDemoScreenTableViewCell.xib */; };
 		C2BA84A924EDBDD400DE0296 /* LibraryTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA84A824EDBDD400DE0296 /* LibraryTableViewCellProtocol.swift */; };
 		C2BA84AC24EDBEE800DE0296 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA84AB24EDBEE800DE0296 /* AppConfiguration.swift */; };
 		C2C9043824ECBBCD0015F84A /* AwesomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C9043624ECBBCD0015F84A /* AwesomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,17 +35,39 @@
 		C2C9059824ED05A50015F84A /* LibraryListSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9059524ED05A50015F84A /* LibraryListSearchViewController.swift */; };
 		C2C9059924ED05A50015F84A /* LibraryListSearchViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9059624ED05A50015F84A /* LibraryListSearchViewControllerDelegate.swift */; };
 		C2C9059B24ED05C90015F84A /* AwesomeViewControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9059A24ED05C90015F84A /* AwesomeViewControllers.framework */; };
-		C2C905A124ED06980015F84A /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C9059F24ED06980015F84A /* LibraryViewController.xib */; };
-		C2C905A224ED06980015F84A /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C905A024ED06980015F84A /* LibraryViewController.swift */; };
 		C2C905A724ED08070015F84A /* PackageManagerShortInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C905A424ED08070015F84A /* PackageManagerShortInstructionView.swift */; };
 		C2C905A824ED08070015F84A /* PackageManagerShortInstructionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C905A524ED08070015F84A /* PackageManagerShortInstructionViewDelegate.swift */; };
 		C2C905A924ED08070015F84A /* PackageManagerShortInstructionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C905A624ED08070015F84A /* PackageManagerShortInstructionView.xib */; };
 		C2C905C524ED0F990015F84A /* AwesomeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C905C424ED0F990015F84A /* AwesomeViews.framework */; };
 		C2C9062A24ED1BDF0015F84A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9062924ED1BDF0015F84A /* MainNavigationController.swift */; };
+		C2DCC2A224F3DF470069197F /* SectionTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2A024F3DF470069197F /* SectionTitleTableViewCell.swift */; };
+		C2DCC2A324F3DF470069197F /* SectionTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC2A124F3DF470069197F /* SectionTitleTableViewCell.xib */; };
+		C2DCC2A824F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2A624F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift */; };
+		C2DCC2A924F3E1880069197F /* PackageManagerIntegrationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC2A724F3E1880069197F /* PackageManagerIntegrationTableViewCell.xib */; };
+		C2DCC2AD24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2AB24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.swift */; };
+		C2DCC2AE24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC2AC24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.xib */; };
+		C2DCC2B324F417840069197F /* GitHubLinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2B124F417840069197F /* GitHubLinkTableViewCell.swift */; };
+		C2DCC2B424F417840069197F /* GitHubLinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC2B224F417840069197F /* GitHubLinkTableViewCell.xib */; };
+		C2DCC2B924F4191F0069197F /* LinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2B724F4191F0069197F /* LinkTableViewCell.swift */; };
+		C2DCC2BA24F4191F0069197F /* LinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC2B824F4191F0069197F /* LinkTableViewCell.xib */; };
+		C2DCC2C024F430FE0069197F /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2BE24F430FE0069197F /* LibraryViewController.swift */; };
+		C2DCC2C124F430FE0069197F /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC2BF24F430FE0069197F /* LibraryViewController.xib */; };
 		F067B1BA0982AF7F3AAFB67A /* Pods_AwesomeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD24AEB72B9177FE8ACF3CA /* Pods_AwesomeFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C280AF4824F22C4B00CD8235 /* LibraryNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryNameTableViewCell.swift; sourceTree = "<group>"; };
+		C280AF4924F22C4B00CD8235 /* LibraryNameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryNameTableViewCell.xib; sourceTree = "<group>"; };
+		C280AF4F24F231BF00CD8235 /* SpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTableViewCell.swift; sourceTree = "<group>"; };
+		C280AF5024F231BF00CD8235 /* SpaceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpaceTableViewCell.xib; sourceTree = "<group>"; };
+		C280AF5A24F248A300CD8235 /* LibraryDeveloperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDeveloperTableViewCell.swift; sourceTree = "<group>"; };
+		C280AF5B24F248A300CD8235 /* LibraryDeveloperTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryDeveloperTableViewCell.xib; sourceTree = "<group>"; };
+		C280AF5F24F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryShortDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		C280AF6024F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryShortDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		C280AF6424F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFullDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		C280AF6524F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryFullDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		C280AF7424F2610900CD8235 /* LaunchDemoScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDemoScreenTableViewCell.swift; sourceTree = "<group>"; };
+		C280AF7524F2610900CD8235 /* LaunchDemoScreenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchDemoScreenTableViewCell.xib; sourceTree = "<group>"; };
 		C2BA84A824EDBDD400DE0296 /* LibraryTableViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCellProtocol.swift; sourceTree = "<group>"; };
 		C2BA84AB24EDBEE800DE0296 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		C2C9043324ECBBCD0015F84A /* AwesomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,13 +86,23 @@
 		C2C9059524ED05A50015F84A /* LibraryListSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryListSearchViewController.swift; sourceTree = "<group>"; };
 		C2C9059624ED05A50015F84A /* LibraryListSearchViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryListSearchViewControllerDelegate.swift; sourceTree = "<group>"; };
 		C2C9059A24ED05C90015F84A /* AwesomeViewControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeViewControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2C9059F24ED06980015F84A /* LibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
-		C2C905A024ED06980015F84A /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		C2C905A424ED08070015F84A /* PackageManagerShortInstructionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageManagerShortInstructionView.swift; sourceTree = "<group>"; };
 		C2C905A524ED08070015F84A /* PackageManagerShortInstructionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageManagerShortInstructionViewDelegate.swift; sourceTree = "<group>"; };
 		C2C905A624ED08070015F84A /* PackageManagerShortInstructionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PackageManagerShortInstructionView.xib; sourceTree = "<group>"; };
 		C2C905C424ED0F990015F84A /* AwesomeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C9062924ED1BDF0015F84A /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		C2DCC2A024F3DF470069197F /* SectionTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleTableViewCell.swift; sourceTree = "<group>"; };
+		C2DCC2A124F3DF470069197F /* SectionTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionTitleTableViewCell.xib; sourceTree = "<group>"; };
+		C2DCC2A624F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageManagerIntegrationTableViewCell.swift; sourceTree = "<group>"; };
+		C2DCC2A724F3E1880069197F /* PackageManagerIntegrationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackageManagerIntegrationTableViewCell.xib; sourceTree = "<group>"; };
+		C2DCC2AB24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAppetizeDemoTableViewCell.swift; sourceTree = "<group>"; };
+		C2DCC2AC24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchAppetizeDemoTableViewCell.xib; sourceTree = "<group>"; };
+		C2DCC2B124F417840069197F /* GitHubLinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubLinkTableViewCell.swift; sourceTree = "<group>"; };
+		C2DCC2B224F417840069197F /* GitHubLinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GitHubLinkTableViewCell.xib; sourceTree = "<group>"; };
+		C2DCC2B724F4191F0069197F /* LinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkTableViewCell.swift; sourceTree = "<group>"; };
+		C2DCC2B824F4191F0069197F /* LinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LinkTableViewCell.xib; sourceTree = "<group>"; };
+		C2DCC2BE24F430FE0069197F /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		C2DCC2BF24F430FE0069197F /* LibraryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
 		D1166D9F0A635B00B0663ABE /* Pods-AwesomeFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeFramework.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeFramework/Pods-AwesomeFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		DAD24AEB72B9177FE8ACF3CA /* Pods_AwesomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B6D2A7BC53B49CB04AC0A4 /* Pods-AwesomeFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeFramework.release.xcconfig"; path = "Target Support Files/Pods-AwesomeFramework/Pods-AwesomeFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +132,60 @@
 			);
 			name = Pods;
 			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		C280AF4724F22C1E00CD8235 /* LibraryName */ = {
+			isa = PBXGroup;
+			children = (
+				C280AF4824F22C4B00CD8235 /* LibraryNameTableViewCell.swift */,
+				C280AF4924F22C4B00CD8235 /* LibraryNameTableViewCell.xib */,
+			);
+			path = LibraryName;
+			sourceTree = "<group>";
+		};
+		C280AF4E24F231A800CD8235 /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				C280AF4F24F231BF00CD8235 /* SpaceTableViewCell.swift */,
+				C280AF5024F231BF00CD8235 /* SpaceTableViewCell.xib */,
+			);
+			path = Space;
+			sourceTree = "<group>";
+		};
+		C280AF5924F2488B00CD8235 /* LibraryDeveloper */ = {
+			isa = PBXGroup;
+			children = (
+				C280AF5A24F248A300CD8235 /* LibraryDeveloperTableViewCell.swift */,
+				C280AF5B24F248A300CD8235 /* LibraryDeveloperTableViewCell.xib */,
+			);
+			path = LibraryDeveloper;
+			sourceTree = "<group>";
+		};
+		C280AF5E24F24C6B00CD8235 /* LibraryShortDescription */ = {
+			isa = PBXGroup;
+			children = (
+				C280AF5F24F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.swift */,
+				C280AF6024F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.xib */,
+			);
+			path = LibraryShortDescription;
+			sourceTree = "<group>";
+		};
+		C280AF6324F251E000CD8235 /* LibraryFullDescription */ = {
+			isa = PBXGroup;
+			children = (
+				C280AF6424F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.swift */,
+				C280AF6524F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.xib */,
+			);
+			path = LibraryFullDescription;
+			sourceTree = "<group>";
+		};
+		C280AF7324F260F200CD8235 /* LaunchDemoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C280AF7424F2610900CD8235 /* LaunchDemoScreenTableViewCell.swift */,
+				C280AF7524F2610900CD8235 /* LaunchDemoScreenTableViewCell.xib */,
+			);
+			path = LaunchDemoScreen;
 			sourceTree = "<group>";
 		};
 		C2BA84AA24EDBEDE00DE0296 /* App */ = {
@@ -164,7 +262,18 @@
 		C2C9056624ECEED40015F84A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				C2DCC29F24F3DF250069197F /* SectionTitle */,
+				C280AF4E24F231A800CD8235 /* Space */,
 				C2C9056724ECEED40015F84A /* Library */,
+				C280AF4724F22C1E00CD8235 /* LibraryName */,
+				C280AF5924F2488B00CD8235 /* LibraryDeveloper */,
+				C280AF5E24F24C6B00CD8235 /* LibraryShortDescription */,
+				C280AF6324F251E000CD8235 /* LibraryFullDescription */,
+				C2DCC2A524F3E17B0069197F /* PackageManagerIntegration */,
+				C2DCC2B024F417700069197F /* GitHubLink */,
+				C2DCC2B624F419090069197F /* Link */,
+				C280AF7324F260F200CD8235 /* LaunchDemoScreen */,
+				C2DCC2AA24F3F4C50069197F /* LaunchAppetizeDemo */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -184,7 +293,7 @@
 			children = (
 				C2C9058E24ED03ED0015F84A /* LibraryList */,
 				C2C9059324ED05A50015F84A /* LibraryListSearch */,
-				C2C9059E24ED06980015F84A /* Library */,
+				C2DCC2BD24F430E80069197F /* LibraryViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -208,15 +317,6 @@
 			path = LibraryListSearch;
 			sourceTree = "<group>";
 		};
-		C2C9059E24ED06980015F84A /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				C2C905A024ED06980015F84A /* LibraryViewController.swift */,
-				C2C9059F24ED06980015F84A /* LibraryViewController.xib */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
 		C2C905A324ED08070015F84A /* PackageManagerShortInstruction */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +333,60 @@
 				C2C9062924ED1BDF0015F84A /* MainNavigationController.swift */,
 			);
 			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		C2DCC29F24F3DF250069197F /* SectionTitle */ = {
+			isa = PBXGroup;
+			children = (
+				C2DCC2A024F3DF470069197F /* SectionTitleTableViewCell.swift */,
+				C2DCC2A124F3DF470069197F /* SectionTitleTableViewCell.xib */,
+			);
+			path = SectionTitle;
+			sourceTree = "<group>";
+		};
+		C2DCC2A524F3E17B0069197F /* PackageManagerIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				C2DCC2A624F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift */,
+				C2DCC2A724F3E1880069197F /* PackageManagerIntegrationTableViewCell.xib */,
+			);
+			path = PackageManagerIntegration;
+			sourceTree = "<group>";
+		};
+		C2DCC2AA24F3F4C50069197F /* LaunchAppetizeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C2DCC2AB24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.swift */,
+				C2DCC2AC24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.xib */,
+			);
+			path = LaunchAppetizeDemo;
+			sourceTree = "<group>";
+		};
+		C2DCC2B024F417700069197F /* GitHubLink */ = {
+			isa = PBXGroup;
+			children = (
+				C2DCC2B124F417840069197F /* GitHubLinkTableViewCell.swift */,
+				C2DCC2B224F417840069197F /* GitHubLinkTableViewCell.xib */,
+			);
+			path = GitHubLink;
+			sourceTree = "<group>";
+		};
+		C2DCC2B624F419090069197F /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				C2DCC2B724F4191F0069197F /* LinkTableViewCell.swift */,
+				C2DCC2B824F4191F0069197F /* LinkTableViewCell.xib */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
+		C2DCC2BD24F430E80069197F /* LibraryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2DCC2BE24F430FE0069197F /* LibraryViewController.swift */,
+				C2DCC2BF24F430FE0069197F /* LibraryViewController.xib */,
+			);
+			path = LibraryViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,12 +459,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2DCC2A924F3E1880069197F /* PackageManagerIntegrationTableViewCell.xib in Resources */,
+				C2DCC2AE24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.xib in Resources */,
+				C2DCC2A324F3DF470069197F /* SectionTitleTableViewCell.xib in Resources */,
+				C2DCC2BA24F4191F0069197F /* LinkTableViewCell.xib in Resources */,
+				C280AF5D24F248A300CD8235 /* LibraryDeveloperTableViewCell.xib in Resources */,
+				C280AF5224F231BF00CD8235 /* SpaceTableViewCell.xib in Resources */,
+				C280AF7724F2610900CD8235 /* LaunchDemoScreenTableViewCell.xib in Resources */,
 				C2C9059224ED03ED0015F84A /* LibraryListViewController.xib in Resources */,
-				C2C905A124ED06980015F84A /* LibraryViewController.xib in Resources */,
 				C2C9058924ECF8430015F84A /* Assets.xcassets in Resources */,
 				C2C9059724ED05A50015F84A /* LibraryListSearchViewController.xib in Resources */,
+				C2DCC2B424F417840069197F /* GitHubLinkTableViewCell.xib in Resources */,
+				C280AF6724F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.xib in Resources */,
 				C2C9056A24ECEED40015F84A /* LibraryTableViewCell.xib in Resources */,
+				C2DCC2C124F430FE0069197F /* LibraryViewController.xib in Resources */,
+				C280AF4B24F22C4B00CD8235 /* LibraryNameTableViewCell.xib in Resources */,
 				C2C905A924ED08070015F84A /* PackageManagerShortInstructionView.xib in Resources */,
+				C280AF6224F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,16 +512,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C9056524ECECE00015F84A /* BadgeView.swift in Sources */,
+				C2DCC2AD24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.swift in Sources */,
 				C2C9056D24ECF0A00015F84A /* Bundle.swift in Sources */,
 				C2C9062A24ED1BDF0015F84A /* MainNavigationController.swift in Sources */,
+				C2DCC2A824F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift in Sources */,
 				C2C9059124ED03ED0015F84A /* LibraryListViewController.swift in Sources */,
 				C2C9059824ED05A50015F84A /* LibraryListSearchViewController.swift in Sources */,
-				C2C905A224ED06980015F84A /* LibraryViewController.swift in Sources */,
 				C2BA84AC24EDBEE800DE0296 /* AppConfiguration.swift in Sources */,
+				C280AF6624F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.swift in Sources */,
+				C2DCC2A224F3DF470069197F /* SectionTitleTableViewCell.swift in Sources */,
+				C2DCC2C024F430FE0069197F /* LibraryViewController.swift in Sources */,
+				C2DCC2B924F4191F0069197F /* LinkTableViewCell.swift in Sources */,
+				C2DCC2B324F417840069197F /* GitHubLinkTableViewCell.swift in Sources */,
+				C280AF5124F231BF00CD8235 /* SpaceTableViewCell.swift in Sources */,
 				C2C9056B24ECEED40015F84A /* LibraryTableViewCell.swift in Sources */,
+				C280AF4A24F22C4B00CD8235 /* LibraryNameTableViewCell.swift in Sources */,
 				C2C9059924ED05A50015F84A /* LibraryListSearchViewControllerDelegate.swift in Sources */,
+				C280AF7624F2610900CD8235 /* LaunchDemoScreenTableViewCell.swift in Sources */,
 				C2C905A824ED08070015F84A /* PackageManagerShortInstructionViewDelegate.swift in Sources */,
+				C280AF5C24F248A300CD8235 /* LibraryDeveloperTableViewCell.swift in Sources */,
 				C2C905A724ED08070015F84A /* PackageManagerShortInstructionView.swift in Sources */,
+				C280AF6124F24C8300CD8235 /* LibraryShortDescriptionTableViewCell.swift in Sources */,
 				C2BA84A924EDBDD400DE0296 /* LibraryTableViewCellProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

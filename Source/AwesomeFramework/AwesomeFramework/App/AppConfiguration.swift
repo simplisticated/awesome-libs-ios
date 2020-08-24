@@ -22,4 +22,10 @@ public struct AppConfiguration {
         public static var nibName: String = "LibraryTableViewCell"
         public static var bundleIdentifier = Bundle.AwesomeFramework_identifier
     }
+    
+    public struct libraryViewController {
+        public struct events {
+            public static var didSelectItem: ((_ controller: LibraryViewController, _ item: LibraryViewController.Item) -> Void)?
+        }
+    }
 }

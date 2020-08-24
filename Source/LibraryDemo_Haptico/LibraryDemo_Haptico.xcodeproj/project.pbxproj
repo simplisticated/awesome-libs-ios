@@ -21,22 +21,7 @@
 		C21547FF24EFF16900A1A1E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21547F424EFF16800A1A1E6 /* Main.storyboard */; };
 		C215480124EFF18000A1A1E6 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215480024EFF18000A1A1E6 /* Bundle.swift */; };
 		C215480424EFF26800A1A1E6 /* AwesomeViewControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C215480324EFF26800A1A1E6 /* AwesomeViewControllers.framework */; };
-		C215480524EFF26800A1A1E6 /* AwesomeViewControllers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C215480324EFF26800A1A1E6 /* AwesomeViewControllers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C215480624EFF26800A1A1E6 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C215480524EFF26800A1A1E6 /* AwesomeViewControllers.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18C383EA70A5E78347255035 /* Pods_LibraryDemo_Haptico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryDemo_Haptico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,7 +169,6 @@
 				C21547D724EFF12400A1A1E6 /* Sources */,
 				C21547D824EFF12400A1A1E6 /* Frameworks */,
 				C21547D924EFF12400A1A1E6 /* Resources */,
-				C215480624EFF26800A1A1E6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

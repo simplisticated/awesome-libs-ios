@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="GitHubLinkTableViewCell" customModule="AwesomeFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="link" translatesAutoresizingMaskIntoConstraints="NO" id="7rm-yN-IRd">
+                        <rect key="frame" x="20" y="11" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="Q48-ov-FIp"/>
+                            <constraint firstAttribute="height" constant="33" id="XSX-gH-tiX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link" textAlignment="natural" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVA-ey-Zm3">
+                        <rect key="frame" x="63" y="17" width="237" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7rm-yN-IRd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="F2S-SL-mIh"/>
+                    <constraint firstItem="bVA-ey-Zm3" firstAttribute="centerY" secondItem="7rm-yN-IRd" secondAttribute="centerY" id="Nr6-5T-a0R"/>
+                    <constraint firstItem="7rm-yN-IRd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Utg-oD-joC"/>
+                    <constraint firstAttribute="trailing" secondItem="bVA-ey-Zm3" secondAttribute="trailing" constant="20" id="XbV-kQ-cZr"/>
+                    <constraint firstItem="bVA-ey-Zm3" firstAttribute="leading" secondItem="7rm-yN-IRd" secondAttribute="trailing" constant="10" id="gGn-k2-EYI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="linkLabel" destination="bVA-ey-Zm3" id="fFH-Ob-oEh"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="-4"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="link" width="33" height="33"/>
+    </resources>
+</document>

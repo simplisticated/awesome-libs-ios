@@ -5,7 +5,7 @@ extension Libraries {
     
     static let AnimatedTextInput = Library(
         id: "animated-text-input",
-        name: "AnimatedTextInput",
+        name: "Animated\nTextInput",
         description: .init(
             short: "iOS custom text input component used in the Jobandtalent app",
             full: nil

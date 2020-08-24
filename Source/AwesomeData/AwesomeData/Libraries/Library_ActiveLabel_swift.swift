@@ -28,7 +28,7 @@ extension Libraries {
         links: LibraryLinks(
             github: GitHubRepositoryLink(
                 user: "optonaut",
-                repository: "ActiveLabel.swift"
+                repository: "ActiveLabel\n.swift"
             ),
             other: []
         ),

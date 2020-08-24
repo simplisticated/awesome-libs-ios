@@ -5,7 +5,7 @@ extension Libraries {
     
     static let LinearProgressBar = Library(
         id: "linear-progress-bar",
-        name: "LinearProgressBar",
+        name: "Linear\nProgressBar",
         description: .init(
             short: "Linear progress bar inspired by Google Material Design",
             full: nil

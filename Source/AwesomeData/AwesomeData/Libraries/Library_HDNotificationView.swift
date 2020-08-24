@@ -5,7 +5,7 @@ extension Libraries {
     
     static let HDNotificationView = Library(
         id: "hd-notification-view",
-        name: "HDNotificationView",
+        name: "HDNotification\nView",
         description: .init(
             short: "Emulation of the native Notification Banner UI for any alert",
             full: nil

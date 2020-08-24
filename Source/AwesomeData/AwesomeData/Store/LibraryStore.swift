@@ -7,6 +7,9 @@ public class LibraryStore {
     }()
     
     private var libraries = Libraries.allLibraries()
+        .filter { (library) -> Bool in
+            return library.hasDemo()
+        }
     
     private init() {
     }

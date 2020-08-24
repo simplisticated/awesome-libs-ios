@@ -5,7 +5,7 @@ extension Libraries {
     
     static let PinterestSegment = Library(
         id: "pinterest-segment",
-        name: "PinterestSegment",
+        name: "Pinterest\nSegment",
         description: .init(
             short: "Pinterest-like segment control with masking animation",
             full: nil

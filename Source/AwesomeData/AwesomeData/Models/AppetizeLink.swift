@@ -1,10 +1,3 @@
-//
-//  AppetizeLink.swift
-//  AwesomeData
-//
-//  Created by Visuality on 22.08.2020.
-//
-
 import Foundation
 
 public struct AppetizeLink {

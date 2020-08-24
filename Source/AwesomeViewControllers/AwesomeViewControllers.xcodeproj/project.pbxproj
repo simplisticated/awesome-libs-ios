@@ -10,6 +10,7 @@
 		32FDAB2F6A8FB47B31BE01A5 /* Pods_AwesomeViewControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265BC147FED0005CB1ED9CDE /* Pods_AwesomeViewControllers.framework */; };
 		C2C9057D24ECF35E0015F84A /* AwesomeViewControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C9057B24ECF35E0015F84A /* AwesomeViewControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2C9058424ECF37C0015F84A /* AwesomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9058324ECF37C0015F84A /* AwesomeViewController.swift */; };
+		C2DCC2BC24F42B3F0069197F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2BB24F42B3F0069197F /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C2C9057B24ECF35E0015F84A /* AwesomeViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeViewControllers.h; sourceTree = "<group>"; };
 		C2C9057C24ECF35E0015F84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C9058324ECF37C0015F84A /* AwesomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeViewController.swift; sourceTree = "<group>"; };
+		C2DCC2BB24F42B3F0069197F /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		DE4B399D0B99C6CF0059A6FC /* Pods-AwesomeViewControllers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeViewControllers.release.xcconfig"; path = "Target Support Files/Pods-AwesomeViewControllers/Pods-AwesomeViewControllers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C2C9058324ECF37C0015F84A /* AwesomeViewController.swift */,
+				C2DCC2BB24F42B3F0069197F /* AlertViewController.swift */,
 				C2C9057B24ECF35E0015F84A /* AwesomeViewControllers.h */,
 				C2C9057C24ECF35E0015F84A /* Info.plist */,
 			);
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C9058424ECF37C0015F84A /* AwesomeViewController.swift in Sources */,
+				C2DCC2BC24F42B3F0069197F /* AlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

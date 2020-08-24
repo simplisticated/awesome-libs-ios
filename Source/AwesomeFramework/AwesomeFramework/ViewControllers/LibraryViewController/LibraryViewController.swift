@@ -60,7 +60,6 @@ public class LibraryViewController: UIViewController {
     private func setupTableView() {
         self.tableView.separatorStyle = .none
         self.tableView.bounces = true
-        //self.tableView.delaysContentTouches = false
         self.tableView.showsVerticalScrollIndicator = false
         
         let cellTypes: [UITableViewCell.Type] = [

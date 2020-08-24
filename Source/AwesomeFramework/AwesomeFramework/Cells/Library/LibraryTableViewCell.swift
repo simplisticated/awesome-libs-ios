@@ -13,8 +13,6 @@ public class LibraryTableViewCell: UITableViewCell, LibraryTableViewCellProtocol
     
     @IBOutlet private weak var licenseBadgeView: BadgeView!
     
-    @IBOutlet private weak var liveDemoBadgeView: BadgeView!
-    
     public var library: Library? {
         didSet {
             guard let library = self.library else { return }
@@ -23,7 +21,6 @@ public class LibraryTableViewCell: UITableViewCell, LibraryTableViewCellProtocol
             self.updateDeveloperNameLabel(withLibrary: library)
             self.updateDescriptionLabel(withLibrary: library)
             self.updateLicenseBadgeView(withLibrary: library)
-            self.updateLiveDemoBadgeView(withLibrary: library)
         }
     }
 
@@ -81,10 +78,5 @@ public class LibraryTableViewCell: UITableViewCell, LibraryTableViewCellProtocol
     private func updateLicenseBadgeView(withLibrary library: Library?) {
         let licenseName = library?.license.name
         self.licenseBadgeView.text = licenseName
-    }
-    
-    private func updateLiveDemoBadgeView(withLibrary library: Library?) {
-        let hasLiveDemo = library?.demo.screen?.enabled ?? false
-        self.liveDemoBadgeView.isHidden = !hasLiveDemo
     }
 }

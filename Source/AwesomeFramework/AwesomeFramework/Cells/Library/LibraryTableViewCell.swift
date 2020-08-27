@@ -36,7 +36,8 @@ public class LibraryTableViewCell: UITableViewCell, LibraryTableViewCellProtocol
     }
     
     private func updateLogoImageView(withLibrary library: Library?) {
-        if let imageName = library?.preview.logo?.name,
+        if Configuration.usePreviewImageFromLibraryStore,
+            let imageName = library?.preview.logo?.name,
             let imageBundleIdentifier = library?.preview.logo?.bundleIdentifier {
             self.logoImageView.image = UIImage(
                 named: imageName,
@@ -50,7 +51,9 @@ public class LibraryTableViewCell: UITableViewCell, LibraryTableViewCellProtocol
                 in: .AwesomeFramework,
                 compatibleWith: nil
             )
-            self.logoImageView.alpha = 0.1
+            self.logoImageView.alpha = Configuration.usePreviewImageFromLibraryStore
+                ? 0.2
+                : 1
         }
     }
     
@@ -79,4 +82,8 @@ public class LibraryTableViewCell: UITableViewCell, LibraryTableViewCellProtocol
         let licenseName = library?.license.name
         self.licenseBadgeView.text = licenseName
     }
+}
+
+fileprivate struct Configuration {
+    static let usePreviewImageFromLibraryStore = false
 }

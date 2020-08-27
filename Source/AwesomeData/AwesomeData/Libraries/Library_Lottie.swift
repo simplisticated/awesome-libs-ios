@@ -1,5 +1,4 @@
 import Foundation
-import LibraryDemo_Lottie
 
 extension Libraries {
     

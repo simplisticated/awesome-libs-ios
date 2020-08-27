@@ -52,8 +52,6 @@
 		C2D6456C24F124EF00478213 /* LibraryDemo_LinearProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454224F124EF00478213 /* LibraryDemo_LinearProgressBar.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2D6456D24F124EF00478213 /* LibraryDemo_LiquidLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454324F124EF00478213 /* LibraryDemo_LiquidLoader.framework */; };
 		C2D6456E24F124EF00478213 /* LibraryDemo_LiquidLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454324F124EF00478213 /* LibraryDemo_LiquidLoader.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C2D6456F24F124EF00478213 /* LibraryDemo_Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454424F124EF00478213 /* LibraryDemo_Lottie.framework */; };
-		C2D6457024F124EF00478213 /* LibraryDemo_Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454424F124EF00478213 /* LibraryDemo_Lottie.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2D6457124F124EF00478213 /* LibraryDemo_NumPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454524F124EF00478213 /* LibraryDemo_NumPad.framework */; };
 		C2D6457224F124EF00478213 /* LibraryDemo_NumPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454524F124EF00478213 /* LibraryDemo_NumPad.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C2D6457324F124EF00478213 /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6454624F124EF00478213 /* LibraryDemo_NVActivityIndicatorView.framework */; };
@@ -115,7 +113,6 @@
 				C2BA85E124EDE09500DE0296 /* AwesomeViewControllers.framework in Embed Frameworks */,
 				C2D6455C24F124EF00478213 /* LibraryDemo_CocoaTextField.framework in Embed Frameworks */,
 				C2D6455E24F124EF00478213 /* LibraryDemo_Dodo.framework in Embed Frameworks */,
-				C2D6457024F124EF00478213 /* LibraryDemo_Lottie.framework in Embed Frameworks */,
 				C2D6455624F124EF00478213 /* LibraryDemo_Charts.framework in Embed Frameworks */,
 				C2D6457A24F124F000478213 /* LibraryDemo_PinterestSegment.framework in Embed Frameworks */,
 				C2BA85DF24EDE09500DE0296 /* AwesomeStyles.framework in Embed Frameworks */,
@@ -229,7 +226,6 @@
 				C2D6457F24F124F000478213 /* LibraryDemo_StarWars.framework in Frameworks */,
 				C2D6456524F124EF00478213 /* LibraryDemo_GlitchLabel.framework in Frameworks */,
 				C2D6456D24F124EF00478213 /* LibraryDemo_LiquidLoader.framework in Frameworks */,
-				C2D6456F24F124EF00478213 /* LibraryDemo_Lottie.framework in Frameworks */,
 				C2D6455924F124EF00478213 /* LibraryDemo_CocoaButton.framework in Frameworks */,
 				C2D6458324F124F000478213 /* LibraryDemo_SwiftGif.framework in Frameworks */,
 				C2BA85DE24EDE09500DE0296 /* AwesomeStyles.framework in Frameworks */,

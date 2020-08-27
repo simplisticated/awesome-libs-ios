@@ -50,9 +50,6 @@
       location = "group:LibraryDemo_LiquidLoader/LibraryDemo_LiquidLoader.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LibraryDemo_Lottie/LibraryDemo_Lottie.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:LibraryDemo_NumPad/LibraryDemo_NumPad.xcodeproj">
    </FileRef>
    <FileRef

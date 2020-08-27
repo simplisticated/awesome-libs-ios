@@ -68,7 +68,6 @@
 		C2C9053724ECDFB90015F84A /* LibraryDemo_HDNotificationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9051224ECDFB80015F84A /* LibraryDemo_HDNotificationView.framework */; };
 		C2C9053924ECDFB90015F84A /* LibraryDemo_LinearProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9051324ECDFB80015F84A /* LibraryDemo_LinearProgressBar.framework */; };
 		C2C9053B24ECDFB90015F84A /* LibraryDemo_LiquidLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9051424ECDFB80015F84A /* LibraryDemo_LiquidLoader.framework */; };
-		C2C9053D24ECDFB90015F84A /* LibraryDemo_Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9051524ECDFB80015F84A /* LibraryDemo_Lottie.framework */; };
 		C2C9053F24ECDFB90015F84A /* LibraryDemo_NumPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9051624ECDFB80015F84A /* LibraryDemo_NumPad.framework */; };
 		C2C9054124ECDFB90015F84A /* LibraryDemo_NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9051724ECDFB80015F84A /* LibraryDemo_NVActivityIndicatorView.framework */; };
 		C2C9054324ECDFB90015F84A /* LibraryDemo_Pastel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C9051824ECDFB80015F84A /* LibraryDemo_Pastel.framework */; };
@@ -191,7 +190,6 @@
 				C2C9052324ECDFB80015F84A /* LibraryDemo_BadgeHub.framework in Frameworks */,
 				C2C9054F24ECDFB90015F84A /* LibraryDemo_SwiftGif.framework in Frameworks */,
 				C2C9053324ECDFB80015F84A /* LibraryDemo_GaugeSlider.framework in Frameworks */,
-				C2C9053D24ECDFB90015F84A /* LibraryDemo_Lottie.framework in Frameworks */,
 				C2C9052124ECDFB80015F84A /* LibraryDemo_AnimatedTextInput.framework in Frameworks */,
 				C2C9055124ECDFB90015F84A /* LibraryDemo_TinyConsole.framework in Frameworks */,
 				C2C9053F24ECDFB90015F84A /* LibraryDemo_NumPad.framework in Frameworks */,

@@ -19,6 +19,7 @@ extension Libraries {
             Libraries.DynamicColor,
             Libraries.FlagKit,
             Libraries.fluentui_system_icons,
+            Libraries.Gallery,
             Libraries.GaugeSlider,
             Libraries.GlitchLabel,
             Libraries.Haptico,

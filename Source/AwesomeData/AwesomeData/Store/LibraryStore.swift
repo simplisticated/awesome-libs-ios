@@ -15,14 +15,13 @@ public class LibraryStore {
     }
     
     public func allLibraries() -> [Library] {
-        return Array(self.libraries)
-            .sorted { (left, right) -> Bool in
-                return left.name.lowercased() < right.name.lowercased()
-            }
+        return self.sortedLibraries(
+            self.libraries
+        )
     }
     
     public func libraries(forSearchQuery query: String) -> [Library] {
-        return Array(self.libraries)
+        let searchResult = self.libraries
             .filter { (library) -> Bool in
                 var textCollection: [String] = [
                     library.name,
@@ -44,6 +43,13 @@ public class LibraryStore {
                     )
                 } != nil
             }
+        return self.sortedLibraries(
+            searchResult
+        )
+    }
+    
+    public func sortedLibraries(_ libraries: [Library]) -> [Library] {
+        return libraries
             .sorted { (left, right) -> Bool in
                 return left.name.lowercased() < right.name.lowercased()
             }

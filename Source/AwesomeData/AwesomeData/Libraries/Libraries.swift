@@ -28,6 +28,7 @@ extension Libraries {
             Libraries.Lottie,
             Libraries.NumPad,
             Libraries.NVActivityIndicatorView,
+            Libraries.Parade,
             Libraries.Pastel,
             Libraries.PhoneNumberKit,
             Libraries.PinterestSegment,

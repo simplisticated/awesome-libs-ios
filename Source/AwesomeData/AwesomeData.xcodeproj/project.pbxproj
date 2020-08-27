@@ -10,6 +10,7 @@
 		06317D44ED6C800885E422E3 /* Pods_AwesomeData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42DCC624C1E667FCB91541C /* Pods_AwesomeData.framework */; };
 		C215480824EFF34F00A1A1E6 /* LibraryDemo_Haptico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C215480724EFF34F00A1A1E6 /* LibraryDemo_Haptico.framework */; };
 		C215480C24EFF36B00A1A1E6 /* Library_Haptico.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215480B24EFF36B00A1A1E6 /* Library_Haptico.swift */; };
+		C21EE92724F8078600ACFF3F /* Library_Parade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EE92624F8078600ACFF3F /* Library_Parade.swift */; };
 		C25020B724EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25020B624EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework */; };
 		C25020BB24EF12A6002A5298 /* Library_PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25020BA24EF12A6002A5298 /* Library_PhoneNumberKit.swift */; };
 		C2C9046824ECBD440015F84A /* AwesomeData.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C9046624ECBD440015F84A /* AwesomeData.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,6 +97,7 @@
 		558CC336FBF5D761232E3FC9 /* Pods-AwesomeData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeData.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeData/Pods-AwesomeData.debug.xcconfig"; sourceTree = "<group>"; };
 		C215480724EFF34F00A1A1E6 /* LibraryDemo_Haptico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_Haptico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C215480B24EFF36B00A1A1E6 /* Library_Haptico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_Haptico.swift; sourceTree = "<group>"; };
+		C21EE92624F8078600ACFF3F /* Library_Parade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_Parade.swift; sourceTree = "<group>"; };
 		C25020B624EF1282002A5298 /* LibraryDemo_PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryDemo_PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25020BA24EF12A6002A5298 /* Library_PhoneNumberKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_PhoneNumberKit.swift; sourceTree = "<group>"; };
 		C2C9046324ECBD430015F84A /* AwesomeData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -349,6 +351,7 @@
 				C2C904D524ECDF100015F84A /* Library_Lottie.swift */,
 				C2C904CF24ECDF100015F84A /* Library_NumPad.swift */,
 				C2C904E724ECDF100015F84A /* Library_NVActivityIndicatorView.swift */,
+				C21EE92624F8078600ACFF3F /* Library_Parade.swift */,
 				C2C904D324ECDF100015F84A /* Library_Pastel.swift */,
 				C25020BA24EF12A6002A5298 /* Library_PhoneNumberKit.swift */,
 				C2C904D824ECDF100015F84A /* Library_PinterestSegment.swift */,
@@ -512,6 +515,7 @@
 				C2C904F424ECDF100015F84A /* Library_GaugeSlider.swift in Sources */,
 				C2EAF58C24F161D400173746 /* AppetizeLink.swift in Sources */,
 				C2C904F324ECDF100015F84A /* Library_FlagKit.swift in Sources */,
+				C21EE92724F8078600ACFF3F /* Library_Parade.swift in Sources */,
 				C2C904C524ECDD4C0015F84A /* GitHubRepositoryLink.swift in Sources */,
 				C2C904EA24ECDF100015F84A /* Library_DynamicColor.swift in Sources */,
 				C2C904ED24ECDF100015F84A /* Library_LinearProgressBar.swift in Sources */,

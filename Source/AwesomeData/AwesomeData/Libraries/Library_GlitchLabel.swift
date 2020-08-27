@@ -53,8 +53,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-GlitchLabel",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

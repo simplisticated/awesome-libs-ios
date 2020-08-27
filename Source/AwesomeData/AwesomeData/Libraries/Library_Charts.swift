@@ -54,8 +54,7 @@ extension Libraries {
                 nibName: "DemoListViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Charts",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

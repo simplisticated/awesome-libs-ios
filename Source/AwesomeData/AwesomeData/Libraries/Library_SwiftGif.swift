@@ -51,8 +51,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-SwiftGif",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

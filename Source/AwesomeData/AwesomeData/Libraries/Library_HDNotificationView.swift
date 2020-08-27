@@ -49,8 +49,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-HDNotificationView",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

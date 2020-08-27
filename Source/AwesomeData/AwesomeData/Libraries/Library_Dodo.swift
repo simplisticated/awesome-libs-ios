@@ -53,8 +53,7 @@ extension Libraries {
                 nibName: nil,
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Dodo",
                 enabled: false
-            ),
-            appetize: nil
+            )
         )
     )
 }

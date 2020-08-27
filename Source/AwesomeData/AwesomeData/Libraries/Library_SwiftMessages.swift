@@ -45,8 +45,7 @@ extension Libraries {
         ],
         license: .mit(),
         demo: LibraryDemo(
-            screen: nil,
-            appetize: nil
+            screen: nil
         )
     )
 }

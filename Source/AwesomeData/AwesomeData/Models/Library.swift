@@ -27,7 +27,15 @@ extension Library {
     }
     
     public func hasDemo() -> Bool {
-        return (self.demo.screen?.enabled ?? false)
-            || (self.demo.appetize != nil)
+        return Configuration.hasDemo(self)
+    }
+}
+
+extension Library {
+    
+    public struct Configuration {
+        public static var hasDemo = { (library: Library) in
+            return library.demo.screen?.enabled ?? false
+        }
     }
 }

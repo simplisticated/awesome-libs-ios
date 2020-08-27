@@ -52,8 +52,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-TinyConsole",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

@@ -44,13 +44,7 @@ extension Libraries {
         ],
         license: .mit(),
         demo: LibraryDemo(
-            screen: DemoScreen(
-                viewControllerClass: LibraryDemoViewController.self,
-                nibName: "",
-                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-StarWars",
-                enabled: false
-            ),
-            appetize: nil
+            screen: nil
         )
     )
 }

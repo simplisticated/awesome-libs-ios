@@ -52,8 +52,7 @@ extension Libraries {
                 nibName: "UIGradient_LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-UIGradient",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

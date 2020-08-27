@@ -53,8 +53,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-NVActivityIndicatorView",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

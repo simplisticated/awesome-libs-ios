@@ -54,8 +54,7 @@ extension Libraries {
                 nibName: "",
                 bundleIdentifier: Bundle.PhoneNumberKit_identifier,
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

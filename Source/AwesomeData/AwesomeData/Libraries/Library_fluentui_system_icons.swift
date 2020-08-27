@@ -51,8 +51,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-fluentui-system-icons",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

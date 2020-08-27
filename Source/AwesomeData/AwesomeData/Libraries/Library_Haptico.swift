@@ -56,8 +56,7 @@ extension Libraries {
                 nibName: "",
                 bundleIdentifier: Bundle.LibraryDemo_Haptico_identifier,
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

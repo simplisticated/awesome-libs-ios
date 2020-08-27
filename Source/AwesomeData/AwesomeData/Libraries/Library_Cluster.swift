@@ -51,8 +51,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Cluster",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

@@ -101,13 +101,6 @@ internal struct LibraryViewControllerItems {
                 ])
             }
             
-            if let appetizeLink = library.demo.appetize {
-                resultItems.append(contentsOf: [
-                    .launchAppetizeDemo(link: appetizeLink),
-                    .separator
-                ])
-            }
-            
             resultItems.append(
                 .sectionInterval
             )

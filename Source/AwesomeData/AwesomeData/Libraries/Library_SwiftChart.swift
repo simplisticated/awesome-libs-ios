@@ -49,8 +49,7 @@ extension Libraries {
                 nibName: "TableViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-SwiftChart",
                 enabled: false
-            ),
-            appetize: nil
+            )
         )
     )
 }

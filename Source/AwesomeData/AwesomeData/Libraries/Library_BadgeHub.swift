@@ -49,8 +49,7 @@ extension Libraries {
                 nibName: "BadgeHub_LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-BadgeHub",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

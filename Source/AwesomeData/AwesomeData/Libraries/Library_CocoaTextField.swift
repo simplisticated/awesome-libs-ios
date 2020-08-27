@@ -51,8 +51,7 @@ extension Libraries {
                 nibName: "LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-CocoaTextField",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

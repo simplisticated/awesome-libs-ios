@@ -52,8 +52,7 @@ extension Libraries {
                 nibName: "Printer_LibraryDemoViewController",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Printer",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

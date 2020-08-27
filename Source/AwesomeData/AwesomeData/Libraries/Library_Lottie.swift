@@ -50,13 +50,7 @@ extension Libraries {
         ],
         license: .apache_v2(),
         demo: LibraryDemo(
-            screen: DemoScreen(
-                viewControllerClass: LibraryDemoViewController.self,
-                nibName: "LibraryDemoViewController",
-                bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-Lottie",
-                enabled: false
-            ),
-            appetize: nil
+            screen: nil
         )
     )
 }

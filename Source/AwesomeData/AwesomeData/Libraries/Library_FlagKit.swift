@@ -51,8 +51,7 @@ extension Libraries {
                 nibName: "",
                 bundleIdentifier: "com.wizman.awesome-libraries.LibraryDemo-FlagKit",
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

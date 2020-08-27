@@ -51,8 +51,7 @@ extension Libraries {
                 nibName: "ActiveLabel_LibraryDemoViewController",
                 bundleIdentifier: Bundle.LibraryDemo_ActiveLabel_swift_identifier,
                 enabled: true
-            ),
-            appetize: nil
+            )
         )
     )
 }

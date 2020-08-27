@@ -87,17 +87,17 @@ Well, there are two main reasons why we did that:
     <td>✅</td>
   </tr>
   <tr>
+    <td>Smart recommendations</td>
+    <td>☹</td>
+    <td>✅</td>
+  </tr>
+  <tr>
     <td>Favorite Libraries tab <i>(currently in development)</i></td>
     <td>☹</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>Appetize integration <i>(currently in development)</i></td>
-    <td>☹</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>Smart recommendations <i>(currently in development)</i></td>
     <td>☹</td>
     <td>✅</td>
   </tr>

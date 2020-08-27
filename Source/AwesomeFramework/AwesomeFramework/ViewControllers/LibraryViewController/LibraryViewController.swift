@@ -39,7 +39,18 @@ public class LibraryViewController: UIViewController {
     
     public override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.navigationController?.hero.isEnabled = true
+        
+        /*
+         If previous view controller is not a LibraryViewController,
+         the animations will be enabled.
+         */
+        if let navigationController = self.navigationController,
+            navigationController.viewControllers.count > 1,
+            navigationController.viewControllers.last == self {
+            let previousViewControllerIndex = navigationController.viewControllers.count - 2
+            let previousViewController = navigationController.viewControllers[previousViewControllerIndex]
+            self.navigationController?.hero.isEnabled = !(previousViewController is LibraryViewController)
+        }
     }
     
     private func setupNavigationBar() {
@@ -73,7 +84,8 @@ public class LibraryViewController: UIViewController {
             GitHubLinkTableViewCell.self,
             LinkTableViewCell.self,
             LaunchDemoScreenTableViewCell.self,
-            LaunchAppetizeDemoTableViewCell.self
+            LaunchAppetizeDemoTableViewCell.self,
+            SimilarLibraryTableViewCell.self
         ]
         
         let registerCellWithNib = { (type: UITableViewCell.Type) in
@@ -132,6 +144,14 @@ public class LibraryViewController: UIViewController {
         }
     }
     
+    private func openSimilarLibrary(_ library: Library) {
+        let libraryViewController = LibraryViewController.awesomelyNew()
+        libraryViewController.library = library
+        
+        self.navigationController?.hero.isEnabled = false
+        self.navigationController?.pushViewController(libraryViewController, animated: true)
+    }
+    
     private func openURL(_ urlString: String) {
         guard let url = URL(string: urlString) else { return }
         
@@ -163,6 +183,7 @@ extension LibraryViewController {
         case repositoryLink(url: String)
         case launchDemoScreen(library: Library)
         case launchAppetizeDemo(link: AppetizeLink)
+        case similarLibrary(_ library: Library)
         
         public static var sectionInterval: Item {
             return .space(color: .clear, height: 20)
@@ -232,6 +253,10 @@ extension LibraryViewController: UITableViewDataSource {
             let cell = tableView.dequeueReusableCell(withIdentifier: LaunchAppetizeDemoTableViewCell.hmr.fullName) as! LaunchAppetizeDemoTableViewCell
             cell.appetizeLink = link
             return cell
+        case .similarLibrary(let library):
+            let cell = tableView.dequeueReusableCell(withIdentifier: SimilarLibraryTableViewCell.hmr.fullName) as! SimilarLibraryTableViewCell
+            cell.library = library
+            return cell
         }
     }
     
@@ -263,6 +288,9 @@ extension LibraryViewController: UITableViewDelegate {
             break
         case .launchDemoScreen(let library):
             self.launchDemoScreen(for: library)
+            break
+        case .similarLibrary(let library):
+            self.openSimilarLibrary(library)
             break
         default:
             break

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C21EE8BD24F778BE00ACFF3F /* LibraryViewControllerItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EE8BC24F778BE00ACFF3F /* LibraryViewControllerItems.swift */; };
+		C21EE8C324F787B500ACFF3F /* SimilarLibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EE8C124F787B500ACFF3F /* SimilarLibraryTableViewCell.swift */; };
+		C21EE8C424F787B500ACFF3F /* SimilarLibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21EE8C224F787B500ACFF3F /* SimilarLibraryTableViewCell.xib */; };
 		C280AF4A24F22C4B00CD8235 /* LibraryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF4824F22C4B00CD8235 /* LibraryNameTableViewCell.swift */; };
 		C280AF4B24F22C4B00CD8235 /* LibraryNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF4924F22C4B00CD8235 /* LibraryNameTableViewCell.xib */; };
 		C280AF5124F231BF00CD8235 /* SpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF4F24F231BF00CD8235 /* SpaceTableViewCell.swift */; };
@@ -58,6 +60,8 @@
 
 /* Begin PBXFileReference section */
 		C21EE8BC24F778BE00ACFF3F /* LibraryViewControllerItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewControllerItems.swift; sourceTree = "<group>"; };
+		C21EE8C124F787B500ACFF3F /* SimilarLibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarLibraryTableViewCell.swift; sourceTree = "<group>"; };
+		C21EE8C224F787B500ACFF3F /* SimilarLibraryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimilarLibraryTableViewCell.xib; sourceTree = "<group>"; };
 		C280AF4824F22C4B00CD8235 /* LibraryNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryNameTableViewCell.swift; sourceTree = "<group>"; };
 		C280AF4924F22C4B00CD8235 /* LibraryNameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryNameTableViewCell.xib; sourceTree = "<group>"; };
 		C280AF4F24F231BF00CD8235 /* SpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTableViewCell.swift; sourceTree = "<group>"; };
@@ -134,6 +138,15 @@
 			);
 			name = Pods;
 			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		C21EE8C024F7879700ACFF3F /* SimilarLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C21EE8C124F787B500ACFF3F /* SimilarLibraryTableViewCell.swift */,
+				C21EE8C224F787B500ACFF3F /* SimilarLibraryTableViewCell.xib */,
+			);
+			path = SimilarLibrary;
 			sourceTree = "<group>";
 		};
 		C280AF4724F22C1E00CD8235 /* LibraryName */ = {
@@ -276,6 +289,7 @@
 				C2DCC2B624F419090069197F /* Link */,
 				C280AF7324F260F200CD8235 /* LaunchDemoScreen */,
 				C2DCC2AA24F3F4C50069197F /* LaunchAppetizeDemo */,
+				C21EE8C024F7879700ACFF3F /* SimilarLibrary */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -475,6 +489,7 @@
 				C2DCC2B424F417840069197F /* GitHubLinkTableViewCell.xib in Resources */,
 				C280AF6724F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.xib in Resources */,
 				C2C9056A24ECEED40015F84A /* LibraryTableViewCell.xib in Resources */,
+				C21EE8C424F787B500ACFF3F /* SimilarLibraryTableViewCell.xib in Resources */,
 				C2DCC2C124F430FE0069197F /* LibraryViewController.xib in Resources */,
 				C280AF4B24F22C4B00CD8235 /* LibraryNameTableViewCell.xib in Resources */,
 				C2C905A924ED08070015F84A /* PackageManagerShortInstructionView.xib in Resources */,
@@ -525,6 +540,7 @@
 				C2BA84AC24EDBEE800DE0296 /* AppConfiguration.swift in Sources */,
 				C280AF6624F251FD00CD8235 /* LibraryFullDescriptionTableViewCell.swift in Sources */,
 				C2DCC2A224F3DF470069197F /* SectionTitleTableViewCell.swift in Sources */,
+				C21EE8C324F787B500ACFF3F /* SimilarLibraryTableViewCell.swift in Sources */,
 				C2DCC2C024F430FE0069197F /* LibraryViewController.swift in Sources */,
 				C2DCC2B924F4191F0069197F /* LinkTableViewCell.swift in Sources */,
 				C2DCC2B324F417840069197F /* GitHubLinkTableViewCell.swift in Sources */,

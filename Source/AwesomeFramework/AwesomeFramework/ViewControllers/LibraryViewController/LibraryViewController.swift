@@ -18,7 +18,7 @@ public class LibraryViewController: UIViewController {
             self.updateNavigationBar(with: library)
             
             self.tableView.beginUpdates()
-            self.items = self.items(for: library)
+            self.items = AppConfiguration.libraryViewController.data.itemsForLibrary?(library) ?? LibraryViewControllerItems.items(for: library)
             self.tableView.reloadData()
             self.tableView.endUpdates()
         }
@@ -100,119 +100,6 @@ public class LibraryViewController: UIViewController {
         self.launchDemoScreen(for: library)
     }
     
-    private func items(for library: Library) -> [Item] {
-        var resultItems = Array<Item>([
-            .sectionInterval,
-            .libraryName(
-                library: library
-            ),
-            .developer(
-                profile: library.developers.first!
-            ),
-            .itemInterval,
-            .libraryShortDescription(
-                text: library.description.short
-            ),
-            .sectionInterval,
-        ])
-        
-        if let fullDescription = library.description.full {
-            resultItems.append(contentsOf: [
-                .libraryFullDescription(
-                    text: fullDescription
-                ),
-                .sectionInterval,
-            ])
-        }
-        
-        if library.supportsAtLeastOnePackageManager() {
-            resultItems.append(contentsOf: [
-                .sectionTitle(
-                    title: "Dependency Managers"
-                ),
-                .itemInterval,
-                .separator,
-                .packageManagerIntegration(
-                    packageManager: .cocoapods,
-                    library: library
-                ),
-                .separator,
-                .packageManagerIntegration(
-                    packageManager: .carthage,
-                    library: library
-                ),
-                .separator,
-                .packageManagerIntegration(
-                    packageManager: .swiftPackageManager,
-                    library: library
-                ),
-                .separator,
-                .sectionInterval,
-            ])
-        }
-        
-        if library.hasLinks() {
-            resultItems.append(contentsOf: [
-                .sectionTitle(
-                    title: "Sources"
-                ),
-                .itemInterval,
-                .separator
-            ])
-            
-            if let githubLink = library.links.github {
-                resultItems.append(contentsOf: [
-                    .githubLink(link: githubLink),
-                    .separator
-                ])
-            }
-            
-            for link in library.links.other {
-                resultItems.append(contentsOf: [
-                    .repositoryLink(
-                        url: link
-                    ),
-                    .separator
-                ])
-            }
-            
-            resultItems.append(
-                .sectionInterval
-            )
-        }
-        
-        if library.hasDemo() {
-            resultItems.append(contentsOf: [
-                .sectionTitle(
-                    title: "Want to try right now?"
-                ),
-                .itemInterval,
-                .separator
-            ])
-            
-            if let demoScreen = library.demo.screen,
-                demoScreen.enabled {
-                resultItems.append(contentsOf: [
-                    .launchDemoScreen(library: library),
-                    .separator
-                ])
-            }
-            
-            if let appetizeLink = library.demo.appetize {
-                resultItems.append(contentsOf: [
-                    .launchAppetizeDemo(link: appetizeLink),
-                    .separator
-                ])
-            }
-            
-            resultItems.append(
-                .space(color: .clear, height: 20)
-            )
-        }
-        
-        return resultItems
-    }
-    
     private func isUserAllowedToOpenDemoScreen(_ library: Library) -> Bool {
         return library.demo.screen?.enabled ?? false
     }
@@ -277,15 +164,15 @@ extension LibraryViewController {
         case launchDemoScreen(library: Library)
         case launchAppetizeDemo(link: AppetizeLink)
         
-        static var sectionInterval: Item {
+        public static var sectionInterval: Item {
             return .space(color: .clear, height: 20)
         }
         
-        static var itemInterval: Item {
+        public static var itemInterval: Item {
             return .space(color: .clear, height: 10)
         }
         
-        static var separator: Item {
+        public static var separator: Item {
             return .space(color: .lightGray, height: 0.5)
         }
     }

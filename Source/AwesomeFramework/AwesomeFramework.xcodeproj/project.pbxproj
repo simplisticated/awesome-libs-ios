@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21EE8BD24F778BE00ACFF3F /* LibraryViewControllerItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21EE8BC24F778BE00ACFF3F /* LibraryViewControllerItems.swift */; };
 		C280AF4A24F22C4B00CD8235 /* LibraryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF4824F22C4B00CD8235 /* LibraryNameTableViewCell.swift */; };
 		C280AF4B24F22C4B00CD8235 /* LibraryNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280AF4924F22C4B00CD8235 /* LibraryNameTableViewCell.xib */; };
 		C280AF5124F231BF00CD8235 /* SpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280AF4F24F231BF00CD8235 /* SpaceTableViewCell.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C21EE8BC24F778BE00ACFF3F /* LibraryViewControllerItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewControllerItems.swift; sourceTree = "<group>"; };
 		C280AF4824F22C4B00CD8235 /* LibraryNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryNameTableViewCell.swift; sourceTree = "<group>"; };
 		C280AF4924F22C4B00CD8235 /* LibraryNameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryNameTableViewCell.xib; sourceTree = "<group>"; };
 		C280AF4F24F231BF00CD8235 /* SpaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTableViewCell.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 			children = (
 				C2DCC2BE24F430FE0069197F /* LibraryViewController.swift */,
 				C2DCC2BF24F430FE0069197F /* LibraryViewController.xib */,
+				C21EE8BC24F778BE00ACFF3F /* LibraryViewControllerItems.swift */,
 			);
 			path = LibraryViewController;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 			files = (
 				C2C9056524ECECE00015F84A /* BadgeView.swift in Sources */,
 				C2DCC2AD24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.swift in Sources */,
+				C21EE8BD24F778BE00ACFF3F /* LibraryViewControllerItems.swift in Sources */,
 				C2C9056D24ECF0A00015F84A /* Bundle.swift in Sources */,
 				C2C9062A24ED1BDF0015F84A /* MainNavigationController.swift in Sources */,
 				C2DCC2A824F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift in Sources */,

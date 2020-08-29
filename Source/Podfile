@@ -113,15 +113,6 @@ target 'LibraryDemo_LinearProgressBar' do
   use_frameworks!
 end
 
-target 'LibraryDemo_Lottie' do
-  project 'LibraryDemo_Lottie/LibraryDemo_Lottie.xcodeproj'
-  platform :ios, '11.0'
-  use_frameworks!
-  pod 'Visuality'
-  pod 'Hammer'
-  pod 'lottie-ios'
-end
-
 target 'LibraryDemo_HDNotificationView' do
   project 'LibraryDemo_HDNotificationView/LibraryDemo_HDNotificationView.xcodeproj'
   platform :ios, '11.0'

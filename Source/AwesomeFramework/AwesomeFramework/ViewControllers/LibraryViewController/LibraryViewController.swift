@@ -194,7 +194,7 @@ extension LibraryViewController {
         }
         
         public static var separator: Item {
-            return .space(color: .lightGray, height: 0.5)
+            return .space(color: Styles.separatorColor, height: 0.5)
         }
     }
 }
@@ -298,4 +298,8 @@ extension LibraryViewController: UITableViewDelegate {
         
         AppConfiguration.libraryViewController.events.didSelectItem?(self, item)
     }
+}
+
+fileprivate struct Styles {
+    static let separatorColor = UIColor(hexString: "#d9d9d9")!
 }

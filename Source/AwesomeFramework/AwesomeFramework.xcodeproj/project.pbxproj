@@ -43,6 +43,7 @@
 		C2C905A924ED08070015F84A /* PackageManagerShortInstructionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C905A624ED08070015F84A /* PackageManagerShortInstructionView.xib */; };
 		C2C905C524ED0F990015F84A /* AwesomeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C905C424ED0F990015F84A /* AwesomeViews.framework */; };
 		C2C9062A24ED1BDF0015F84A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9062924ED1BDF0015F84A /* MainNavigationController.swift */; };
+		C2D0E05624F9865500D976C0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D0E05524F9865500D976C0 /* Settings.swift */; };
 		C2DCC2A224F3DF470069197F /* SectionTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2A024F3DF470069197F /* SectionTitleTableViewCell.swift */; };
 		C2DCC2A324F3DF470069197F /* SectionTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC2A124F3DF470069197F /* SectionTitleTableViewCell.xib */; };
 		C2DCC2A824F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC2A624F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift */; };
@@ -97,6 +98,7 @@
 		C2C905A624ED08070015F84A /* PackageManagerShortInstructionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PackageManagerShortInstructionView.xib; sourceTree = "<group>"; };
 		C2C905C424ED0F990015F84A /* AwesomeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C9062924ED1BDF0015F84A /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		C2D0E05524F9865500D976C0 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		C2DCC2A024F3DF470069197F /* SectionTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleTableViewCell.swift; sourceTree = "<group>"; };
 		C2DCC2A124F3DF470069197F /* SectionTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionTitleTableViewCell.xib; sourceTree = "<group>"; };
 		C2DCC2A624F3E1880069197F /* PackageManagerIntegrationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageManagerIntegrationTableViewCell.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				C2BA84AB24EDBEE800DE0296 /* AppConfiguration.swift */,
+				C2D0E05524F9865500D976C0 /* Settings.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 			files = (
 				C2C9056524ECECE00015F84A /* BadgeView.swift in Sources */,
 				C2DCC2AD24F3F4DB0069197F /* LaunchAppetizeDemoTableViewCell.swift in Sources */,
+				C2D0E05624F9865500D976C0 /* Settings.swift in Sources */,
 				C21EE8BD24F778BE00ACFF3F /* LibraryViewControllerItems.swift in Sources */,
 				C2C9056D24ECF0A00015F84A /* Bundle.swift in Sources */,
 				C2C9062A24ED1BDF0015F84A /* MainNavigationController.swift in Sources */,

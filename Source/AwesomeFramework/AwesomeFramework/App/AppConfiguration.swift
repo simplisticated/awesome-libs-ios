@@ -43,12 +43,19 @@ public struct AppConfiguration {
              */
             public static var didSelectItem: ((_ controller: LibraryViewController, _ item: LibraryViewController.Item) -> Void)?
         }
+        
         public struct data {
             /**
              If not nil, will be used by `LibraryViewController` instance to build table view's structure.
              Otherwise, `LibraryViewController` instance will use the internal implementation `LibraryViewController.items(for:)`.
              */
             public static var itemsForLibrary: ((_ library: Library) -> [LibraryViewController.Item])?
+        }
+    }
+    
+    public struct appStore {
+        public struct reviews {
+            public static let minimumLaunchCountBeforeReviewRequest: Int = 3
         }
     }
 }

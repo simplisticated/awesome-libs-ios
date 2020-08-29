@@ -36,7 +36,7 @@ extension Libraries {
         ),
         integration: Integration(
             cocoapods: CocoaPodsIntegration(
-                instruction: "Alamofire"
+                instruction: "pod 'Alamofire'"
             ),
             carthage: CarthageIntegration(
                 instruction: "github \"Alamofire/Alamofire\""

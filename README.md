@@ -4,7 +4,7 @@
 ![Devices](https://img.shields.io/badge/Runs%20on-iPhone-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-Awesome Libs is an iPhone app that allows you to test open source UI components without Xcode. You don't need computer, you don't need compiler. You simply test libraries in your iPhone so you can see how they work in real app. [Online version](https://appetize.io/app/n67bct60a5vpbp5ccnxnrezdp8).
+Awesome Libs is an iPhone app that allows you to test open source UI components without Xcode. You don't need computer, you don't need compiler. You simply test libraries in your iPhone so you can see how they work on a real device. [Online version](https://appetize.io/app/n67bct60a5vpbp5ccnxnrezdp8).
 
 <p>
 <a href="https://apps.apple.com/app/id1528271824">

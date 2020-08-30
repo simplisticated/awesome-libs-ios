@@ -31,6 +31,7 @@ Awesome Libs is an iPhone app that allows you to test open source UI components 
 - If you **need help with implementing feature**, use [Stack Overflow](https://stackoverflow.com/questions/tagged/awesome) and tag `awesome`.
 - If you'd like to **discuss a feature request**, open an issue here on GitHub.
 - If you **found a bug**, open an issue here on GitHub and follow the guide. The more detail the better!
+- If you want **your library to be listed** in Awesome Libs app, upload demo to [Appetize.io](https://appetize.io), then open an issue here with GitHub link and Appetize public key.
 
 ## Contributions ⛏
 

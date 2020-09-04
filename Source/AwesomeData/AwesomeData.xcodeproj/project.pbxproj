@@ -19,7 +19,7 @@
 		C2C904BD24ECDD4C0015F84A /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B024ECDD4C0015F84A /* Library.swift */; };
 		C2C904BE24ECDD4C0015F84A /* ContactInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B124ECDD4C0015F84A /* ContactInformation.swift */; };
 		C2C904BF24ECDD4C0015F84A /* LibraryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B224ECDD4C0015F84A /* LibraryTag.swift */; };
-		C2C904C024ECDD4C0015F84A /* Integration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B324ECDD4C0015F84A /* Integration.swift */; };
+		C2C904C024ECDD4C0015F84A /* LibraryPackageManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B324ECDD4C0015F84A /* LibraryPackageManagers.swift */; };
 		C2C904C124ECDD4C0015F84A /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B424ECDD4C0015F84A /* License.swift */; };
 		C2C904C224ECDD4C0015F84A /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B524ECDD4C0015F84A /* Developer.swift */; };
 		C2C904C424ECDD4C0015F84A /* LibraryLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C904B724ECDD4C0015F84A /* LibraryLinks.swift */; };
@@ -90,6 +90,10 @@
 		C2EAF58824F160FB00173746 /* Library_Dodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EAF58724F160FB00173746 /* Library_Dodo.swift */; };
 		C2EAF58A24F1617800173746 /* LibraryDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EAF58924F1617800173746 /* LibraryDemo.swift */; };
 		C2EAF58C24F161D400173746 /* AppetizeLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EAF58B24F161D400173746 /* AppetizeLink.swift */; };
+		C2F721402502E8D9004B9DBF /* PackageManagerIntegrationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7213F2502E8D9004B9DBF /* PackageManagerIntegrationProtocol.swift */; };
+		C2F721422502E8FD004B9DBF /* CocoaPodsIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F721412502E8FD004B9DBF /* CocoaPodsIntegration.swift */; };
+		C2F721442502F15E004B9DBF /* CarthageIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F721432502F15E004B9DBF /* CarthageIntegration.swift */; };
+		C2F721462502F178004B9DBF /* SwiftPackageManagerIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F721452502F178004B9DBF /* SwiftPackageManagerIntegration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,7 +112,7 @@
 		C2C904B024ECDD4C0015F84A /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		C2C904B124ECDD4C0015F84A /* ContactInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInformation.swift; sourceTree = "<group>"; };
 		C2C904B224ECDD4C0015F84A /* LibraryTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTag.swift; sourceTree = "<group>"; };
-		C2C904B324ECDD4C0015F84A /* Integration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Integration.swift; sourceTree = "<group>"; };
+		C2C904B324ECDD4C0015F84A /* LibraryPackageManagers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryPackageManagers.swift; sourceTree = "<group>"; };
 		C2C904B424ECDD4C0015F84A /* License.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = License.swift; sourceTree = "<group>"; };
 		C2C904B524ECDD4C0015F84A /* Developer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		C2C904B724ECDD4C0015F84A /* LibraryLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryLinks.swift; sourceTree = "<group>"; };
@@ -181,6 +185,10 @@
 		C2EAF58724F160FB00173746 /* Library_Dodo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library_Dodo.swift; sourceTree = "<group>"; };
 		C2EAF58924F1617800173746 /* LibraryDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDemo.swift; sourceTree = "<group>"; };
 		C2EAF58B24F161D400173746 /* AppetizeLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizeLink.swift; sourceTree = "<group>"; };
+		C2F7213F2502E8D9004B9DBF /* PackageManagerIntegrationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageManagerIntegrationProtocol.swift; sourceTree = "<group>"; };
+		C2F721412502E8FD004B9DBF /* CocoaPodsIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaPodsIntegration.swift; sourceTree = "<group>"; };
+		C2F721432502F15E004B9DBF /* CarthageIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageIntegration.swift; sourceTree = "<group>"; };
+		C2F721452502F178004B9DBF /* SwiftPackageManagerIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageManagerIntegration.swift; sourceTree = "<group>"; };
 		C42DCC624C1E667FCB91541C /* Pods_AwesomeData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -311,7 +319,11 @@
 				C2C9055624ECE2C60015F84A /* Image.swift */,
 				C2C904B924ECDD4C0015F84A /* LibraryPreview.swift */,
 				C2C904AF24ECDD4C0015F84A /* LibraryDescription.swift */,
-				C2C904B324ECDD4C0015F84A /* Integration.swift */,
+				C2C904B324ECDD4C0015F84A /* LibraryPackageManagers.swift */,
+				C2F7213F2502E8D9004B9DBF /* PackageManagerIntegrationProtocol.swift */,
+				C2F721412502E8FD004B9DBF /* CocoaPodsIntegration.swift */,
+				C2F721432502F15E004B9DBF /* CarthageIntegration.swift */,
+				C2F721452502F178004B9DBF /* SwiftPackageManagerIntegration.swift */,
 				C2C904BA24ECDD4C0015F84A /* PackageManager.swift */,
 				C2C904B724ECDD4C0015F84A /* LibraryLinks.swift */,
 				C2C904B824ECDD4C0015F84A /* GitHubRepositoryLink.swift */,
@@ -487,7 +499,7 @@
 				C2C904BF24ECDD4C0015F84A /* LibraryTag.swift in Sources */,
 				C2C904C824ECDD4C0015F84A /* DemoScreen.swift in Sources */,
 				C2C9050424ECDF100015F84A /* Library_NVActivityIndicatorView.swift in Sources */,
-				C2C904C024ECDD4C0015F84A /* Integration.swift in Sources */,
+				C2C904C024ECDD4C0015F84A /* LibraryPackageManagers.swift in Sources */,
 				C2C904BE24ECDD4C0015F84A /* ContactInformation.swift in Sources */,
 				C2C904BC24ECDD4C0015F84A /* LibraryDescription.swift in Sources */,
 				C2C904EC24ECDF100015F84A /* Library_NumPad.swift in Sources */,
@@ -497,6 +509,7 @@
 				C2C904BD24ECDD4C0015F84A /* Library.swift in Sources */,
 				C215480C24EFF36B00A1A1E6 /* Library_Haptico.swift in Sources */,
 				C2C904C124ECDD4C0015F84A /* License.swift in Sources */,
+				C2F721402502E8D9004B9DBF /* PackageManagerIntegrationProtocol.swift in Sources */,
 				C21EE99F24F8506700ACFF3F /* Library_Gallery.swift in Sources */,
 				C2C904FD24ECDF100015F84A /* Library_fluentui_system_icons.swift in Sources */,
 				C2C904FA24ECDF100015F84A /* Library_LiquidLoader.swift in Sources */,
@@ -504,6 +517,7 @@
 				C2C9050624ECDF5E0015F84A /* Libraries.swift in Sources */,
 				C25020BB24EF12A6002A5298 /* Library_PhoneNumberKit.swift in Sources */,
 				C2EAF58A24F1617800173746 /* LibraryDemo.swift in Sources */,
+				C2F721422502E8FD004B9DBF /* CocoaPodsIntegration.swift in Sources */,
 				C2C904FC24ECDF100015F84A /* Library_PNChart.swift in Sources */,
 				C2C9058C24ECFF2C0015F84A /* LibraryStore.swift in Sources */,
 				C2EAF58824F160FB00173746 /* Library_Dodo.swift in Sources */,
@@ -518,6 +532,7 @@
 				C2EAF58C24F161D400173746 /* AppetizeLink.swift in Sources */,
 				C2C904F324ECDF100015F84A /* Library_FlagKit.swift in Sources */,
 				C21EE92724F8078600ACFF3F /* Library_Parade.swift in Sources */,
+				C2F721462502F178004B9DBF /* SwiftPackageManagerIntegration.swift in Sources */,
 				C2C904C524ECDD4C0015F84A /* GitHubRepositoryLink.swift in Sources */,
 				C2C904EA24ECDF100015F84A /* Library_DynamicColor.swift in Sources */,
 				C2C904ED24ECDF100015F84A /* Library_LinearProgressBar.swift in Sources */,
@@ -530,6 +545,7 @@
 				C2C904F824ECDF100015F84A /* Library_Printer.swift in Sources */,
 				C2C904F524ECDF100015F84A /* Library_PinterestSegment.swift in Sources */,
 				C2C904E824ECDF100015F84A /* Library_AnimatedTextInput.swift in Sources */,
+				C2F721442502F15E004B9DBF /* CarthageIntegration.swift in Sources */,
 				C2C9055B24ECE4030015F84A /* Bundle.swift in Sources */,
 				C2C904C724ECDD4C0015F84A /* PackageManager.swift in Sources */,
 				C2C904EB24ECDF100015F84A /* Library_SwiftMessages.swift in Sources */,

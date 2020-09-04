@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'CocoaTextField'"
+                podName: "CocoaTextField"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"edgar-zigis/CocoaTextField\""
+            carthage: CarthageIntegration.github(
+                withPath: "edgar-zigis/CocoaTextField"
             ),
             swiftPackageManager: nil
         ),

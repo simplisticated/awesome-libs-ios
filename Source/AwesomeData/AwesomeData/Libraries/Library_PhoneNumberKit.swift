@@ -35,12 +35,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'PhoneNumberKit'"
+                podName: "PhoneNumberKit"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"marmelroy/PhoneNumberKit\""
+            carthage: CarthageIntegration.github(
+                withPath: "marmelroy/PhoneNumberKit"
             ),
             swiftPackageManager: nil
         ),

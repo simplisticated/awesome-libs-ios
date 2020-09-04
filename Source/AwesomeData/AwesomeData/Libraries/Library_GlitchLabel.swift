@@ -32,15 +32,15 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'GlitchLabel'"
+                podName: "GlitchLabel"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"kciter/GlitchLabel\""
+            carthage: CarthageIntegration.github(
+                withPath: "kciter/GlitchLabel"
             ),
             swiftPackageManager: SwiftPackageManagerIntegration(
-                instruction: "https://github.com/kciter/GlitchLabel.git"
+                path: "https://github.com/kciter/GlitchLabel.git"
             )
         ),
         tags: [

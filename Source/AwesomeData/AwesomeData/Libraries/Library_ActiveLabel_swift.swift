@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'ActiveLabel'"
+                podName: "ActiveLabel"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"optonaut/ActiveLabel.swift\""
+            carthage: CarthageIntegration.github(
+                withPath: "optonaut/ActiveLabel.swift"
             ),
             swiftPackageManager: nil
         ),

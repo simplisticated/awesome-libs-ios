@@ -35,10 +35,10 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: nil,
-            carthage: CarthageIntegration(
-                instruction: "github \"Cosmo/TinyConsole\""
+            carthage: CarthageIntegration.github(
+                withPath: "Cosmo/TinyConsole"
             ),
             swiftPackageManager: nil
         ),

@@ -34,15 +34,15 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Alamofire'"
+                podName: "Alamofire"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"Alamofire/Alamofire\""
+            carthage: CarthageIntegration.github(
+                withPath: "Alamofire/Alamofire"
             ),
             swiftPackageManager: SwiftPackageManagerIntegration(
-                instruction: "https://github.com/Alamofire/Alamofire.git"
+                path: "https://github.com/Alamofire/Alamofire.git"
             )
         ),
         tags: [

@@ -31,12 +31,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'DynamicColor'"
+                podName: "DynamicColor"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"yannickl/DynamicColor\""
+            carthage: CarthageIntegration.github(
+                withPath: "yannickl/DynamicColor"
             ),
             swiftPackageManager: nil
         ),

@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'NumPad'"
+                podName: "NumPad"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"efremidze/NumPad\""
+            carthage: CarthageIntegration.github(
+                withPath: "efremidze/NumPad"
             ),
             swiftPackageManager: nil
         ),

@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'FlagKit'"
+                podName: "FlagKit"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"madebybowtie/FlagKit\""
+            carthage: CarthageIntegration.github(
+                withPath: "madebybowtie/FlagKit"
             ),
             swiftPackageManager: nil
         ),

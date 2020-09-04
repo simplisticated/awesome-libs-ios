@@ -33,15 +33,15 @@ extension Libraries {
                 "http://airbnb.io/lottie"
             ]
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'lottie-ios'"
+                podName: "lottie-ios"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"airbnb/lottie-ios\""
+            carthage: CarthageIntegration.github(
+                withPath: "airbnb/lottie-ios"
             ),
             swiftPackageManager: SwiftPackageManagerIntegration(
-                instruction: "https://github.com/airbnb/lottie-ios.git"
+                path: "https://github.com/airbnb/lottie-ios.git"
             )
         ),
         tags: [

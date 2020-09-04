@@ -32,9 +32,9 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'BadgeHub'"
+                podName: "BadgeHub"
             ),
             carthage: nil,
             swiftPackageManager: nil

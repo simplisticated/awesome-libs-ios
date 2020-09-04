@@ -31,9 +31,9 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Elephant-Parade'"
+                podName: "Elephant-Parade"
             ),
             carthage: nil,
             swiftPackageManager: nil

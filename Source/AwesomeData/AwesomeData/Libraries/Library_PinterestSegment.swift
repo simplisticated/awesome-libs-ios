@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'PinterestSegment'"
+                podName: "PinterestSegment"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"tbxark/PinterestSegment\""
+            carthage: CarthageIntegration.github(
+                withPath: "tbxark/PinterestSegment"
             ),
             swiftPackageManager: nil
         ),

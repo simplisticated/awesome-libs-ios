@@ -31,12 +31,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Gallery'"
+                podName: "Gallery"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"hyperoslo/Gallery\""
+            carthage: CarthageIntegration.github(
+                withPath: "hyperoslo/Gallery"
             ),
             swiftPackageManager: nil
         ),

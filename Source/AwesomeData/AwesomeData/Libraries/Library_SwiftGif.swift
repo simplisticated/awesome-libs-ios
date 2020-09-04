@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'SwiftGifOrigin'"
+                podName: "SwiftGifOrigin"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"bahlo/SwiftGif\""
+            carthage: CarthageIntegration.github(
+                withPath: "bahlo/SwiftGif"
             ),
             swiftPackageManager: nil
         ),

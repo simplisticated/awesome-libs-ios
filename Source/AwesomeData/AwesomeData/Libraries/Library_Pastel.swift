@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Pastel'"
+                podName: "Pastel"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"cruisediary/Pastel\""
+            carthage: CarthageIntegration.github(
+                withPath: "cruisediary/Pastel"
             ),
             swiftPackageManager: nil
         ),

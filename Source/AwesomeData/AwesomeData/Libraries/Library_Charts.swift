@@ -35,12 +35,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Charts'"
+                podName: "Charts"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"danielgindi/Charts\""
+            carthage: CarthageIntegration.github(
+                withPath: "danielgindi/Charts"
             ),
             swiftPackageManager: nil
         ),

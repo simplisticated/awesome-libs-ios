@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'FluentIcons'"
+                podName: "FluentIcons"
             ),
-            carthage: CarthageIntegration(
-                instruction: "git \"git@github.com:microsoft/fluentui-system-icons.git\""
+            carthage: CarthageIntegration.git(
+                withPath: "git@github.com:microsoft/fluentui-system-icons.git"
             ),
             swiftPackageManager: nil
         ),

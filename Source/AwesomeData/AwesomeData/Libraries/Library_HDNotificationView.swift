@@ -32,10 +32,10 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: nil,
-            carthage: CarthageIntegration(
-                instruction: "github \"nhdang103/HDNotificationView\""
+            carthage: CarthageIntegration.github(
+                withPath: "nhdang103/HDNotificationView"
             ),
             swiftPackageManager: nil
         ),

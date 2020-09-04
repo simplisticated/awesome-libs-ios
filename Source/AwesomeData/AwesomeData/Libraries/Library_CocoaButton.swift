@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'CocoaButton'"
+                podName: "CocoaButton"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"edgar-zigis/CocoaButton\""
+            carthage: CarthageIntegration.github(
+                withPath: "edgar-zigis/CocoaButton"
             ),
             swiftPackageManager: nil
         ),

@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'LiquidLoader'"
+                podName: "LiquidLoader"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"yoavlt/LiquidLoader\""
+            carthage: CarthageIntegration.git(
+                withPath: "yoavlt/LiquidLoader"
             ),
             swiftPackageManager: nil
         ),

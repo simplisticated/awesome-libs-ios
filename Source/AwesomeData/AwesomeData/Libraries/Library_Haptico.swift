@@ -35,15 +35,15 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Haptico'"
+                podName: "Haptico"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"iSapozhnik/Haptico\""
+            carthage: CarthageIntegration.git(
+                withPath: "iSapozhnik/Haptico"
             ),
             swiftPackageManager: SwiftPackageManagerIntegration(
-                instruction: "https://github.com/iSapozhnik/Haptico.git"
+                path: "https://github.com/iSapozhnik/Haptico.git"
             )
         ),
         tags: [

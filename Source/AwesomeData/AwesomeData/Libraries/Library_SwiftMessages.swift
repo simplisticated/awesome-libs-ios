@@ -31,12 +31,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'SwiftMessages'"
+                podName: "SwiftMessages"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"SwiftKickMobile/SwiftMessages\""
+            carthage: CarthageIntegration.github(
+                withPath: "SwiftKickMobile/SwiftMessages"
             ),
             swiftPackageManager: nil
         ),

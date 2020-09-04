@@ -7,7 +7,7 @@ public struct Library {
     public let preview: LibraryPreview
     public let developers: [Developer]
     public let links: LibraryLinks
-    public let integration: Integration
+    public let integration: LibraryPackageManagers
     public let tags: [LibraryTag]
     public let license: License
     public let demo: LibraryDemo

@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Cluster'"
+                podName: "Cluster"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"efremidze/Cluster\""
+            carthage: CarthageIntegration.github(
+                withPath: "efremidze/Cluster"
             ),
             swiftPackageManager: nil
         ),

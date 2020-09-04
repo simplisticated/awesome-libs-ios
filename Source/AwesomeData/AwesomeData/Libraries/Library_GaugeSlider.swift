@@ -32,12 +32,12 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'GaugeSlider'"
+                podName: "GaugeSlider"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"edgar-zigis/GaugeSlider\""
+            carthage: CarthageIntegration.github(
+                withPath: "edgar-zigis/GaugeSlider"
             ),
             swiftPackageManager: nil
         ),

@@ -32,15 +32,15 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'Dodo'"
+                podName: "Dodo"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"evgenyneu/Dodo\""
+            carthage: CarthageIntegration.github(
+                withPath: "evgenyneu/Dodo"
             ),
             swiftPackageManager: SwiftPackageManagerIntegration(
-                instruction: "https://github.com/evgenyneu/Dodo.git"
+                path: "https://github.com/evgenyneu/Dodo.git"
             )
         ),
         tags: [

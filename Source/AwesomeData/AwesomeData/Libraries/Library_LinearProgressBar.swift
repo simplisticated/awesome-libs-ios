@@ -32,9 +32,9 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'LinearProgressBarMaterial'"
+                podName: "LinearProgressBarMaterial"
             ),
             carthage: nil,
             swiftPackageManager: nil

@@ -35,9 +35,9 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'printer-logger'"
+                podName: "printer-logger"
             ),
             carthage: nil,
             swiftPackageManager: nil

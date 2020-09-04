@@ -32,15 +32,15 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'NVActivityIndicatorView'"
+                podName: "NVActivityIndicatorView"
             ),
-            carthage: CarthageIntegration(
-                instruction: "github \"ninjaprox/NVActivityIndicatorView\""
+            carthage: CarthageIntegration.github(
+                withPath: "ninjaprox/NVActivityIndicatorView"
             ),
             swiftPackageManager: SwiftPackageManagerIntegration(
-                instruction: "https://github.com/ninjaprox/NVActivityIndicatorView.git"
+                path: "https://github.com/ninjaprox/NVActivityIndicatorView.git"
             )
         ),
         tags: [

@@ -35,9 +35,9 @@ extension Libraries {
             ),
             other: []
         ),
-        integration: Integration(
+        integration: LibraryPackageManagers(
             cocoapods: CocoaPodsIntegration(
-                instruction: "pod 'UIGradient'"
+                podName: "UIGradient"
             ),
             carthage: nil,
             swiftPackageManager: nil

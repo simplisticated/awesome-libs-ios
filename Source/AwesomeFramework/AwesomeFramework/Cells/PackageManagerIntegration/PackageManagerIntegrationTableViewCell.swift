@@ -28,19 +28,21 @@ class PackageManagerIntegrationTableViewCell: UITableViewCell {
             
             self.packageManagerNameLabel.text = content.name(for: data.packageManager)
             
-            var instructionText: String?
+            var integration: PackageManagerIntegrationProtocol?
             
             switch data.packageManager {
             case .cocoapods:
-                instructionText = data.library.integration.cocoapods?.instruction
+                integration = data.library.integration.cocoapods
                 break
             case .carthage:
-                instructionText = data.library.integration.carthage?.instruction
+                integration = data.library.integration.carthage
                 break
             case .swiftPackageManager:
-                instructionText = data.library.integration.swiftPackageManager?.instruction
+                integration = data.library.integration.swiftPackageManager
                 break
             }
+            
+            let instructionText = integration?.instruction()
             
             if let instructionText = instructionText {
                 self.instruction = .text(value: instructionText)

@@ -64,8 +64,8 @@ Well, there are two main reasons why we did that:
   </tr>
   <tr>
     <td>Price on the AppStore</td>
-    <td>0.00 USD</td>
-    <td>2.99 USD in U.S.</td>
+    <td>Free</td>
+    <td>Paid</td>
   </tr>
   <tr>
     <td>Ads</td>
